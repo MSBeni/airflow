@@ -1496,3 +1496,31 @@
 [2021-02-15 20:35:12,321] {logging_mixin.py:103} INFO - [2021-02-15 20:35:12,320] {dag.py:1813} INFO - Sync 1 DAGs
 [2021-02-15 20:35:12,332] {logging_mixin.py:103} INFO - [2021-02-15 20:35:12,332] {dag.py:2266} INFO - Setting next_dagrun for example_task_group to 2021-02-14 00:00:00+00:00
 [2021-02-15 20:35:12,343] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.038 seconds
+[2021-02-15 20:35:38,065] {scheduler_job.py:181} INFO - Started process (PID=250044) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-02-15 20:35:38,067] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-02-15 20:35:38,068] {logging_mixin.py:103} INFO - [2021-02-15 20:35:38,068] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-02-15 20:35:38,080] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-02-15 20:35:38,081] {logging_mixin.py:103} INFO - [2021-02-15 20:35:38,081] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-15 20:35:38,092] {logging_mixin.py:103} INFO - [2021-02-15 20:35:38,092] {dag.py:2266} INFO - Setting next_dagrun for example_task_group to 2021-02-14 00:00:00+00:00
+[2021-02-15 20:35:38,101] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.042 seconds
+[2021-02-15 20:36:05,562] {scheduler_job.py:181} INFO - Started process (PID=250309) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-02-15 20:36:05,567] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-02-15 20:36:05,568] {logging_mixin.py:103} INFO - [2021-02-15 20:36:05,568] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-02-15 20:36:05,590] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-02-15 20:36:05,592] {logging_mixin.py:103} INFO - [2021-02-15 20:36:05,592] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-15 20:36:05,607] {logging_mixin.py:103} INFO - [2021-02-15 20:36:05,607] {dag.py:2266} INFO - Setting next_dagrun for example_task_group to 2021-02-14 00:00:00+00:00
+[2021-02-15 20:36:05,617] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.060 seconds
+[2021-02-15 20:36:32,416] {scheduler_job.py:181} INFO - Started process (PID=250486) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-02-15 20:36:32,417] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-02-15 20:36:32,417] {logging_mixin.py:103} INFO - [2021-02-15 20:36:32,417] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-02-15 20:36:32,424] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-02-15 20:36:32,425] {logging_mixin.py:103} INFO - [2021-02-15 20:36:32,425] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-15 20:36:32,436] {logging_mixin.py:103} INFO - [2021-02-15 20:36:32,436] {dag.py:2266} INFO - Setting next_dagrun for example_task_group to 2021-02-14 00:00:00+00:00
+[2021-02-15 20:36:32,446] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.031 seconds
+[2021-02-15 20:36:59,373] {scheduler_job.py:181} INFO - Started process (PID=250737) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-02-15 20:36:59,375] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-02-15 20:36:59,376] {logging_mixin.py:103} INFO - [2021-02-15 20:36:59,375] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-02-15 20:36:59,390] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-02-15 20:36:59,391] {logging_mixin.py:103} INFO - [2021-02-15 20:36:59,391] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-15 20:36:59,405] {logging_mixin.py:103} INFO - [2021-02-15 20:36:59,405] {dag.py:2266} INFO - Setting next_dagrun for example_task_group to 2021-02-14 00:00:00+00:00
+[2021-02-15 20:36:59,416] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.046 seconds
