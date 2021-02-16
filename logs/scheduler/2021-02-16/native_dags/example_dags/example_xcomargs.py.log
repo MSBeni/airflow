@@ -4014,3 +4014,83 @@
 [2021-02-16 17:24:46,176] {logging_mixin.py:103} INFO - [2021-02-16 17:24:46,176] {dag.py:2266} INFO - Setting next_dagrun for example_xcom_args to None
 [2021-02-16 17:24:46,176] {logging_mixin.py:103} INFO - [2021-02-16 17:24:46,176] {dag.py:2266} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
 [2021-02-16 17:24:46,184] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py took 0.034 seconds
+[2021-02-16 17:25:12,559] {scheduler_job.py:181} INFO - Started process (PID=174631) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2021-02-16 17:25:12,560] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2021-02-16 17:25:12,561] {logging_mixin.py:103} INFO - [2021-02-16 17:25:12,561] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2021-02-16 17:25:12,577] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2021-02-16 17:25:12,578] {logging_mixin.py:103} INFO - [2021-02-16 17:25:12,578] {dag.py:1813} INFO - Sync 2 DAGs
+[2021-02-16 17:25:12,595] {logging_mixin.py:103} INFO - [2021-02-16 17:25:12,595] {dag.py:2266} INFO - Setting next_dagrun for example_xcom_args to None
+[2021-02-16 17:25:12,596] {logging_mixin.py:103} INFO - [2021-02-16 17:25:12,596] {dag.py:2266} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2021-02-16 17:25:12,620] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py took 0.065 seconds
+[2021-02-16 17:25:40,614] {scheduler_job.py:181} INFO - Started process (PID=174753) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2021-02-16 17:25:40,617] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2021-02-16 17:25:40,618] {logging_mixin.py:103} INFO - [2021-02-16 17:25:40,618] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2021-02-16 17:25:40,639] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2021-02-16 17:25:40,640] {logging_mixin.py:103} INFO - [2021-02-16 17:25:40,640] {dag.py:1813} INFO - Sync 2 DAGs
+[2021-02-16 17:25:40,653] {logging_mixin.py:103} INFO - [2021-02-16 17:25:40,653] {dag.py:2266} INFO - Setting next_dagrun for example_xcom_args to None
+[2021-02-16 17:25:40,654] {logging_mixin.py:103} INFO - [2021-02-16 17:25:40,654] {dag.py:2266} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2021-02-16 17:25:40,663] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py took 0.054 seconds
+[2021-02-16 17:26:07,493] {scheduler_job.py:181} INFO - Started process (PID=174981) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2021-02-16 17:26:07,494] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2021-02-16 17:26:07,495] {logging_mixin.py:103} INFO - [2021-02-16 17:26:07,494] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2021-02-16 17:26:07,502] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2021-02-16 17:26:07,502] {logging_mixin.py:103} INFO - [2021-02-16 17:26:07,502] {dag.py:1813} INFO - Sync 2 DAGs
+[2021-02-16 17:26:07,514] {logging_mixin.py:103} INFO - [2021-02-16 17:26:07,514] {dag.py:2266} INFO - Setting next_dagrun for example_xcom_args to None
+[2021-02-16 17:26:07,514] {logging_mixin.py:103} INFO - [2021-02-16 17:26:07,514] {dag.py:2266} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2021-02-16 17:26:07,530] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py took 0.038 seconds
+[2021-02-16 17:26:34,200] {scheduler_job.py:181} INFO - Started process (PID=175060) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2021-02-16 17:26:34,201] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2021-02-16 17:26:34,202] {logging_mixin.py:103} INFO - [2021-02-16 17:26:34,201] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2021-02-16 17:26:34,210] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2021-02-16 17:26:34,210] {logging_mixin.py:103} INFO - [2021-02-16 17:26:34,210] {dag.py:1813} INFO - Sync 2 DAGs
+[2021-02-16 17:26:34,222] {logging_mixin.py:103} INFO - [2021-02-16 17:26:34,222] {dag.py:2266} INFO - Setting next_dagrun for example_xcom_args to None
+[2021-02-16 17:26:34,223] {logging_mixin.py:103} INFO - [2021-02-16 17:26:34,223] {dag.py:2266} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2021-02-16 17:26:34,232] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py took 0.033 seconds
+[2021-02-16 17:27:02,006] {scheduler_job.py:181} INFO - Started process (PID=175168) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2021-02-16 17:27:02,007] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2021-02-16 17:27:02,007] {logging_mixin.py:103} INFO - [2021-02-16 17:27:02,007] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2021-02-16 17:27:02,016] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2021-02-16 17:27:02,017] {logging_mixin.py:103} INFO - [2021-02-16 17:27:02,017] {dag.py:1813} INFO - Sync 2 DAGs
+[2021-02-16 17:27:02,028] {logging_mixin.py:103} INFO - [2021-02-16 17:27:02,028] {dag.py:2266} INFO - Setting next_dagrun for example_xcom_args to None
+[2021-02-16 17:27:02,029] {logging_mixin.py:103} INFO - [2021-02-16 17:27:02,029] {dag.py:2266} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2021-02-16 17:27:02,047] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py took 0.044 seconds
+[2021-02-16 17:27:27,917] {scheduler_job.py:181} INFO - Started process (PID=175434) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2021-02-16 17:27:27,925] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2021-02-16 17:27:27,926] {logging_mixin.py:103} INFO - [2021-02-16 17:27:27,926] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2021-02-16 17:27:27,942] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2021-02-16 17:27:27,943] {logging_mixin.py:103} INFO - [2021-02-16 17:27:27,943] {dag.py:1813} INFO - Sync 2 DAGs
+[2021-02-16 17:27:27,959] {logging_mixin.py:103} INFO - [2021-02-16 17:27:27,959] {dag.py:2266} INFO - Setting next_dagrun for example_xcom_args to None
+[2021-02-16 17:27:27,959] {logging_mixin.py:103} INFO - [2021-02-16 17:27:27,959] {dag.py:2266} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2021-02-16 17:27:27,970] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py took 0.056 seconds
+[2021-02-16 17:27:55,629] {scheduler_job.py:181} INFO - Started process (PID=175601) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2021-02-16 17:27:55,630] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2021-02-16 17:27:55,630] {logging_mixin.py:103} INFO - [2021-02-16 17:27:55,630] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2021-02-16 17:27:55,637] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2021-02-16 17:27:55,638] {logging_mixin.py:103} INFO - [2021-02-16 17:27:55,637] {dag.py:1813} INFO - Sync 2 DAGs
+[2021-02-16 17:27:55,647] {logging_mixin.py:103} INFO - [2021-02-16 17:27:55,647] {dag.py:2266} INFO - Setting next_dagrun for example_xcom_args to None
+[2021-02-16 17:27:55,647] {logging_mixin.py:103} INFO - [2021-02-16 17:27:55,647] {dag.py:2266} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2021-02-16 17:27:55,666] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py took 0.038 seconds
+[2021-02-16 17:28:22,534] {scheduler_job.py:181} INFO - Started process (PID=175867) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2021-02-16 17:28:22,537] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2021-02-16 17:28:22,538] {logging_mixin.py:103} INFO - [2021-02-16 17:28:22,538] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2021-02-16 17:28:22,560] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2021-02-16 17:28:22,561] {logging_mixin.py:103} INFO - [2021-02-16 17:28:22,561] {dag.py:1813} INFO - Sync 2 DAGs
+[2021-02-16 17:28:22,575] {logging_mixin.py:103} INFO - [2021-02-16 17:28:22,575] {dag.py:2266} INFO - Setting next_dagrun for example_xcom_args to None
+[2021-02-16 17:28:22,576] {logging_mixin.py:103} INFO - [2021-02-16 17:28:22,575] {dag.py:2266} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2021-02-16 17:28:22,585] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py took 0.057 seconds
+[2021-02-16 17:28:49,944] {scheduler_job.py:181} INFO - Started process (PID=175960) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2021-02-16 17:28:49,946] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2021-02-16 17:28:49,947] {logging_mixin.py:103} INFO - [2021-02-16 17:28:49,947] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2021-02-16 17:28:49,969] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2021-02-16 17:28:49,970] {logging_mixin.py:103} INFO - [2021-02-16 17:28:49,970] {dag.py:1813} INFO - Sync 2 DAGs
+[2021-02-16 17:28:49,984] {logging_mixin.py:103} INFO - [2021-02-16 17:28:49,984] {dag.py:2266} INFO - Setting next_dagrun for example_xcom_args to None
+[2021-02-16 17:28:49,985] {logging_mixin.py:103} INFO - [2021-02-16 17:28:49,985] {dag.py:2266} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2021-02-16 17:28:50,011] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py took 0.073 seconds
+[2021-02-16 17:29:16,856] {scheduler_job.py:181} INFO - Started process (PID=176238) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2021-02-16 17:29:16,859] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2021-02-16 17:29:16,860] {logging_mixin.py:103} INFO - [2021-02-16 17:29:16,860] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2021-02-16 17:29:16,880] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2021-02-16 17:29:16,880] {logging_mixin.py:103} INFO - [2021-02-16 17:29:16,880] {dag.py:1813} INFO - Sync 2 DAGs
+[2021-02-16 17:29:16,894] {logging_mixin.py:103} INFO - [2021-02-16 17:29:16,894] {dag.py:2266} INFO - Setting next_dagrun for example_xcom_args to None
+[2021-02-16 17:29:16,894] {logging_mixin.py:103} INFO - [2021-02-16 17:29:16,894] {dag.py:2266} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2021-02-16 17:29:16,904] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py took 0.055 seconds

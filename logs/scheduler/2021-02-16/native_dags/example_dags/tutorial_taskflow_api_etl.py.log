@@ -3512,3 +3512,80 @@
 [2021-02-16 17:24:23,383] {logging_mixin.py:103} INFO - [2021-02-16 17:24:23,383] {dag.py:1813} INFO - Sync 1 DAGs
 [2021-02-16 17:24:23,394] {logging_mixin.py:103} INFO - [2021-02-16 17:24:23,394] {dag.py:2266} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
 [2021-02-16 17:24:23,409] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.036 seconds
+[2021-02-16 17:24:51,329] {scheduler_job.py:181} INFO - Started process (PID=174395) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-02-16 17:24:51,330] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2021-02-16 17:24:51,331] {logging_mixin.py:103} INFO - [2021-02-16 17:24:51,330] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-02-16 17:24:51,339] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-02-16 17:24:51,340] {logging_mixin.py:103} INFO - [2021-02-16 17:24:51,340] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-16 17:24:51,350] {logging_mixin.py:103} INFO - [2021-02-16 17:24:51,349] {dag.py:2266} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2021-02-16 17:24:51,354] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.028 seconds
+[2021-02-16 17:25:17,710] {scheduler_job.py:181} INFO - Started process (PID=174647) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-02-16 17:25:17,711] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2021-02-16 17:25:17,712] {logging_mixin.py:103} INFO - [2021-02-16 17:25:17,712] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-02-16 17:25:17,729] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-02-16 17:25:17,731] {logging_mixin.py:103} INFO - [2021-02-16 17:25:17,730] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-16 17:25:17,753] {logging_mixin.py:103} INFO - [2021-02-16 17:25:17,753] {dag.py:2266} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2021-02-16 17:25:17,776] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.070 seconds
+[2021-02-16 17:25:44,636] {scheduler_job.py:181} INFO - Started process (PID=174761) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-02-16 17:25:44,638] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2021-02-16 17:25:44,639] {logging_mixin.py:103} INFO - [2021-02-16 17:25:44,639] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-02-16 17:25:44,658] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-02-16 17:25:44,659] {logging_mixin.py:103} INFO - [2021-02-16 17:25:44,659] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-16 17:25:44,675] {logging_mixin.py:103} INFO - [2021-02-16 17:25:44,675] {dag.py:2266} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2021-02-16 17:25:44,680] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.049 seconds
+[2021-02-16 17:26:12,336] {scheduler_job.py:181} INFO - Started process (PID=174988) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-02-16 17:26:12,338] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2021-02-16 17:26:12,340] {logging_mixin.py:103} INFO - [2021-02-16 17:26:12,340] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-02-16 17:26:12,354] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-02-16 17:26:12,354] {logging_mixin.py:103} INFO - [2021-02-16 17:26:12,354] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-16 17:26:12,367] {logging_mixin.py:103} INFO - [2021-02-16 17:26:12,367] {dag.py:2266} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2021-02-16 17:26:12,384] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.054 seconds
+[2021-02-16 17:26:39,595] {scheduler_job.py:181} INFO - Started process (PID=175080) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-02-16 17:26:39,597] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2021-02-16 17:26:39,599] {logging_mixin.py:103} INFO - [2021-02-16 17:26:39,598] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-02-16 17:26:39,617] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-02-16 17:26:39,619] {logging_mixin.py:103} INFO - [2021-02-16 17:26:39,618] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-16 17:26:39,633] {logging_mixin.py:103} INFO - [2021-02-16 17:26:39,633] {dag.py:2266} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2021-02-16 17:26:39,638] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.049 seconds
+[2021-02-16 17:27:07,140] {scheduler_job.py:181} INFO - Started process (PID=175375) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-02-16 17:27:07,141] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2021-02-16 17:27:07,142] {logging_mixin.py:103} INFO - [2021-02-16 17:27:07,142] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-02-16 17:27:07,149] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-02-16 17:27:07,149] {logging_mixin.py:103} INFO - [2021-02-16 17:27:07,149] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-16 17:27:07,161] {logging_mixin.py:103} INFO - [2021-02-16 17:27:07,161] {dag.py:2266} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2021-02-16 17:27:07,191] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.053 seconds
+[2021-02-16 17:27:32,902] {scheduler_job.py:181} INFO - Started process (PID=175449) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-02-16 17:27:32,903] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2021-02-16 17:27:32,903] {logging_mixin.py:103} INFO - [2021-02-16 17:27:32,903] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-02-16 17:27:32,913] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-02-16 17:27:32,913] {logging_mixin.py:103} INFO - [2021-02-16 17:27:32,913] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-16 17:27:32,927] {logging_mixin.py:103} INFO - [2021-02-16 17:27:32,926] {dag.py:2266} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2021-02-16 17:27:32,933] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.033 seconds
+[2021-02-16 17:27:59,664] {scheduler_job.py:181} INFO - Started process (PID=175611) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-02-16 17:27:59,667] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2021-02-16 17:27:59,668] {logging_mixin.py:103} INFO - [2021-02-16 17:27:59,668] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-02-16 17:27:59,687] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-02-16 17:27:59,688] {logging_mixin.py:103} INFO - [2021-02-16 17:27:59,688] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-16 17:27:59,702] {logging_mixin.py:103} INFO - [2021-02-16 17:27:59,702] {dag.py:2266} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2021-02-16 17:27:59,721] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.064 seconds
+[2021-02-16 17:28:27,357] {scheduler_job.py:181} INFO - Started process (PID=175875) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-02-16 17:28:27,360] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2021-02-16 17:28:27,361] {logging_mixin.py:103} INFO - [2021-02-16 17:28:27,361] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-02-16 17:28:27,382] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-02-16 17:28:27,383] {logging_mixin.py:103} INFO - [2021-02-16 17:28:27,382] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-16 17:28:27,397] {logging_mixin.py:103} INFO - [2021-02-16 17:28:27,397] {dag.py:2266} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2021-02-16 17:28:27,402] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.051 seconds
+[2021-02-16 17:28:55,106] {scheduler_job.py:181} INFO - Started process (PID=175978) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-02-16 17:28:55,109] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2021-02-16 17:28:55,110] {logging_mixin.py:103} INFO - [2021-02-16 17:28:55,110] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-02-16 17:28:55,131] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-02-16 17:28:55,132] {logging_mixin.py:103} INFO - [2021-02-16 17:28:55,132] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-16 17:28:55,147] {logging_mixin.py:103} INFO - [2021-02-16 17:28:55,147] {dag.py:2266} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2021-02-16 17:28:55,165] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.064 seconds
+[2021-02-16 17:29:21,997] {scheduler_job.py:181} INFO - Started process (PID=176249) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-02-16 17:29:21,998] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2021-02-16 17:29:21,998] {logging_mixin.py:103} INFO - [2021-02-16 17:29:21,998] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-02-16 17:29:22,004] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-02-16 17:29:22,004] {logging_mixin.py:103} INFO - [2021-02-16 17:29:22,004] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-16 17:29:22,013] {logging_mixin.py:103} INFO - [2021-02-16 17:29:22,013] {dag.py:2266} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2021-02-16 17:29:22,017] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.022 seconds
