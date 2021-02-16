@@ -1741,3 +1741,31 @@
 [2021-02-15 20:51:15,127] {logging_mixin.py:103} INFO - [2021-02-15 20:51:15,127] {dag.py:1813} INFO - Sync 1 DAGs
 [2021-02-15 20:51:15,135] {logging_mixin.py:103} INFO - [2021-02-15 20:51:15,135] {dag.py:2266} INFO - Setting next_dagrun for tutorial to 2021-02-14 00:00:00+00:00
 [2021-02-15 20:51:15,142] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.023 seconds
+[2021-02-15 20:51:41,520] {scheduler_job.py:181} INFO - Started process (PID=256447) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 20:51:41,520] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-02-15 20:51:41,520] {logging_mixin.py:103} INFO - [2021-02-15 20:51:41,520] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 20:51:41,525] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 20:51:41,525] {logging_mixin.py:103} INFO - [2021-02-15 20:51:41,525] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-15 20:51:41,533] {logging_mixin.py:103} INFO - [2021-02-15 20:51:41,533] {dag.py:2266} INFO - Setting next_dagrun for tutorial to 2021-02-14 00:00:00+00:00
+[2021-02-15 20:51:41,540] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.022 seconds
+[2021-02-15 20:52:09,302] {scheduler_job.py:181} INFO - Started process (PID=256699) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 20:52:09,303] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-02-15 20:52:09,304] {logging_mixin.py:103} INFO - [2021-02-15 20:52:09,304] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 20:52:09,309] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 20:52:09,310] {logging_mixin.py:103} INFO - [2021-02-15 20:52:09,310] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-15 20:52:09,322] {logging_mixin.py:103} INFO - [2021-02-15 20:52:09,321] {dag.py:2266} INFO - Setting next_dagrun for tutorial to 2021-02-14 00:00:00+00:00
+[2021-02-15 20:52:09,333] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.033 seconds
+[2021-02-15 20:52:37,578] {scheduler_job.py:181} INFO - Started process (PID=256765) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 20:52:37,578] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-02-15 20:52:37,578] {logging_mixin.py:103} INFO - [2021-02-15 20:52:37,578] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 20:52:37,583] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 20:52:37,583] {logging_mixin.py:103} INFO - [2021-02-15 20:52:37,583] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-15 20:52:37,592] {logging_mixin.py:103} INFO - [2021-02-15 20:52:37,592] {dag.py:2266} INFO - Setting next_dagrun for tutorial to 2021-02-14 00:00:00+00:00
+[2021-02-15 20:52:37,599] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.023 seconds
+[2021-02-15 20:53:03,897] {scheduler_job.py:181} INFO - Started process (PID=257009) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 20:53:03,897] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-02-15 20:53:03,898] {logging_mixin.py:103} INFO - [2021-02-15 20:53:03,898] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 20:53:03,903] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-02-15 20:53:03,903] {logging_mixin.py:103} INFO - [2021-02-15 20:53:03,903] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-15 20:53:03,912] {logging_mixin.py:103} INFO - [2021-02-15 20:53:03,912] {dag.py:2266} INFO - Setting next_dagrun for tutorial to 2021-02-14 00:00:00+00:00
+[2021-02-15 20:53:03,920] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.024 seconds

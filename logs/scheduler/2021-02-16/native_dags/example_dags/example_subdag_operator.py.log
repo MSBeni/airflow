@@ -2986,3 +2986,51 @@
 [2021-02-15 20:51:23,980] {logging_mixin.py:103} INFO - [2021-02-15 20:51:23,980] {dag.py:2266} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
 [2021-02-15 20:51:23,980] {logging_mixin.py:103} INFO - [2021-02-15 20:51:23,980] {dag.py:2266} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
 [2021-02-15 20:51:23,987] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 0.066 seconds
+[2021-02-15 20:51:51,198] {scheduler_job.py:181} INFO - Started process (PID=256668) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-02-15 20:51:51,199] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2021-02-15 20:51:51,200] {logging_mixin.py:103} INFO - [2021-02-15 20:51:51,200] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-02-15 20:51:51,221] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-02-15 20:51:51,222] {logging_mixin.py:103} INFO - [2021-02-15 20:51:51,222] {dag.py:1813} INFO - Sync 3 DAGs
+[2021-02-15 20:51:51,233] {logging_mixin.py:103} INFO - [2021-02-15 20:51:51,233] {dag.py:2266} INFO - Setting next_dagrun for example_subdag_operator to 2021-02-14 00:00:00+00:00
+[2021-02-15 20:51:51,234] {logging_mixin.py:103} INFO - [2021-02-15 20:51:51,234] {dag.py:2266} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-02-15 20:51:51,234] {logging_mixin.py:103} INFO - [2021-02-15 20:51:51,234] {dag.py:2266} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-02-15 20:51:51,238] {logging_mixin.py:103} INFO - [2021-02-15 20:51:51,238] {dag.py:1813} INFO - Sync 2 DAGs
+[2021-02-15 20:51:51,242] {logging_mixin.py:103} INFO - [2021-02-15 20:51:51,242] {dag.py:2266} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-02-15 20:51:51,242] {logging_mixin.py:103} INFO - [2021-02-15 20:51:51,242] {dag.py:2266} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-02-15 20:51:51,249] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 0.053 seconds
+[2021-02-15 20:52:18,743] {scheduler_job.py:181} INFO - Started process (PID=256722) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-02-15 20:52:18,745] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2021-02-15 20:52:18,746] {logging_mixin.py:103} INFO - [2021-02-15 20:52:18,746] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-02-15 20:52:18,772] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-02-15 20:52:18,773] {logging_mixin.py:103} INFO - [2021-02-15 20:52:18,773] {dag.py:1813} INFO - Sync 3 DAGs
+[2021-02-15 20:52:18,781] {logging_mixin.py:103} INFO - [2021-02-15 20:52:18,781] {dag.py:2266} INFO - Setting next_dagrun for example_subdag_operator to 2021-02-14 00:00:00+00:00
+[2021-02-15 20:52:18,782] {logging_mixin.py:103} INFO - [2021-02-15 20:52:18,782] {dag.py:2266} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-02-15 20:52:18,782] {logging_mixin.py:103} INFO - [2021-02-15 20:52:18,782] {dag.py:2266} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-02-15 20:52:18,784] {logging_mixin.py:103} INFO - [2021-02-15 20:52:18,784] {dag.py:1813} INFO - Sync 2 DAGs
+[2021-02-15 20:52:18,788] {logging_mixin.py:103} INFO - [2021-02-15 20:52:18,788] {dag.py:2266} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-02-15 20:52:18,788] {logging_mixin.py:103} INFO - [2021-02-15 20:52:18,788] {dag.py:2266} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-02-15 20:52:18,794] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 0.058 seconds
+[2021-02-15 20:52:45,594] {scheduler_job.py:181} INFO - Started process (PID=256809) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-02-15 20:52:45,594] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2021-02-15 20:52:45,595] {logging_mixin.py:103} INFO - [2021-02-15 20:52:45,594] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-02-15 20:52:45,605] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-02-15 20:52:45,605] {logging_mixin.py:103} INFO - [2021-02-15 20:52:45,605] {dag.py:1813} INFO - Sync 3 DAGs
+[2021-02-15 20:52:45,612] {logging_mixin.py:103} INFO - [2021-02-15 20:52:45,612] {dag.py:2266} INFO - Setting next_dagrun for example_subdag_operator to 2021-02-14 00:00:00+00:00
+[2021-02-15 20:52:45,612] {logging_mixin.py:103} INFO - [2021-02-15 20:52:45,612] {dag.py:2266} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-02-15 20:52:45,612] {logging_mixin.py:103} INFO - [2021-02-15 20:52:45,612] {dag.py:2266} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-02-15 20:52:45,614] {logging_mixin.py:103} INFO - [2021-02-15 20:52:45,614] {dag.py:1813} INFO - Sync 2 DAGs
+[2021-02-15 20:52:45,617] {logging_mixin.py:103} INFO - [2021-02-15 20:52:45,617] {dag.py:2266} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-02-15 20:52:45,618] {logging_mixin.py:103} INFO - [2021-02-15 20:52:45,617] {dag.py:2266} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-02-15 20:52:45,624] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 0.031 seconds
+[2021-02-15 20:53:12,426] {scheduler_job.py:181} INFO - Started process (PID=257034) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-02-15 20:53:12,427] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2021-02-15 20:53:12,427] {logging_mixin.py:103} INFO - [2021-02-15 20:53:12,427] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-02-15 20:53:12,438] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-02-15 20:53:12,438] {logging_mixin.py:103} INFO - [2021-02-15 20:53:12,438] {dag.py:1813} INFO - Sync 3 DAGs
+[2021-02-15 20:53:12,446] {logging_mixin.py:103} INFO - [2021-02-15 20:53:12,446] {dag.py:2266} INFO - Setting next_dagrun for example_subdag_operator to 2021-02-14 00:00:00+00:00
+[2021-02-15 20:53:12,446] {logging_mixin.py:103} INFO - [2021-02-15 20:53:12,446] {dag.py:2266} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-02-15 20:53:12,446] {logging_mixin.py:103} INFO - [2021-02-15 20:53:12,446] {dag.py:2266} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-02-15 20:53:12,448] {logging_mixin.py:103} INFO - [2021-02-15 20:53:12,448] {dag.py:1813} INFO - Sync 2 DAGs
+[2021-02-15 20:53:12,452] {logging_mixin.py:103} INFO - [2021-02-15 20:53:12,451] {dag.py:2266} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-02-15 20:53:12,452] {logging_mixin.py:103} INFO - [2021-02-15 20:53:12,452] {dag.py:2266} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-02-15 20:53:12,458] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 0.033 seconds

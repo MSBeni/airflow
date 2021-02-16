@@ -1238,3 +1238,23 @@
 [2021-02-15 20:51:25,043] {logging_mixin.py:103} INFO - [2021-02-15 20:51:25,043] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
 [2021-02-15 20:51:25,044] {scheduler_job.py:641} WARNING - No viable dags retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
 [2021-02-15 20:51:25,049] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py took 0.008 seconds
+[2021-02-15 20:51:51,831] {scheduler_job.py:181} INFO - Started process (PID=256669) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-02-15 20:51:51,832] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-02-15 20:51:51,833] {logging_mixin.py:103} INFO - [2021-02-15 20:51:51,833] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-02-15 20:51:51,835] {scheduler_job.py:641} WARNING - No viable dags retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-02-15 20:51:51,841] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py took 0.013 seconds
+[2021-02-15 20:52:19,869] {scheduler_job.py:181} INFO - Started process (PID=256731) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-02-15 20:52:19,872] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-02-15 20:52:19,873] {logging_mixin.py:103} INFO - [2021-02-15 20:52:19,873] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-02-15 20:52:19,879] {scheduler_job.py:641} WARNING - No viable dags retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-02-15 20:52:19,890] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py took 0.027 seconds
+[2021-02-15 20:52:46,730] {scheduler_job.py:181} INFO - Started process (PID=256817) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-02-15 20:52:46,731] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-02-15 20:52:46,731] {logging_mixin.py:103} INFO - [2021-02-15 20:52:46,731] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-02-15 20:52:46,733] {scheduler_job.py:641} WARNING - No viable dags retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-02-15 20:52:46,739] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py took 0.012 seconds
+[2021-02-15 20:53:13,548] {scheduler_job.py:181} INFO - Started process (PID=257035) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-02-15 20:53:13,548] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-02-15 20:53:13,549] {logging_mixin.py:103} INFO - [2021-02-15 20:53:13,549] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-02-15 20:53:13,550] {scheduler_job.py:641} WARNING - No viable dags retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-02-15 20:53:13,554] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py took 0.007 seconds

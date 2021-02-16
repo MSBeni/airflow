@@ -1741,3 +1741,24 @@
 [2021-02-15 20:51:32,353] {logging_mixin.py:103} INFO - [2021-02-15 20:51:32,353] {dag.py:1813} INFO - Sync 1 DAGs
 [2021-02-15 20:51:32,373] {logging_mixin.py:103} INFO - [2021-02-15 20:51:32,373] {dag.py:2266} INFO - Setting next_dagrun for example_branch_dop_operator_v3 to 2021-02-14 00:00:00+00:00
 [2021-02-15 20:51:32,381] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py took 0.039 seconds
+[2021-02-15 20:51:59,308] {scheduler_job.py:181} INFO - Started process (PID=256682) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+[2021-02-15 20:51:59,309] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py for tasks to queue
+[2021-02-15 20:51:59,311] {logging_mixin.py:103} INFO - [2021-02-15 20:51:59,311] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+[2021-02-15 20:51:59,321] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_branch_dop_operator_v3']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+[2021-02-15 20:51:59,322] {logging_mixin.py:103} INFO - [2021-02-15 20:51:59,322] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-15 20:51:59,341] {logging_mixin.py:103} INFO - [2021-02-15 20:51:59,341] {dag.py:2266} INFO - Setting next_dagrun for example_branch_dop_operator_v3 to 2021-02-14 00:00:00+00:00
+[2021-02-15 20:51:59,350] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py took 0.046 seconds
+[2021-02-15 20:52:26,721] {scheduler_job.py:181} INFO - Started process (PID=256742) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+[2021-02-15 20:52:26,723] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py for tasks to queue
+[2021-02-15 20:52:26,725] {logging_mixin.py:103} INFO - [2021-02-15 20:52:26,724] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+[2021-02-15 20:52:26,747] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_branch_dop_operator_v3']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+[2021-02-15 20:52:26,748] {logging_mixin.py:103} INFO - [2021-02-15 20:52:26,748] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-15 20:52:26,776] {logging_mixin.py:103} INFO - [2021-02-15 20:52:26,776] {dag.py:2266} INFO - Setting next_dagrun for example_branch_dop_operator_v3 to 2021-02-14 00:00:00+00:00
+[2021-02-15 20:52:26,784] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py took 0.069 seconds
+[2021-02-15 20:52:53,603] {scheduler_job.py:181} INFO - Started process (PID=256990) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+[2021-02-15 20:52:53,605] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py for tasks to queue
+[2021-02-15 20:52:53,606] {logging_mixin.py:103} INFO - [2021-02-15 20:52:53,606] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+[2021-02-15 20:52:53,627] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_branch_dop_operator_v3']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+[2021-02-15 20:52:53,627] {logging_mixin.py:103} INFO - [2021-02-15 20:52:53,627] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-15 20:52:53,650] {logging_mixin.py:103} INFO - [2021-02-15 20:52:53,649] {dag.py:2266} INFO - Setting next_dagrun for example_branch_dop_operator_v3 to 2021-02-14 00:00:00+00:00
+[2021-02-15 20:52:53,657] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py took 0.060 seconds

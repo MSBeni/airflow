@@ -112,4 +112,7 @@ airflow test hello_world hello_task 2018-10-05
 
 
 ## Test the tasks
-You can test 
+You can test each implemented task, immediate after setup using this command:
+```bash
+airflow tasks test dag_id task_id start_date 
+```
