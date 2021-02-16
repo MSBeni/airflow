@@ -120,3 +120,13 @@ for example, you can test the creating_table task like this:
 ```bash
 airflow tasks test user_processing creating_table 2020-01-01
 ```
+
+## Checking the Available Sqlite Tables
+Write this command and then you can have have access to the sqlite and can check the available tables:
+```bash
+sqlite3 airflow.db
+```
+Then type command ```.tabels``` to see the available tables:
+```bash
+sqlite> .tabels
+```
