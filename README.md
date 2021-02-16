@@ -116,3 +116,7 @@ You can test each implemented task, immediate after setup using this command:
 ```bash
 airflow tasks test dag_id task_id start_date 
 ```
+for example, you can test the creating_table task like this:
+```bash
+airflow tasks test user_processing creating_table 2020-01-01
+```
