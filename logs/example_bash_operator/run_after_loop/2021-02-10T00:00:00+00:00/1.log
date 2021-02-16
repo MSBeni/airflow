@@ -1,0 +1,27 @@
+[2021-02-12 16:35:28,364] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: example_bash_operator.run_after_loop 2021-02-10T00:00:00+00:00 [queued]>
+[2021-02-12 16:35:28,367] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: example_bash_operator.run_after_loop 2021-02-10T00:00:00+00:00 [queued]>
+[2021-02-12 16:35:28,367] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2021-02-12 16:35:28,367] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2021-02-12 16:35:28,367] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2021-02-12 16:35:28,375] {taskinstance.py:1038} INFO - Executing <Task(BashOperator): run_after_loop> on 2021-02-10T00:00:00+00:00
+[2021-02-12 16:35:28,376] {standard_task_runner.py:51} INFO - Started process 170336 to run task
+[2021-02-12 16:35:28,379] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'example_bash_operator', 'run_after_loop', '2021-02-10T00:00:00+00:00', '--job-id', '10', '--pool', 'default_pool', '--raw', '--subdir', '/home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py', '--cfg-path', '/tmp/tmp1xs__9mc']
+[2021-02-12 16:35:28,379] {standard_task_runner.py:76} INFO - Job 10: Subtask run_after_loop
+[2021-02-12 16:35:28,399] {logging_mixin.py:103} INFO - Running <TaskInstance: example_bash_operator.run_after_loop 2021-02-10T00:00:00+00:00 [running]> on host pop-os.localdomain
+[2021-02-12 16:35:28,415] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=example_bash_operator
+AIRFLOW_CTX_TASK_ID=run_after_loop
+AIRFLOW_CTX_EXECUTION_DATE=2021-02-10T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-02-10T00:00:00+00:00
+[2021-02-12 16:35:28,416] {bash.py:135} INFO - Tmp dir root location: 
+ /tmp
+[2021-02-12 16:35:28,416] {bash.py:158} INFO - Running command: echo 1
+[2021-02-12 16:35:28,419] {bash.py:169} INFO - Output:
+[2021-02-12 16:35:28,420] {bash.py:173} INFO - 1
+[2021-02-12 16:35:28,421] {bash.py:177} INFO - Command exited with return code 0
+[2021-02-12 16:35:28,432] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=example_bash_operator, task_id=run_after_loop, execution_date=20210210T000000, start_date=20210212T213528, end_date=20210212T213528
+[2021-02-12 16:35:28,449] {taskinstance.py:1195} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-02-12 16:35:28,470] {local_task_job.py:118} INFO - Task exited with return code 0
