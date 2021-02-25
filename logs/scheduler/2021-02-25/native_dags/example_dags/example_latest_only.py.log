@@ -1,0 +1,189 @@
+[2021-02-25 17:15:22,915] {scheduler_job.py:181} INFO - Started process (PID=184358) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:15:22,916] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-02-25 17:15:22,917] {logging_mixin.py:103} INFO - [2021-02-25 17:15:22,917] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:15:22,929] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:15:22,929] {logging_mixin.py:103} INFO - [2021-02-25 17:15:22,929] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:15:22,941] {logging_mixin.py:103} INFO - [2021-02-25 17:15:22,941] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2021-02-23 00:00:00+00:00
+[2021-02-25 17:15:22,964] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.055 seconds
+[2021-02-25 17:15:50,146] {scheduler_job.py:181} INFO - Started process (PID=184585) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:15:50,149] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-02-25 17:15:50,150] {logging_mixin.py:103} INFO - [2021-02-25 17:15:50,150] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:15:50,163] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:15:50,163] {logging_mixin.py:103} INFO - [2021-02-25 17:15:50,163] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:15:50,177] {logging_mixin.py:103} INFO - [2021-02-25 17:15:50,177] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2021-02-23 00:00:00+00:00
+[2021-02-25 17:15:50,183] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.044 seconds
+[2021-02-25 17:16:17,052] {scheduler_job.py:181} INFO - Started process (PID=184660) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:16:17,053] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-02-25 17:16:17,053] {logging_mixin.py:103} INFO - [2021-02-25 17:16:17,053] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:16:17,063] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:16:17,064] {logging_mixin.py:103} INFO - [2021-02-25 17:16:17,064] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:16:17,083] {logging_mixin.py:103} INFO - [2021-02-25 17:16:17,083] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2021-02-23 00:00:00+00:00
+[2021-02-25 17:16:17,093] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.044 seconds
+[2021-02-25 17:16:45,101] {scheduler_job.py:181} INFO - Started process (PID=184893) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:16:45,103] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-02-25 17:16:45,104] {logging_mixin.py:103} INFO - [2021-02-25 17:16:45,104] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:16:45,123] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:16:45,124] {logging_mixin.py:103} INFO - [2021-02-25 17:16:45,124] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:16:45,139] {logging_mixin.py:103} INFO - [2021-02-25 17:16:45,139] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2021-02-23 00:00:00+00:00
+[2021-02-25 17:16:45,149] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.054 seconds
+[2021-02-25 17:17:11,420] {scheduler_job.py:181} INFO - Started process (PID=184979) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:17:11,421] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-02-25 17:17:11,422] {logging_mixin.py:103} INFO - [2021-02-25 17:17:11,422] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:17:11,433] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:17:11,434] {logging_mixin.py:103} INFO - [2021-02-25 17:17:11,433] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:17:11,451] {logging_mixin.py:103} INFO - [2021-02-25 17:17:11,450] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2021-02-23 00:00:00+00:00
+[2021-02-25 17:17:11,460] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.043 seconds
+[2021-02-25 17:17:39,078] {scheduler_job.py:181} INFO - Started process (PID=185222) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:17:39,080] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-02-25 17:17:39,080] {logging_mixin.py:103} INFO - [2021-02-25 17:17:39,080] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:17:39,085] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:17:39,086] {logging_mixin.py:103} INFO - [2021-02-25 17:17:39,086] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:17:39,097] {logging_mixin.py:103} INFO - [2021-02-25 17:17:39,097] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2021-02-23 00:00:00+00:00
+[2021-02-25 17:17:39,105] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.030 seconds
+[2021-02-25 17:18:06,358] {scheduler_job.py:181} INFO - Started process (PID=185283) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:18:06,359] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-02-25 17:18:06,359] {logging_mixin.py:103} INFO - [2021-02-25 17:18:06,359] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:18:06,367] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:18:06,368] {logging_mixin.py:103} INFO - [2021-02-25 17:18:06,368] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:18:06,381] {logging_mixin.py:103} INFO - [2021-02-25 17:18:06,381] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2021-02-23 00:00:00+00:00
+[2021-02-25 17:18:06,389] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.033 seconds
+[2021-02-25 17:18:33,855] {scheduler_job.py:181} INFO - Started process (PID=185349) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:18:33,857] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-02-25 17:18:33,859] {logging_mixin.py:103} INFO - [2021-02-25 17:18:33,859] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:18:33,876] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:18:33,877] {logging_mixin.py:103} INFO - [2021-02-25 17:18:33,877] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:18:33,891] {logging_mixin.py:103} INFO - [2021-02-25 17:18:33,891] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2021-02-23 00:00:00+00:00
+[2021-02-25 17:18:33,901] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.051 seconds
+[2021-02-25 17:19:00,599] {scheduler_job.py:181} INFO - Started process (PID=185608) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:19:00,600] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-02-25 17:19:00,600] {logging_mixin.py:103} INFO - [2021-02-25 17:19:00,600] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:19:00,605] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:19:00,605] {logging_mixin.py:103} INFO - [2021-02-25 17:19:00,605] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:19:00,621] {logging_mixin.py:103} INFO - [2021-02-25 17:19:00,620] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2021-02-23 00:00:00+00:00
+[2021-02-25 17:19:00,635] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.037 seconds
+[2021-02-25 17:19:27,514] {scheduler_job.py:181} INFO - Started process (PID=185673) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:19:27,515] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-02-25 17:19:27,515] {logging_mixin.py:103} INFO - [2021-02-25 17:19:27,515] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:19:27,520] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:19:27,521] {logging_mixin.py:103} INFO - [2021-02-25 17:19:27,521] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:19:27,533] {logging_mixin.py:103} INFO - [2021-02-25 17:19:27,533] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2021-02-23 00:00:00+00:00
+[2021-02-25 17:19:27,542] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.030 seconds
+[2021-02-25 17:19:55,205] {scheduler_job.py:181} INFO - Started process (PID=185896) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:19:55,206] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-02-25 17:19:55,206] {logging_mixin.py:103} INFO - [2021-02-25 17:19:55,206] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:19:55,211] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:19:55,212] {logging_mixin.py:103} INFO - [2021-02-25 17:19:55,212] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:19:55,220] {logging_mixin.py:103} INFO - [2021-02-25 17:19:55,220] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2021-02-23 00:00:00+00:00
+[2021-02-25 17:19:55,228] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.025 seconds
+[2021-02-25 17:20:21,947] {scheduler_job.py:181} INFO - Started process (PID=185963) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:20:21,950] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-02-25 17:20:21,951] {logging_mixin.py:103} INFO - [2021-02-25 17:20:21,951] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:20:21,965] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:20:21,966] {logging_mixin.py:103} INFO - [2021-02-25 17:20:21,966] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:20:21,980] {logging_mixin.py:103} INFO - [2021-02-25 17:20:21,980] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2021-02-23 00:00:00+00:00
+[2021-02-25 17:20:21,989] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.047 seconds
+[2021-02-25 17:20:49,970] {scheduler_job.py:181} INFO - Started process (PID=186210) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:20:49,973] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-02-25 17:20:49,974] {logging_mixin.py:103} INFO - [2021-02-25 17:20:49,974] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:20:49,992] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:20:49,993] {logging_mixin.py:103} INFO - [2021-02-25 17:20:49,993] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:20:50,008] {logging_mixin.py:103} INFO - [2021-02-25 17:20:50,008] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2021-02-23 00:00:00+00:00
+[2021-02-25 17:20:50,017] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.053 seconds
+[2021-02-25 17:21:16,798] {scheduler_job.py:181} INFO - Started process (PID=186289) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:21:16,801] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-02-25 17:21:16,802] {logging_mixin.py:103} INFO - [2021-02-25 17:21:16,802] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:21:16,817] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:21:16,818] {logging_mixin.py:103} INFO - [2021-02-25 17:21:16,818] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:21:16,833] {logging_mixin.py:103} INFO - [2021-02-25 17:21:16,833] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2021-02-23 00:00:00+00:00
+[2021-02-25 17:21:16,844] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.050 seconds
+[2021-02-25 17:21:44,361] {scheduler_job.py:181} INFO - Started process (PID=186510) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:21:44,362] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-02-25 17:21:44,363] {logging_mixin.py:103} INFO - [2021-02-25 17:21:44,363] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:21:44,373] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:21:44,374] {logging_mixin.py:103} INFO - [2021-02-25 17:21:44,374] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:21:44,393] {logging_mixin.py:103} INFO - [2021-02-25 17:21:44,393] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2021-02-23 00:00:00+00:00
+[2021-02-25 17:21:44,403] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.045 seconds
+[2021-02-25 17:22:11,265] {scheduler_job.py:181} INFO - Started process (PID=186588) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:22:11,268] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-02-25 17:22:11,269] {logging_mixin.py:103} INFO - [2021-02-25 17:22:11,269] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:22:11,280] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:22:11,281] {logging_mixin.py:103} INFO - [2021-02-25 17:22:11,281] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:22:11,294] {logging_mixin.py:103} INFO - [2021-02-25 17:22:11,294] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2021-02-23 00:00:00+00:00
+[2021-02-25 17:22:11,303] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.044 seconds
+[2021-02-25 17:22:39,257] {scheduler_job.py:181} INFO - Started process (PID=186803) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:22:39,259] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-02-25 17:22:39,261] {logging_mixin.py:103} INFO - [2021-02-25 17:22:39,260] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:22:39,274] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:22:39,275] {logging_mixin.py:103} INFO - [2021-02-25 17:22:39,275] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:22:39,289] {logging_mixin.py:103} INFO - [2021-02-25 17:22:39,289] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2021-02-23 00:00:00+00:00
+[2021-02-25 17:22:39,297] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.047 seconds
+[2021-02-25 17:23:06,067] {scheduler_job.py:181} INFO - Started process (PID=186872) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:23:06,069] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-02-25 17:23:06,070] {logging_mixin.py:103} INFO - [2021-02-25 17:23:06,070] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:23:06,080] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:23:06,081] {logging_mixin.py:103} INFO - [2021-02-25 17:23:06,081] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:23:06,094] {logging_mixin.py:103} INFO - [2021-02-25 17:23:06,094] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2021-02-23 00:00:00+00:00
+[2021-02-25 17:23:06,102] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.042 seconds
+[2021-02-25 17:23:32,434] {scheduler_job.py:181} INFO - Started process (PID=186931) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:23:32,435] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-02-25 17:23:32,435] {logging_mixin.py:103} INFO - [2021-02-25 17:23:32,435] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:23:32,439] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:23:32,440] {logging_mixin.py:103} INFO - [2021-02-25 17:23:32,440] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:23:32,448] {logging_mixin.py:103} INFO - [2021-02-25 17:23:32,448] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2021-02-23 00:00:00+00:00
+[2021-02-25 17:23:32,455] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.027 seconds
+[2021-02-25 17:24:00,481] {scheduler_job.py:181} INFO - Started process (PID=187184) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:24:00,483] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-02-25 17:24:00,485] {logging_mixin.py:103} INFO - [2021-02-25 17:24:00,484] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:24:00,499] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:24:00,501] {logging_mixin.py:103} INFO - [2021-02-25 17:24:00,501] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:24:00,517] {logging_mixin.py:103} INFO - [2021-02-25 17:24:00,517] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2021-02-23 00:00:00+00:00
+[2021-02-25 17:24:00,526] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.049 seconds
+[2021-02-25 17:24:27,401] {scheduler_job.py:181} INFO - Started process (PID=187242) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:24:27,402] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-02-25 17:24:27,402] {logging_mixin.py:103} INFO - [2021-02-25 17:24:27,402] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:24:27,409] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:24:27,409] {logging_mixin.py:103} INFO - [2021-02-25 17:24:27,409] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:24:27,420] {logging_mixin.py:103} INFO - [2021-02-25 17:24:27,420] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2021-02-23 00:00:00+00:00
+[2021-02-25 17:24:27,429] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.030 seconds
+[2021-02-25 17:24:54,916] {scheduler_job.py:181} INFO - Started process (PID=187471) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:24:54,916] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-02-25 17:24:54,916] {logging_mixin.py:103} INFO - [2021-02-25 17:24:54,916] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:24:54,922] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:24:54,922] {logging_mixin.py:103} INFO - [2021-02-25 17:24:54,922] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:24:54,934] {logging_mixin.py:103} INFO - [2021-02-25 17:24:54,934] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2021-02-23 00:00:00+00:00
+[2021-02-25 17:24:54,942] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.028 seconds
+[2021-02-25 17:25:21,809] {scheduler_job.py:181} INFO - Started process (PID=187557) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:25:21,810] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-02-25 17:25:21,811] {logging_mixin.py:103} INFO - [2021-02-25 17:25:21,810] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:25:21,819] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:25:21,820] {logging_mixin.py:103} INFO - [2021-02-25 17:25:21,820] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:25:21,832] {logging_mixin.py:103} INFO - [2021-02-25 17:25:21,832] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2021-02-23 00:00:00+00:00
+[2021-02-25 17:25:21,840] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.035 seconds
+[2021-02-25 17:25:49,776] {scheduler_job.py:181} INFO - Started process (PID=187802) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:25:49,778] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-02-25 17:25:49,779] {logging_mixin.py:103} INFO - [2021-02-25 17:25:49,779] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:25:49,793] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:25:49,794] {logging_mixin.py:103} INFO - [2021-02-25 17:25:49,794] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:25:49,808] {logging_mixin.py:103} INFO - [2021-02-25 17:25:49,808] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2021-02-23 00:00:00+00:00
+[2021-02-25 17:25:49,817] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.048 seconds
+[2021-02-25 17:26:16,576] {scheduler_job.py:181} INFO - Started process (PID=187906) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:26:16,577] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-02-25 17:26:16,578] {logging_mixin.py:103} INFO - [2021-02-25 17:26:16,577] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:26:16,588] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:26:16,589] {logging_mixin.py:103} INFO - [2021-02-25 17:26:16,589] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:26:16,604] {logging_mixin.py:103} INFO - [2021-02-25 17:26:16,604] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2021-02-23 00:00:00+00:00
+[2021-02-25 17:26:16,615] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.044 seconds
+[2021-02-25 17:26:43,457] {scheduler_job.py:181} INFO - Started process (PID=188168) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:26:43,459] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-02-25 17:26:43,460] {logging_mixin.py:103} INFO - [2021-02-25 17:26:43,460] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:26:43,477] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:26:43,478] {logging_mixin.py:103} INFO - [2021-02-25 17:26:43,478] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:26:43,493] {logging_mixin.py:103} INFO - [2021-02-25 17:26:43,493] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2021-02-23 00:00:00+00:00
+[2021-02-25 17:26:43,502] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.051 seconds
+[2021-02-25 17:27:09,901] {scheduler_job.py:181} INFO - Started process (PID=188259) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:27:09,902] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-02-25 17:27:09,902] {logging_mixin.py:103} INFO - [2021-02-25 17:27:09,902] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:27:09,907] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-25 17:27:09,908] {logging_mixin.py:103} INFO - [2021-02-25 17:27:09,908] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:27:09,917] {logging_mixin.py:103} INFO - [2021-02-25 17:27:09,917] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2021-02-23 00:00:00+00:00
+[2021-02-25 17:27:09,925] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.026 seconds

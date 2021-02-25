@@ -3,7 +3,7 @@ from airflow.providers.sqlite.operators.sqlite import SqliteOperator
 from airflow.providers.http.sensors.http import HttpSensor
 from airflow.providers.http.operators.http import SimpleHttpOperator
 from airflow.operators.python import PythonOperator
-
+from pandas import json_normalize
 from datetime import datetime
 import json
 
@@ -13,7 +13,20 @@ default_args = {
 
 
 def _processing_user():
-    pass
+    users = None
+    if not len(users) or 'results' not in users[0]:
+        raise ValueError('User is Empty ...')
+
+    user = users[0]['results']
+    # Using json_normalize to create a dataframe from the dictionary
+    processed_user = json_normalize({
+        'first_name': user['name']['first'],
+        'last_name': user['name']['last'],
+        'country': user['location']['country'],
+        'user_name': user['login']['username'],
+        'password': user['login']['password'],
+        'email': user['email']
+        })
 
 
 # each DAG out to has a unique dag_id
