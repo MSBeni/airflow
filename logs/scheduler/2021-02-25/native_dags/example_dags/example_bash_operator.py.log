@@ -285,3 +285,115 @@
 [2021-02-25 17:33:25,651] {logging_mixin.py:103} INFO - [2021-02-25 17:33:25,650] {dag.py:1813} INFO - Sync 1 DAGs
 [2021-02-25 17:33:25,668] {logging_mixin.py:103} INFO - [2021-02-25 17:33:25,668] {dag.py:2266} INFO - Setting next_dagrun for example_bash_operator to 2021-02-23 00:00:00+00:00
 [2021-02-25 17:33:25,677] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py took 0.055 seconds
+[2021-02-25 17:33:54,004] {scheduler_job.py:181} INFO - Started process (PID=190800) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2021-02-25 17:33:54,005] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2021-02-25 17:33:54,005] {logging_mixin.py:103} INFO - [2021-02-25 17:33:54,005] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2021-02-25 17:33:54,011] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2021-02-25 17:33:54,011] {logging_mixin.py:103} INFO - [2021-02-25 17:33:54,011] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:33:54,023] {logging_mixin.py:103} INFO - [2021-02-25 17:33:54,023] {dag.py:2266} INFO - Setting next_dagrun for example_bash_operator to 2021-02-23 00:00:00+00:00
+[2021-02-25 17:33:54,031] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py took 0.029 seconds
+[2021-02-25 17:34:21,060] {scheduler_job.py:181} INFO - Started process (PID=190923) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2021-02-25 17:34:21,060] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2021-02-25 17:34:21,061] {logging_mixin.py:103} INFO - [2021-02-25 17:34:21,061] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2021-02-25 17:34:21,068] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2021-02-25 17:34:21,068] {logging_mixin.py:103} INFO - [2021-02-25 17:34:21,068] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:34:21,083] {logging_mixin.py:103} INFO - [2021-02-25 17:34:21,083] {dag.py:2266} INFO - Setting next_dagrun for example_bash_operator to 2021-02-23 00:00:00+00:00
+[2021-02-25 17:34:21,092] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py took 0.035 seconds
+[2021-02-25 17:34:49,069] {scheduler_job.py:181} INFO - Started process (PID=191186) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2021-02-25 17:34:49,071] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2021-02-25 17:34:49,071] {logging_mixin.py:103} INFO - [2021-02-25 17:34:49,071] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2021-02-25 17:34:49,081] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2021-02-25 17:34:49,082] {logging_mixin.py:103} INFO - [2021-02-25 17:34:49,082] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:34:49,106] {logging_mixin.py:103} INFO - [2021-02-25 17:34:49,106] {dag.py:2266} INFO - Setting next_dagrun for example_bash_operator to 2021-02-23 00:00:00+00:00
+[2021-02-25 17:34:49,121] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py took 0.055 seconds
+[2021-02-25 17:35:16,199] {scheduler_job.py:181} INFO - Started process (PID=191284) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2021-02-25 17:35:16,200] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2021-02-25 17:35:16,200] {logging_mixin.py:103} INFO - [2021-02-25 17:35:16,200] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2021-02-25 17:35:16,207] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2021-02-25 17:35:16,208] {logging_mixin.py:103} INFO - [2021-02-25 17:35:16,208] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:35:16,222] {logging_mixin.py:103} INFO - [2021-02-25 17:35:16,222] {dag.py:2266} INFO - Setting next_dagrun for example_bash_operator to 2021-02-23 00:00:00+00:00
+[2021-02-25 17:35:16,230] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py took 0.032 seconds
+[2021-02-25 17:35:44,244] {scheduler_job.py:181} INFO - Started process (PID=191515) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2021-02-25 17:35:44,246] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2021-02-25 17:35:44,247] {logging_mixin.py:103} INFO - [2021-02-25 17:35:44,247] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2021-02-25 17:35:44,265] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2021-02-25 17:35:44,266] {logging_mixin.py:103} INFO - [2021-02-25 17:35:44,266] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:35:44,284] {logging_mixin.py:103} INFO - [2021-02-25 17:35:44,284] {dag.py:2266} INFO - Setting next_dagrun for example_bash_operator to 2021-02-23 00:00:00+00:00
+[2021-02-25 17:35:44,292] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py took 0.055 seconds
+[2021-02-25 17:36:10,229] {scheduler_job.py:181} INFO - Started process (PID=191609) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2021-02-25 17:36:10,231] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2021-02-25 17:36:10,232] {logging_mixin.py:103} INFO - [2021-02-25 17:36:10,232] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2021-02-25 17:36:10,244] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2021-02-25 17:36:10,244] {logging_mixin.py:103} INFO - [2021-02-25 17:36:10,244] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:36:10,262] {logging_mixin.py:103} INFO - [2021-02-25 17:36:10,262] {dag.py:2266} INFO - Setting next_dagrun for example_bash_operator to 2021-02-23 00:00:00+00:00
+[2021-02-25 17:36:10,272] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py took 0.046 seconds
+[2021-02-25 17:36:38,511] {scheduler_job.py:181} INFO - Started process (PID=191685) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2021-02-25 17:36:38,512] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2021-02-25 17:36:38,513] {logging_mixin.py:103} INFO - [2021-02-25 17:36:38,513] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2021-02-25 17:36:38,524] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2021-02-25 17:36:38,525] {logging_mixin.py:103} INFO - [2021-02-25 17:36:38,525] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:36:38,543] {logging_mixin.py:103} INFO - [2021-02-25 17:36:38,543] {dag.py:2266} INFO - Setting next_dagrun for example_bash_operator to 2021-02-23 00:00:00+00:00
+[2021-02-25 17:36:38,554] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py took 0.046 seconds
+[2021-02-25 17:37:05,511] {scheduler_job.py:181} INFO - Started process (PID=191914) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2021-02-25 17:37:05,511] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2021-02-25 17:37:05,512] {logging_mixin.py:103} INFO - [2021-02-25 17:37:05,512] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2021-02-25 17:37:05,519] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2021-02-25 17:37:05,519] {logging_mixin.py:103} INFO - [2021-02-25 17:37:05,519] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:37:05,533] {logging_mixin.py:103} INFO - [2021-02-25 17:37:05,533] {dag.py:2266} INFO - Setting next_dagrun for example_bash_operator to 2021-02-23 00:00:00+00:00
+[2021-02-25 17:37:05,541] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py took 0.032 seconds
+[2021-02-25 17:37:32,395] {scheduler_job.py:181} INFO - Started process (PID=192012) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2021-02-25 17:37:32,397] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2021-02-25 17:37:32,398] {logging_mixin.py:103} INFO - [2021-02-25 17:37:32,398] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2021-02-25 17:37:32,419] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2021-02-25 17:37:32,420] {logging_mixin.py:103} INFO - [2021-02-25 17:37:32,420] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:37:32,440] {logging_mixin.py:103} INFO - [2021-02-25 17:37:32,440] {dag.py:2266} INFO - Setting next_dagrun for example_bash_operator to 2021-02-23 00:00:00+00:00
+[2021-02-25 17:37:32,449] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py took 0.060 seconds
+[2021-02-25 17:38:00,701] {scheduler_job.py:181} INFO - Started process (PID=192287) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2021-02-25 17:38:00,702] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2021-02-25 17:38:00,702] {logging_mixin.py:103} INFO - [2021-02-25 17:38:00,702] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2021-02-25 17:38:00,708] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2021-02-25 17:38:00,709] {logging_mixin.py:103} INFO - [2021-02-25 17:38:00,709] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:38:00,722] {logging_mixin.py:103} INFO - [2021-02-25 17:38:00,722] {dag.py:2266} INFO - Setting next_dagrun for example_bash_operator to 2021-02-23 00:00:00+00:00
+[2021-02-25 17:38:00,732] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py took 0.032 seconds
+[2021-02-25 17:38:27,535] {scheduler_job.py:181} INFO - Started process (PID=192362) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2021-02-25 17:38:27,536] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2021-02-25 17:38:27,536] {logging_mixin.py:103} INFO - [2021-02-25 17:38:27,536] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2021-02-25 17:38:27,542] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2021-02-25 17:38:27,543] {logging_mixin.py:103} INFO - [2021-02-25 17:38:27,543] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:38:27,558] {logging_mixin.py:103} INFO - [2021-02-25 17:38:27,558] {dag.py:2266} INFO - Setting next_dagrun for example_bash_operator to 2021-02-23 00:00:00+00:00
+[2021-02-25 17:38:27,569] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py took 0.035 seconds
+[2021-02-25 17:38:54,730] {scheduler_job.py:181} INFO - Started process (PID=192614) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2021-02-25 17:38:54,731] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2021-02-25 17:38:54,732] {logging_mixin.py:103} INFO - [2021-02-25 17:38:54,732] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2021-02-25 17:38:54,740] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2021-02-25 17:38:54,741] {logging_mixin.py:103} INFO - [2021-02-25 17:38:54,741] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:38:54,759] {logging_mixin.py:103} INFO - [2021-02-25 17:38:54,759] {dag.py:2266} INFO - Setting next_dagrun for example_bash_operator to 2021-02-23 00:00:00+00:00
+[2021-02-25 17:38:54,780] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py took 0.052 seconds
+[2021-02-25 17:39:21,805] {scheduler_job.py:181} INFO - Started process (PID=192698) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2021-02-25 17:39:21,806] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2021-02-25 17:39:21,807] {logging_mixin.py:103} INFO - [2021-02-25 17:39:21,806] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2021-02-25 17:39:21,821] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2021-02-25 17:39:21,822] {logging_mixin.py:103} INFO - [2021-02-25 17:39:21,822] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:39:21,843] {logging_mixin.py:103} INFO - [2021-02-25 17:39:21,843] {dag.py:2266} INFO - Setting next_dagrun for example_bash_operator to 2021-02-23 00:00:00+00:00
+[2021-02-25 17:39:21,866] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py took 0.064 seconds
+[2021-02-25 17:39:49,025] {scheduler_job.py:181} INFO - Started process (PID=192972) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2021-02-25 17:39:49,028] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2021-02-25 17:39:49,030] {logging_mixin.py:103} INFO - [2021-02-25 17:39:49,030] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2021-02-25 17:39:49,050] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2021-02-25 17:39:49,051] {logging_mixin.py:103} INFO - [2021-02-25 17:39:49,051] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:39:49,070] {logging_mixin.py:103} INFO - [2021-02-25 17:39:49,070] {dag.py:2266} INFO - Setting next_dagrun for example_bash_operator to 2021-02-23 00:00:00+00:00
+[2021-02-25 17:39:49,079] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py took 0.060 seconds
+[2021-02-25 17:40:16,775] {scheduler_job.py:181} INFO - Started process (PID=193062) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2021-02-25 17:40:16,777] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2021-02-25 17:40:16,777] {logging_mixin.py:103} INFO - [2021-02-25 17:40:16,777] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2021-02-25 17:40:16,791] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2021-02-25 17:40:16,791] {logging_mixin.py:103} INFO - [2021-02-25 17:40:16,791] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:40:16,809] {logging_mixin.py:103} INFO - [2021-02-25 17:40:16,809] {dag.py:2266} INFO - Setting next_dagrun for example_bash_operator to 2021-02-23 00:00:00+00:00
+[2021-02-25 17:40:16,819] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py took 0.047 seconds
+[2021-02-25 17:40:43,046] {scheduler_job.py:181} INFO - Started process (PID=193143) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2021-02-25 17:40:43,047] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2021-02-25 17:40:43,048] {logging_mixin.py:103} INFO - [2021-02-25 17:40:43,048] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2021-02-25 17:40:43,066] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2021-02-25 17:40:43,067] {logging_mixin.py:103} INFO - [2021-02-25 17:40:43,066] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:40:43,084] {logging_mixin.py:103} INFO - [2021-02-25 17:40:43,084] {dag.py:2266} INFO - Setting next_dagrun for example_bash_operator to 2021-02-23 00:00:00+00:00
+[2021-02-25 17:40:43,093] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py took 0.052 seconds

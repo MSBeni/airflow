@@ -285,3 +285,115 @@
 [2021-02-25 17:33:16,800] {logging_mixin.py:103} INFO - [2021-02-25 17:33:16,800] {dag.py:1813} INFO - Sync 1 DAGs
 [2021-02-25 17:33:16,809] {logging_mixin.py:103} INFO - [2021-02-25 17:33:16,809] {dag.py:2266} INFO - Setting next_dagrun for example_kubernetes_executor to None
 [2021-02-25 17:33:16,816] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.024 seconds
+[2021-02-25 17:33:44,484] {scheduler_job.py:181} INFO - Started process (PID=190743) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-02-25 17:33:44,486] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2021-02-25 17:33:44,487] {logging_mixin.py:103} INFO - [2021-02-25 17:33:44,486] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-02-25 17:33:44,505] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_kubernetes_executor']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-02-25 17:33:44,506] {logging_mixin.py:103} INFO - [2021-02-25 17:33:44,506] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:33:44,521] {logging_mixin.py:103} INFO - [2021-02-25 17:33:44,521] {dag.py:2266} INFO - Setting next_dagrun for example_kubernetes_executor to None
+[2021-02-25 17:33:44,531] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.053 seconds
+[2021-02-25 17:34:11,887] {scheduler_job.py:181} INFO - Started process (PID=190892) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-02-25 17:34:11,888] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2021-02-25 17:34:11,888] {logging_mixin.py:103} INFO - [2021-02-25 17:34:11,888] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-02-25 17:34:11,896] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_kubernetes_executor']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-02-25 17:34:11,896] {logging_mixin.py:103} INFO - [2021-02-25 17:34:11,896] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:34:11,908] {logging_mixin.py:103} INFO - [2021-02-25 17:34:11,908] {dag.py:2266} INFO - Setting next_dagrun for example_kubernetes_executor to None
+[2021-02-25 17:34:11,917] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.032 seconds
+[2021-02-25 17:34:39,897] {scheduler_job.py:181} INFO - Started process (PID=190984) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-02-25 17:34:39,897] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2021-02-25 17:34:39,898] {logging_mixin.py:103} INFO - [2021-02-25 17:34:39,898] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-02-25 17:34:39,905] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_kubernetes_executor']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-02-25 17:34:39,905] {logging_mixin.py:103} INFO - [2021-02-25 17:34:39,905] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:34:39,916] {logging_mixin.py:103} INFO - [2021-02-25 17:34:39,916] {dag.py:2266} INFO - Setting next_dagrun for example_kubernetes_executor to None
+[2021-02-25 17:34:39,928] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.033 seconds
+[2021-02-25 17:35:06,771] {scheduler_job.py:181} INFO - Started process (PID=191243) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-02-25 17:35:06,772] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2021-02-25 17:35:06,772] {logging_mixin.py:103} INFO - [2021-02-25 17:35:06,772] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-02-25 17:35:06,784] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_kubernetes_executor']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-02-25 17:35:06,785] {logging_mixin.py:103} INFO - [2021-02-25 17:35:06,785] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:35:06,799] {logging_mixin.py:103} INFO - [2021-02-25 17:35:06,799] {dag.py:2266} INFO - Setting next_dagrun for example_kubernetes_executor to None
+[2021-02-25 17:35:06,809] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.043 seconds
+[2021-02-25 17:35:34,264] {scheduler_job.py:181} INFO - Started process (PID=191308) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-02-25 17:35:34,266] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2021-02-25 17:35:34,268] {logging_mixin.py:103} INFO - [2021-02-25 17:35:34,268] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-02-25 17:35:34,287] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_kubernetes_executor']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-02-25 17:35:34,288] {logging_mixin.py:103} INFO - [2021-02-25 17:35:34,288] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:35:34,302] {logging_mixin.py:103} INFO - [2021-02-25 17:35:34,302] {dag.py:2266} INFO - Setting next_dagrun for example_kubernetes_executor to None
+[2021-02-25 17:35:34,311] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.053 seconds
+[2021-02-25 17:36:02,227] {scheduler_job.py:181} INFO - Started process (PID=191562) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-02-25 17:36:02,228] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2021-02-25 17:36:02,228] {logging_mixin.py:103} INFO - [2021-02-25 17:36:02,228] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-02-25 17:36:02,235] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_kubernetes_executor']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-02-25 17:36:02,235] {logging_mixin.py:103} INFO - [2021-02-25 17:36:02,235] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:36:02,247] {logging_mixin.py:103} INFO - [2021-02-25 17:36:02,247] {dag.py:2266} INFO - Setting next_dagrun for example_kubernetes_executor to None
+[2021-02-25 17:36:02,256] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.031 seconds
+[2021-02-25 17:36:29,035] {scheduler_job.py:181} INFO - Started process (PID=191645) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-02-25 17:36:29,036] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2021-02-25 17:36:29,036] {logging_mixin.py:103} INFO - [2021-02-25 17:36:29,036] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-02-25 17:36:29,043] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_kubernetes_executor']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-02-25 17:36:29,044] {logging_mixin.py:103} INFO - [2021-02-25 17:36:29,044] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:36:29,057] {logging_mixin.py:103} INFO - [2021-02-25 17:36:29,057] {dag.py:2266} INFO - Setting next_dagrun for example_kubernetes_executor to None
+[2021-02-25 17:36:29,066] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.033 seconds
+[2021-02-25 17:36:56,458] {scheduler_job.py:181} INFO - Started process (PID=191891) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-02-25 17:36:56,459] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2021-02-25 17:36:56,459] {logging_mixin.py:103} INFO - [2021-02-25 17:36:56,459] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-02-25 17:36:56,466] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_kubernetes_executor']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-02-25 17:36:56,466] {logging_mixin.py:103} INFO - [2021-02-25 17:36:56,466] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:36:56,476] {logging_mixin.py:103} INFO - [2021-02-25 17:36:56,476] {dag.py:2266} INFO - Setting next_dagrun for example_kubernetes_executor to None
+[2021-02-25 17:36:56,486] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.029 seconds
+[2021-02-25 17:37:23,229] {scheduler_job.py:181} INFO - Started process (PID=191971) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-02-25 17:37:23,230] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2021-02-25 17:37:23,231] {logging_mixin.py:103} INFO - [2021-02-25 17:37:23,231] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-02-25 17:37:23,236] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_kubernetes_executor']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-02-25 17:37:23,237] {logging_mixin.py:103} INFO - [2021-02-25 17:37:23,237] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:37:23,247] {logging_mixin.py:103} INFO - [2021-02-25 17:37:23,247] {dag.py:2266} INFO - Setting next_dagrun for example_kubernetes_executor to None
+[2021-02-25 17:37:23,256] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.028 seconds
+[2021-02-25 17:37:50,944] {scheduler_job.py:181} INFO - Started process (PID=192232) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-02-25 17:37:50,944] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2021-02-25 17:37:50,945] {logging_mixin.py:103} INFO - [2021-02-25 17:37:50,944] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-02-25 17:37:50,951] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_kubernetes_executor']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-02-25 17:37:50,951] {logging_mixin.py:103} INFO - [2021-02-25 17:37:50,951] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:37:50,959] {logging_mixin.py:103} INFO - [2021-02-25 17:37:50,959] {dag.py:2266} INFO - Setting next_dagrun for example_kubernetes_executor to None
+[2021-02-25 17:37:50,968] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.026 seconds
+[2021-02-25 17:38:18,666] {scheduler_job.py:181} INFO - Started process (PID=192334) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-02-25 17:38:18,667] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2021-02-25 17:38:18,668] {logging_mixin.py:103} INFO - [2021-02-25 17:38:18,667] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-02-25 17:38:18,682] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_kubernetes_executor']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-02-25 17:38:18,683] {logging_mixin.py:103} INFO - [2021-02-25 17:38:18,683] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:38:18,700] {logging_mixin.py:103} INFO - [2021-02-25 17:38:18,700] {dag.py:2266} INFO - Setting next_dagrun for example_kubernetes_executor to None
+[2021-02-25 17:38:18,709] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.048 seconds
+[2021-02-25 17:38:45,568] {scheduler_job.py:181} INFO - Started process (PID=192569) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-02-25 17:38:45,570] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2021-02-25 17:38:45,571] {logging_mixin.py:103} INFO - [2021-02-25 17:38:45,571] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-02-25 17:38:45,590] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_kubernetes_executor']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-02-25 17:38:45,591] {logging_mixin.py:103} INFO - [2021-02-25 17:38:45,591] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:38:45,605] {logging_mixin.py:103} INFO - [2021-02-25 17:38:45,605] {dag.py:2266} INFO - Setting next_dagrun for example_kubernetes_executor to None
+[2021-02-25 17:38:45,618] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.056 seconds
+[2021-02-25 17:39:12,434] {scheduler_job.py:181} INFO - Started process (PID=192674) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-02-25 17:39:12,436] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2021-02-25 17:39:12,437] {logging_mixin.py:103} INFO - [2021-02-25 17:39:12,436] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-02-25 17:39:12,460] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_kubernetes_executor']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-02-25 17:39:12,462] {logging_mixin.py:103} INFO - [2021-02-25 17:39:12,462] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:39:12,494] {logging_mixin.py:103} INFO - [2021-02-25 17:39:12,494] {dag.py:2266} INFO - Setting next_dagrun for example_kubernetes_executor to None
+[2021-02-25 17:39:12,509] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.080 seconds
+[2021-02-25 17:39:39,473] {scheduler_job.py:181} INFO - Started process (PID=192766) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-02-25 17:39:39,474] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2021-02-25 17:39:39,474] {logging_mixin.py:103} INFO - [2021-02-25 17:39:39,474] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-02-25 17:39:39,482] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_kubernetes_executor']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-02-25 17:39:39,483] {logging_mixin.py:103} INFO - [2021-02-25 17:39:39,483] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:39:39,493] {logging_mixin.py:103} INFO - [2021-02-25 17:39:39,493] {dag.py:2266} INFO - Setting next_dagrun for example_kubernetes_executor to None
+[2021-02-25 17:39:39,502] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.031 seconds
+[2021-02-25 17:40:07,045] {scheduler_job.py:181} INFO - Started process (PID=193013) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-02-25 17:40:07,047] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2021-02-25 17:40:07,049] {logging_mixin.py:103} INFO - [2021-02-25 17:40:07,048] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-02-25 17:40:07,067] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_kubernetes_executor']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-02-25 17:40:07,068] {logging_mixin.py:103} INFO - [2021-02-25 17:40:07,068] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:40:07,081] {logging_mixin.py:103} INFO - [2021-02-25 17:40:07,081] {dag.py:2266} INFO - Setting next_dagrun for example_kubernetes_executor to None
+[2021-02-25 17:40:07,090] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.052 seconds
+[2021-02-25 17:40:34,979] {scheduler_job.py:181} INFO - Started process (PID=193097) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-02-25 17:40:34,980] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2021-02-25 17:40:34,980] {logging_mixin.py:103} INFO - [2021-02-25 17:40:34,980] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-02-25 17:40:34,990] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_kubernetes_executor']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-02-25 17:40:34,991] {logging_mixin.py:103} INFO - [2021-02-25 17:40:34,991] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:40:35,005] {logging_mixin.py:103} INFO - [2021-02-25 17:40:35,005] {dag.py:2266} INFO - Setting next_dagrun for example_kubernetes_executor to None
+[2021-02-25 17:40:35,014] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.038 seconds
