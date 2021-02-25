@@ -73,8 +73,7 @@ with DAG(dag_id='user_processing', schedule_interval='@daily', default_args=defa
 
     storing_user = BashOperator(
         task_id='storing_user',
-        bash_command='echo -e ".separator", "\n.import /tmp/processed_user.csv users" | sqlite3 '
-                     '/home/airflow/airflow/airflow.db'
+        bash_command='echo -e ".separator ","\n.import /tmp/processed_user.csv users" | sqlite3 /home/i-sip_iot/airflow/airflow.db'
     )
 
 
