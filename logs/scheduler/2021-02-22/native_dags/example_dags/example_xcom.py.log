@@ -1,0 +1,553 @@
+[2021-02-22 18:24:38,338] {scheduler_job.py:181} INFO - Started process (PID=195104) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:24:38,338] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:24:38,338] {logging_mixin.py:103} INFO - [2021-02-22 18:24:38,338] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:24:38,354] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:24:38,355] {logging_mixin.py:103} INFO - [2021-02-22 18:24:38,354] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:24:38,364] {logging_mixin.py:103} INFO - [2021-02-22 18:24:38,364] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:24:38,389] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.052 seconds
+[2021-02-22 18:25:05,041] {scheduler_job.py:181} INFO - Started process (PID=195184) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:25:05,042] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:25:05,043] {logging_mixin.py:103} INFO - [2021-02-22 18:25:05,043] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:25:05,053] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:25:05,054] {logging_mixin.py:103} INFO - [2021-02-22 18:25:05,053] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:25:05,065] {logging_mixin.py:103} INFO - [2021-02-22 18:25:05,065] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:25:05,071] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.034 seconds
+[2021-02-22 18:25:33,068] {scheduler_job.py:181} INFO - Started process (PID=195255) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:25:33,069] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:25:33,069] {logging_mixin.py:103} INFO - [2021-02-22 18:25:33,069] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:25:33,076] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:25:33,077] {logging_mixin.py:103} INFO - [2021-02-22 18:25:33,077] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:25:33,086] {logging_mixin.py:103} INFO - [2021-02-22 18:25:33,086] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:25:33,096] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.029 seconds
+[2021-02-22 18:25:59,292] {scheduler_job.py:181} INFO - Started process (PID=195529) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:25:59,292] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:25:59,293] {logging_mixin.py:103} INFO - [2021-02-22 18:25:59,293] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:25:59,298] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:25:59,298] {logging_mixin.py:103} INFO - [2021-02-22 18:25:59,298] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:25:59,306] {logging_mixin.py:103} INFO - [2021-02-22 18:25:59,306] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:25:59,313] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.023 seconds
+[2021-02-22 18:26:27,337] {scheduler_job.py:181} INFO - Started process (PID=195583) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:26:27,339] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:26:27,340] {logging_mixin.py:103} INFO - [2021-02-22 18:26:27,340] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:26:27,356] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:26:27,358] {logging_mixin.py:103} INFO - [2021-02-22 18:26:27,357] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:26:27,374] {logging_mixin.py:103} INFO - [2021-02-22 18:26:27,374] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:26:27,386] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.053 seconds
+[2021-02-22 18:26:54,285] {scheduler_job.py:181} INFO - Started process (PID=195827) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:26:54,288] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:26:54,289] {logging_mixin.py:103} INFO - [2021-02-22 18:26:54,289] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:26:54,308] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:26:54,309] {logging_mixin.py:103} INFO - [2021-02-22 18:26:54,309] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:26:54,324] {logging_mixin.py:103} INFO - [2021-02-22 18:26:54,324] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:26:54,332] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.054 seconds
+[2021-02-22 18:27:21,824] {scheduler_job.py:181} INFO - Started process (PID=195891) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:27:21,826] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:27:21,827] {logging_mixin.py:103} INFO - [2021-02-22 18:27:21,826] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:27:21,840] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:27:21,841] {logging_mixin.py:103} INFO - [2021-02-22 18:27:21,841] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:27:21,854] {logging_mixin.py:103} INFO - [2021-02-22 18:27:21,854] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:27:21,863] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.044 seconds
+[2021-02-22 18:27:48,737] {scheduler_job.py:181} INFO - Started process (PID=196130) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:27:48,738] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:27:48,739] {logging_mixin.py:103} INFO - [2021-02-22 18:27:48,739] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:27:48,748] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:27:48,749] {logging_mixin.py:103} INFO - [2021-02-22 18:27:48,749] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:27:48,763] {logging_mixin.py:103} INFO - [2021-02-22 18:27:48,763] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:27:48,771] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.037 seconds
+[2021-02-22 18:28:16,693] {scheduler_job.py:181} INFO - Started process (PID=196187) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:28:16,694] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:28:16,695] {logging_mixin.py:103} INFO - [2021-02-22 18:28:16,695] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:28:16,706] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:28:16,706] {logging_mixin.py:103} INFO - [2021-02-22 18:28:16,706] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:28:16,719] {logging_mixin.py:103} INFO - [2021-02-22 18:28:16,718] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:28:16,727] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.039 seconds
+[2021-02-22 18:28:43,530] {scheduler_job.py:181} INFO - Started process (PID=196422) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:28:43,532] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:28:43,534] {logging_mixin.py:103} INFO - [2021-02-22 18:28:43,533] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:28:43,552] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:28:43,553] {logging_mixin.py:103} INFO - [2021-02-22 18:28:43,553] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:28:43,566] {logging_mixin.py:103} INFO - [2021-02-22 18:28:43,566] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:28:43,575] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.051 seconds
+[2021-02-22 18:29:09,948] {scheduler_job.py:181} INFO - Started process (PID=196485) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:29:09,949] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:29:09,951] {logging_mixin.py:103} INFO - [2021-02-22 18:29:09,951] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:29:09,957] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:29:09,957] {logging_mixin.py:103} INFO - [2021-02-22 18:29:09,957] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:29:09,966] {logging_mixin.py:103} INFO - [2021-02-22 18:29:09,966] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:29:09,973] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.027 seconds
+[2021-02-22 18:29:37,175] {scheduler_job.py:181} INFO - Started process (PID=196605) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:29:37,176] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:29:37,176] {logging_mixin.py:103} INFO - [2021-02-22 18:29:37,176] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:29:37,181] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:29:37,182] {logging_mixin.py:103} INFO - [2021-02-22 18:29:37,182] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:29:37,194] {logging_mixin.py:103} INFO - [2021-02-22 18:29:37,194] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:29:37,204] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.031 seconds
+[2021-02-22 18:30:04,969] {scheduler_job.py:181} INFO - Started process (PID=196784) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:30:04,972] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:30:04,973] {logging_mixin.py:103} INFO - [2021-02-22 18:30:04,973] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:30:04,988] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:30:04,989] {logging_mixin.py:103} INFO - [2021-02-22 18:30:04,989] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:30:05,004] {logging_mixin.py:103} INFO - [2021-02-22 18:30:05,004] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:30:05,013] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.049 seconds
+[2021-02-22 18:30:31,869] {scheduler_job.py:181} INFO - Started process (PID=196845) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:30:31,871] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:30:31,872] {logging_mixin.py:103} INFO - [2021-02-22 18:30:31,872] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:30:31,887] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:30:31,888] {logging_mixin.py:103} INFO - [2021-02-22 18:30:31,887] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:30:31,901] {logging_mixin.py:103} INFO - [2021-02-22 18:30:31,901] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:30:31,909] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.047 seconds
+[2021-02-22 18:30:59,426] {scheduler_job.py:181} INFO - Started process (PID=197080) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:30:59,427] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:30:59,428] {logging_mixin.py:103} INFO - [2021-02-22 18:30:59,427] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:30:59,436] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:30:59,436] {logging_mixin.py:103} INFO - [2021-02-22 18:30:59,436] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:30:59,447] {logging_mixin.py:103} INFO - [2021-02-22 18:30:59,447] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:30:59,455] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.032 seconds
+[2021-02-22 18:31:26,404] {scheduler_job.py:181} INFO - Started process (PID=197135) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:31:26,407] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:31:26,408] {logging_mixin.py:103} INFO - [2021-02-22 18:31:26,408] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:31:26,421] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:31:26,422] {logging_mixin.py:103} INFO - [2021-02-22 18:31:26,422] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:31:26,435] {logging_mixin.py:103} INFO - [2021-02-22 18:31:26,435] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:31:26,444] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.045 seconds
+[2021-02-22 18:31:54,463] {scheduler_job.py:181} INFO - Started process (PID=197379) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:31:54,464] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:31:54,464] {logging_mixin.py:103} INFO - [2021-02-22 18:31:54,464] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:31:54,469] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:31:54,470] {logging_mixin.py:103} INFO - [2021-02-22 18:31:54,470] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:31:54,479] {logging_mixin.py:103} INFO - [2021-02-22 18:31:54,479] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:31:54,486] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.026 seconds
+[2021-02-22 18:32:20,852] {scheduler_job.py:181} INFO - Started process (PID=197431) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:32:20,854] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:32:20,856] {logging_mixin.py:103} INFO - [2021-02-22 18:32:20,855] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:32:20,868] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:32:20,869] {logging_mixin.py:103} INFO - [2021-02-22 18:32:20,869] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:32:20,881] {logging_mixin.py:103} INFO - [2021-02-22 18:32:20,881] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:32:20,889] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.044 seconds
+[2021-02-22 18:32:47,770] {scheduler_job.py:181} INFO - Started process (PID=197667) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:32:47,771] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:32:47,772] {logging_mixin.py:103} INFO - [2021-02-22 18:32:47,772] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:32:47,785] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:32:47,786] {logging_mixin.py:103} INFO - [2021-02-22 18:32:47,786] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:32:47,805] {logging_mixin.py:103} INFO - [2021-02-22 18:32:47,805] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:32:47,815] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.048 seconds
+[2021-02-22 18:33:15,744] {scheduler_job.py:181} INFO - Started process (PID=197730) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:33:15,746] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:33:15,748] {logging_mixin.py:103} INFO - [2021-02-22 18:33:15,747] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:33:15,766] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:33:15,767] {logging_mixin.py:103} INFO - [2021-02-22 18:33:15,767] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:33:15,781] {logging_mixin.py:103} INFO - [2021-02-22 18:33:15,781] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:33:15,790] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.052 seconds
+[2021-02-22 18:33:42,603] {scheduler_job.py:181} INFO - Started process (PID=197939) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:33:42,605] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:33:42,607] {logging_mixin.py:103} INFO - [2021-02-22 18:33:42,606] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:33:42,629] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:33:42,630] {logging_mixin.py:103} INFO - [2021-02-22 18:33:42,630] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:33:42,646] {logging_mixin.py:103} INFO - [2021-02-22 18:33:42,646] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:33:42,655] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.059 seconds
+[2021-02-22 18:34:10,274] {scheduler_job.py:181} INFO - Started process (PID=197995) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:34:10,277] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:34:10,278] {logging_mixin.py:103} INFO - [2021-02-22 18:34:10,278] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:34:10,295] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:34:10,296] {logging_mixin.py:103} INFO - [2021-02-22 18:34:10,296] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:34:10,310] {logging_mixin.py:103} INFO - [2021-02-22 18:34:10,310] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:34:10,318] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.051 seconds
+[2021-02-22 18:34:37,266] {scheduler_job.py:181} INFO - Started process (PID=198075) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:34:37,267] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:34:37,267] {logging_mixin.py:103} INFO - [2021-02-22 18:34:37,267] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:34:37,274] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:34:37,274] {logging_mixin.py:103} INFO - [2021-02-22 18:34:37,274] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:34:37,284] {logging_mixin.py:103} INFO - [2021-02-22 18:34:37,284] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:34:37,292] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.028 seconds
+[2021-02-22 18:35:04,121] {scheduler_job.py:181} INFO - Started process (PID=198318) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:35:04,123] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:35:04,125] {logging_mixin.py:103} INFO - [2021-02-22 18:35:04,125] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:35:04,142] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:35:04,143] {logging_mixin.py:103} INFO - [2021-02-22 18:35:04,143] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:35:04,157] {logging_mixin.py:103} INFO - [2021-02-22 18:35:04,157] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:35:04,166] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.052 seconds
+[2021-02-22 18:35:31,641] {scheduler_job.py:181} INFO - Started process (PID=198382) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:35:31,643] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:35:31,645] {logging_mixin.py:103} INFO - [2021-02-22 18:35:31,645] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:35:31,661] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:35:31,663] {logging_mixin.py:103} INFO - [2021-02-22 18:35:31,662] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:35:31,681] {logging_mixin.py:103} INFO - [2021-02-22 18:35:31,681] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:35:31,692] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.058 seconds
+[2021-02-22 18:35:58,766] {scheduler_job.py:181} INFO - Started process (PID=198631) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:35:58,769] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:35:58,770] {logging_mixin.py:103} INFO - [2021-02-22 18:35:58,770] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:35:58,783] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:35:58,784] {logging_mixin.py:103} INFO - [2021-02-22 18:35:58,784] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:35:58,797] {logging_mixin.py:103} INFO - [2021-02-22 18:35:58,797] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:35:58,806] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.044 seconds
+[2021-02-22 18:36:26,447] {scheduler_job.py:181} INFO - Started process (PID=198687) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:36:26,448] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:36:26,449] {logging_mixin.py:103} INFO - [2021-02-22 18:36:26,449] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:36:26,454] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:36:26,454] {logging_mixin.py:103} INFO - [2021-02-22 18:36:26,454] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:36:26,463] {logging_mixin.py:103} INFO - [2021-02-22 18:36:26,463] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:36:26,470] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.025 seconds
+[2021-02-22 18:36:53,434] {scheduler_job.py:181} INFO - Started process (PID=198933) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:36:53,434] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:36:53,435] {logging_mixin.py:103} INFO - [2021-02-22 18:36:53,435] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:36:53,440] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:36:53,440] {logging_mixin.py:103} INFO - [2021-02-22 18:36:53,440] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:36:53,448] {logging_mixin.py:103} INFO - [2021-02-22 18:36:53,448] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:36:53,455] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.023 seconds
+[2021-02-22 18:37:19,852] {scheduler_job.py:181} INFO - Started process (PID=198981) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:37:19,854] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:37:19,854] {logging_mixin.py:103} INFO - [2021-02-22 18:37:19,854] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:37:19,862] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:37:19,862] {logging_mixin.py:103} INFO - [2021-02-22 18:37:19,862] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:37:19,873] {logging_mixin.py:103} INFO - [2021-02-22 18:37:19,873] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:37:19,882] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.032 seconds
+[2021-02-22 18:37:47,874] {scheduler_job.py:181} INFO - Started process (PID=199255) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:37:47,874] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:37:47,875] {logging_mixin.py:103} INFO - [2021-02-22 18:37:47,874] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:37:47,880] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:37:47,881] {logging_mixin.py:103} INFO - [2021-02-22 18:37:47,881] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:37:47,890] {logging_mixin.py:103} INFO - [2021-02-22 18:37:47,889] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:37:47,897] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.025 seconds
+[2021-02-22 18:38:14,997] {scheduler_job.py:181} INFO - Started process (PID=199300) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:38:15,000] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:38:15,001] {logging_mixin.py:103} INFO - [2021-02-22 18:38:15,001] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:38:15,018] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:38:15,019] {logging_mixin.py:103} INFO - [2021-02-22 18:38:15,019] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:38:15,032] {logging_mixin.py:103} INFO - [2021-02-22 18:38:15,032] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:38:15,041] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.051 seconds
+[2021-02-22 18:38:42,334] {scheduler_job.py:181} INFO - Started process (PID=199535) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:38:42,337] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:38:42,338] {logging_mixin.py:103} INFO - [2021-02-22 18:38:42,338] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:38:42,351] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:38:42,352] {logging_mixin.py:103} INFO - [2021-02-22 18:38:42,352] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:38:42,365] {logging_mixin.py:103} INFO - [2021-02-22 18:38:42,365] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:38:42,373] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.047 seconds
+[2021-02-22 18:39:09,242] {scheduler_job.py:181} INFO - Started process (PID=199590) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:39:09,246] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:39:09,247] {logging_mixin.py:103} INFO - [2021-02-22 18:39:09,247] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:39:09,263] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:39:09,264] {logging_mixin.py:103} INFO - [2021-02-22 18:39:09,264] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:39:09,278] {logging_mixin.py:103} INFO - [2021-02-22 18:39:09,278] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:39:09,287] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.051 seconds
+[2021-02-22 18:39:37,327] {scheduler_job.py:181} INFO - Started process (PID=199657) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:39:37,327] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:39:37,328] {logging_mixin.py:103} INFO - [2021-02-22 18:39:37,328] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:39:37,334] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:39:37,335] {logging_mixin.py:103} INFO - [2021-02-22 18:39:37,335] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:39:37,345] {logging_mixin.py:103} INFO - [2021-02-22 18:39:37,345] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:39:37,353] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.029 seconds
+[2021-02-22 18:40:03,225] {scheduler_job.py:181} INFO - Started process (PID=199892) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:40:03,227] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:40:03,229] {logging_mixin.py:103} INFO - [2021-02-22 18:40:03,229] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:40:03,244] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:40:03,245] {logging_mixin.py:103} INFO - [2021-02-22 18:40:03,245] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:40:03,259] {logging_mixin.py:103} INFO - [2021-02-22 18:40:03,258] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:40:03,267] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.048 seconds
+[2021-02-22 18:40:29,956] {scheduler_job.py:181} INFO - Started process (PID=199955) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:40:29,957] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:40:29,957] {logging_mixin.py:103} INFO - [2021-02-22 18:40:29,957] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:40:29,963] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:40:29,963] {logging_mixin.py:103} INFO - [2021-02-22 18:40:29,963] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:40:29,971] {logging_mixin.py:103} INFO - [2021-02-22 18:40:29,971] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:40:29,979] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.025 seconds
+[2021-02-22 18:40:56,369] {scheduler_job.py:181} INFO - Started process (PID=200188) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:40:56,371] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:40:56,372] {logging_mixin.py:103} INFO - [2021-02-22 18:40:56,372] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:40:56,398] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:40:56,400] {logging_mixin.py:103} INFO - [2021-02-22 18:40:56,400] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:40:56,417] {logging_mixin.py:103} INFO - [2021-02-22 18:40:56,417] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:40:56,429] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.066 seconds
+[2021-02-22 18:41:23,327] {scheduler_job.py:181} INFO - Started process (PID=200262) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:41:23,329] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:41:23,330] {logging_mixin.py:103} INFO - [2021-02-22 18:41:23,330] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:41:23,351] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:41:23,352] {logging_mixin.py:103} INFO - [2021-02-22 18:41:23,352] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:41:23,370] {logging_mixin.py:103} INFO - [2021-02-22 18:41:23,370] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:41:23,382] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.062 seconds
+[2021-02-22 18:41:51,347] {scheduler_job.py:181} INFO - Started process (PID=200523) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:41:51,348] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:41:51,348] {logging_mixin.py:103} INFO - [2021-02-22 18:41:51,348] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:41:51,353] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:41:51,354] {logging_mixin.py:103} INFO - [2021-02-22 18:41:51,354] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:41:51,364] {logging_mixin.py:103} INFO - [2021-02-22 18:41:51,364] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:41:51,371] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.025 seconds
+[2021-02-22 18:42:18,274] {scheduler_job.py:181} INFO - Started process (PID=200581) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:42:18,276] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:42:18,278] {logging_mixin.py:103} INFO - [2021-02-22 18:42:18,278] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:42:18,295] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:42:18,296] {logging_mixin.py:103} INFO - [2021-02-22 18:42:18,296] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:42:18,310] {logging_mixin.py:103} INFO - [2021-02-22 18:42:18,310] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:42:18,319] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.052 seconds
+[2021-02-22 18:42:45,884] {scheduler_job.py:181} INFO - Started process (PID=200796) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:42:45,886] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:42:45,888] {logging_mixin.py:103} INFO - [2021-02-22 18:42:45,888] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:42:45,908] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:42:45,909] {logging_mixin.py:103} INFO - [2021-02-22 18:42:45,909] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:42:45,924] {logging_mixin.py:103} INFO - [2021-02-22 18:42:45,924] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:42:45,933] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.055 seconds
+[2021-02-22 18:43:12,758] {scheduler_job.py:181} INFO - Started process (PID=200855) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:43:12,760] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:43:12,761] {logging_mixin.py:103} INFO - [2021-02-22 18:43:12,761] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:43:12,781] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:43:12,782] {logging_mixin.py:103} INFO - [2021-02-22 18:43:12,782] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:43:12,798] {logging_mixin.py:103} INFO - [2021-02-22 18:43:12,798] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:43:12,807] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.056 seconds
+[2021-02-22 18:43:39,720] {scheduler_job.py:181} INFO - Started process (PID=200910) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:43:39,723] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:43:39,724] {logging_mixin.py:103} INFO - [2021-02-22 18:43:39,724] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:43:39,739] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:43:39,740] {logging_mixin.py:103} INFO - [2021-02-22 18:43:39,740] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:43:39,753] {logging_mixin.py:103} INFO - [2021-02-22 18:43:39,753] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:43:39,762] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.049 seconds
+[2021-02-22 18:44:05,494] {scheduler_job.py:181} INFO - Started process (PID=201153) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:44:05,494] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:44:05,496] {logging_mixin.py:103} INFO - [2021-02-22 18:44:05,495] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:44:05,504] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:44:05,505] {logging_mixin.py:103} INFO - [2021-02-22 18:44:05,505] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:44:05,520] {logging_mixin.py:103} INFO - [2021-02-22 18:44:05,519] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:44:05,530] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.038 seconds
+[2021-02-22 18:44:33,009] {scheduler_job.py:181} INFO - Started process (PID=201222) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:44:33,010] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:44:33,011] {logging_mixin.py:103} INFO - [2021-02-22 18:44:33,011] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:44:33,022] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:44:33,022] {logging_mixin.py:103} INFO - [2021-02-22 18:44:33,022] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:44:33,037] {logging_mixin.py:103} INFO - [2021-02-22 18:44:33,037] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:44:33,047] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.041 seconds
+[2021-02-22 18:45:00,948] {scheduler_job.py:181} INFO - Started process (PID=201474) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:45:00,949] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:45:00,949] {logging_mixin.py:103} INFO - [2021-02-22 18:45:00,949] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:45:00,957] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:45:00,958] {logging_mixin.py:103} INFO - [2021-02-22 18:45:00,958] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:45:00,969] {logging_mixin.py:103} INFO - [2021-02-22 18:45:00,969] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:45:00,976] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.031 seconds
+[2021-02-22 18:45:27,888] {scheduler_job.py:181} INFO - Started process (PID=201533) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:45:27,891] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:45:27,893] {logging_mixin.py:103} INFO - [2021-02-22 18:45:27,892] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:45:27,908] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:45:27,909] {logging_mixin.py:103} INFO - [2021-02-22 18:45:27,909] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:45:27,923] {logging_mixin.py:103} INFO - [2021-02-22 18:45:27,923] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:45:27,931] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.050 seconds
+[2021-02-22 18:45:54,820] {scheduler_job.py:181} INFO - Started process (PID=201769) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:45:54,820] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:45:54,821] {logging_mixin.py:103} INFO - [2021-02-22 18:45:54,821] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:45:54,826] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:45:54,826] {logging_mixin.py:103} INFO - [2021-02-22 18:45:54,826] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:45:54,835] {logging_mixin.py:103} INFO - [2021-02-22 18:45:54,835] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:45:54,843] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.024 seconds
+[2021-02-22 18:46:22,357] {scheduler_job.py:181} INFO - Started process (PID=201823) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:46:22,361] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:46:22,362] {logging_mixin.py:103} INFO - [2021-02-22 18:46:22,362] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:46:22,378] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:46:22,379] {logging_mixin.py:103} INFO - [2021-02-22 18:46:22,379] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:46:22,394] {logging_mixin.py:103} INFO - [2021-02-22 18:46:22,394] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:46:22,403] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.053 seconds
+[2021-02-22 18:46:49,438] {scheduler_job.py:181} INFO - Started process (PID=202068) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:46:49,438] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:46:49,438] {logging_mixin.py:103} INFO - [2021-02-22 18:46:49,438] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:46:49,444] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:46:49,444] {logging_mixin.py:103} INFO - [2021-02-22 18:46:49,444] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:46:49,453] {logging_mixin.py:103} INFO - [2021-02-22 18:46:49,453] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:46:49,462] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.026 seconds
+[2021-02-22 18:47:17,174] {scheduler_job.py:181} INFO - Started process (PID=202125) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:47:17,176] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:47:17,178] {logging_mixin.py:103} INFO - [2021-02-22 18:47:17,177] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:47:17,195] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:47:17,196] {logging_mixin.py:103} INFO - [2021-02-22 18:47:17,195] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:47:17,210] {logging_mixin.py:103} INFO - [2021-02-22 18:47:17,210] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:47:17,218] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.052 seconds
+[2021-02-22 18:47:44,615] {scheduler_job.py:181} INFO - Started process (PID=202195) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:47:44,617] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:47:44,618] {logging_mixin.py:103} INFO - [2021-02-22 18:47:44,617] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:47:44,628] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:47:44,629] {logging_mixin.py:103} INFO - [2021-02-22 18:47:44,629] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:47:44,642] {logging_mixin.py:103} INFO - [2021-02-22 18:47:44,641] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:47:44,649] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.039 seconds
+[2021-02-22 18:48:11,501] {scheduler_job.py:181} INFO - Started process (PID=202437) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:48:11,502] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:48:11,502] {logging_mixin.py:103} INFO - [2021-02-22 18:48:11,502] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:48:11,508] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:48:11,509] {logging_mixin.py:103} INFO - [2021-02-22 18:48:11,509] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:48:11,520] {logging_mixin.py:103} INFO - [2021-02-22 18:48:11,520] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:48:11,529] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.029 seconds
+[2021-02-22 18:48:38,426] {scheduler_job.py:181} INFO - Started process (PID=202497) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:48:38,427] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:48:38,428] {logging_mixin.py:103} INFO - [2021-02-22 18:48:38,428] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:48:38,435] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:48:38,435] {logging_mixin.py:103} INFO - [2021-02-22 18:48:38,435] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:48:38,445] {logging_mixin.py:103} INFO - [2021-02-22 18:48:38,445] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:48:38,453] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.029 seconds
+[2021-02-22 18:49:05,819] {scheduler_job.py:181} INFO - Started process (PID=202724) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:49:05,820] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:49:05,821] {logging_mixin.py:103} INFO - [2021-02-22 18:49:05,821] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:49:05,838] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:49:05,839] {logging_mixin.py:103} INFO - [2021-02-22 18:49:05,839] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:49:05,857] {logging_mixin.py:103} INFO - [2021-02-22 18:49:05,857] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:49:05,867] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.052 seconds
+[2021-02-22 18:49:32,804] {scheduler_job.py:181} INFO - Started process (PID=202788) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:49:32,806] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:49:32,808] {logging_mixin.py:103} INFO - [2021-02-22 18:49:32,808] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:49:32,826] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:49:32,827] {logging_mixin.py:103} INFO - [2021-02-22 18:49:32,827] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:49:32,840] {logging_mixin.py:103} INFO - [2021-02-22 18:49:32,840] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:49:32,848] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.051 seconds
+[2021-02-22 18:50:00,838] {scheduler_job.py:181} INFO - Started process (PID=203039) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:50:00,840] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:50:00,841] {logging_mixin.py:103} INFO - [2021-02-22 18:50:00,841] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:50:00,862] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:50:00,863] {logging_mixin.py:103} INFO - [2021-02-22 18:50:00,862] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:50:00,876] {logging_mixin.py:103} INFO - [2021-02-22 18:50:00,876] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:50:00,886] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.055 seconds
+[2021-02-22 18:50:27,771] {scheduler_job.py:181} INFO - Started process (PID=203077) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:50:27,773] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:50:27,775] {logging_mixin.py:103} INFO - [2021-02-22 18:50:27,775] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:50:27,792] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:50:27,793] {logging_mixin.py:103} INFO - [2021-02-22 18:50:27,793] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:50:27,807] {logging_mixin.py:103} INFO - [2021-02-22 18:50:27,807] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:50:27,815] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.051 seconds
+[2021-02-22 18:50:54,184] {scheduler_job.py:181} INFO - Started process (PID=203308) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:50:54,186] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:50:54,187] {logging_mixin.py:103} INFO - [2021-02-22 18:50:54,186] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:50:54,202] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:50:54,203] {logging_mixin.py:103} INFO - [2021-02-22 18:50:54,203] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:50:54,216] {logging_mixin.py:103} INFO - [2021-02-22 18:50:54,216] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:50:54,225] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.046 seconds
+[2021-02-22 18:51:21,979] {scheduler_job.py:181} INFO - Started process (PID=203380) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:51:21,982] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:51:21,983] {logging_mixin.py:103} INFO - [2021-02-22 18:51:21,983] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:51:22,004] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:51:22,005] {logging_mixin.py:103} INFO - [2021-02-22 18:51:22,005] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:51:22,020] {logging_mixin.py:103} INFO - [2021-02-22 18:51:22,020] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:51:22,029] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.056 seconds
+[2021-02-22 18:51:50,221] {scheduler_job.py:181} INFO - Started process (PID=203662) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:51:50,223] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:51:50,224] {logging_mixin.py:103} INFO - [2021-02-22 18:51:50,224] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:51:50,242] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:51:50,244] {logging_mixin.py:103} INFO - [2021-02-22 18:51:50,243] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:51:50,258] {logging_mixin.py:103} INFO - [2021-02-22 18:51:50,258] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:51:50,267] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.052 seconds
+[2021-02-22 18:52:16,543] {scheduler_job.py:181} INFO - Started process (PID=203717) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:52:16,544] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:52:16,544] {logging_mixin.py:103} INFO - [2021-02-22 18:52:16,544] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:52:16,552] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:52:16,553] {logging_mixin.py:103} INFO - [2021-02-22 18:52:16,553] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:52:16,566] {logging_mixin.py:103} INFO - [2021-02-22 18:52:16,565] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:52:16,574] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.033 seconds
+[2021-02-22 18:52:43,571] {scheduler_job.py:181} INFO - Started process (PID=203775) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:52:43,574] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:52:43,575] {logging_mixin.py:103} INFO - [2021-02-22 18:52:43,575] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:52:43,591] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:52:43,592] {logging_mixin.py:103} INFO - [2021-02-22 18:52:43,592] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:52:43,606] {logging_mixin.py:103} INFO - [2021-02-22 18:52:43,606] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:52:43,614] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.050 seconds
+[2021-02-22 18:53:10,397] {scheduler_job.py:181} INFO - Started process (PID=204003) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:53:10,399] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:53:10,400] {logging_mixin.py:103} INFO - [2021-02-22 18:53:10,400] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:53:10,415] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:53:10,416] {logging_mixin.py:103} INFO - [2021-02-22 18:53:10,416] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:53:10,429] {logging_mixin.py:103} INFO - [2021-02-22 18:53:10,429] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:53:10,438] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.048 seconds
+[2021-02-22 18:53:38,161] {scheduler_job.py:181} INFO - Started process (PID=204063) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:53:38,163] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:53:38,165] {logging_mixin.py:103} INFO - [2021-02-22 18:53:38,164] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:53:38,178] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:53:38,179] {logging_mixin.py:103} INFO - [2021-02-22 18:53:38,179] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:53:38,192] {logging_mixin.py:103} INFO - [2021-02-22 18:53:38,192] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:53:38,200] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.045 seconds
+[2021-02-22 18:54:04,887] {scheduler_job.py:181} INFO - Started process (PID=204308) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:54:04,889] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:54:04,890] {logging_mixin.py:103} INFO - [2021-02-22 18:54:04,890] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:54:04,913] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:54:04,914] {logging_mixin.py:103} INFO - [2021-02-22 18:54:04,914] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:54:04,931] {logging_mixin.py:103} INFO - [2021-02-22 18:54:04,931] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:54:04,941] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.060 seconds
+[2021-02-22 18:54:32,973] {scheduler_job.py:181} INFO - Started process (PID=204384) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:54:32,974] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:54:32,974] {logging_mixin.py:103} INFO - [2021-02-22 18:54:32,974] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:54:32,979] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:54:32,979] {logging_mixin.py:103} INFO - [2021-02-22 18:54:32,979] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:54:32,988] {logging_mixin.py:103} INFO - [2021-02-22 18:54:32,988] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:54:32,995] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.024 seconds
+[2021-02-22 18:54:59,911] {scheduler_job.py:181} INFO - Started process (PID=204611) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:54:59,913] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:54:59,914] {logging_mixin.py:103} INFO - [2021-02-22 18:54:59,914] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:54:59,931] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:54:59,932] {logging_mixin.py:103} INFO - [2021-02-22 18:54:59,932] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:54:59,946] {logging_mixin.py:103} INFO - [2021-02-22 18:54:59,946] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:54:59,955] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.050 seconds
+[2021-02-22 18:55:27,369] {scheduler_job.py:181} INFO - Started process (PID=204676) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:55:27,371] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:55:27,373] {logging_mixin.py:103} INFO - [2021-02-22 18:55:27,372] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:55:27,392] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:55:27,393] {logging_mixin.py:103} INFO - [2021-02-22 18:55:27,393] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:55:27,407] {logging_mixin.py:103} INFO - [2021-02-22 18:55:27,407] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:55:27,415] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.055 seconds
+[2021-02-22 18:55:54,293] {scheduler_job.py:181} INFO - Started process (PID=204906) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:55:54,295] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:55:54,296] {logging_mixin.py:103} INFO - [2021-02-22 18:55:54,296] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:55:54,316] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:55:54,317] {logging_mixin.py:103} INFO - [2021-02-22 18:55:54,317] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:55:54,334] {logging_mixin.py:103} INFO - [2021-02-22 18:55:54,334] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:55:54,343] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.058 seconds
+[2021-02-22 18:56:21,243] {scheduler_job.py:181} INFO - Started process (PID=204961) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:56:21,245] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:56:21,247] {logging_mixin.py:103} INFO - [2021-02-22 18:56:21,246] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:56:21,266] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:56:21,267] {logging_mixin.py:103} INFO - [2021-02-22 18:56:21,267] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:56:21,282] {logging_mixin.py:103} INFO - [2021-02-22 18:56:21,282] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:56:21,291] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.054 seconds
+[2021-02-22 18:56:49,265] {scheduler_job.py:181} INFO - Started process (PID=205161) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:56:49,267] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:56:49,268] {logging_mixin.py:103} INFO - [2021-02-22 18:56:49,268] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:56:49,280] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:56:49,281] {logging_mixin.py:103} INFO - [2021-02-22 18:56:49,281] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:56:49,292] {logging_mixin.py:103} INFO - [2021-02-22 18:56:49,292] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:56:49,301] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.039 seconds
+[2021-02-22 18:57:15,478] {scheduler_job.py:181} INFO - Started process (PID=205271) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:57:15,479] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:57:15,479] {logging_mixin.py:103} INFO - [2021-02-22 18:57:15,479] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:57:15,484] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:57:15,485] {logging_mixin.py:103} INFO - [2021-02-22 18:57:15,485] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:57:15,494] {logging_mixin.py:103} INFO - [2021-02-22 18:57:15,494] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:57:15,503] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.026 seconds
+[2021-02-22 18:57:43,528] {scheduler_job.py:181} INFO - Started process (PID=205362) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:57:43,529] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:57:43,529] {logging_mixin.py:103} INFO - [2021-02-22 18:57:43,529] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:57:43,534] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:57:43,535] {logging_mixin.py:103} INFO - [2021-02-22 18:57:43,535] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:57:43,543] {logging_mixin.py:103} INFO - [2021-02-22 18:57:43,543] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:57:43,551] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.024 seconds
+[2021-02-22 18:58:10,622] {scheduler_job.py:181} INFO - Started process (PID=205593) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:58:10,624] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:58:10,625] {logging_mixin.py:103} INFO - [2021-02-22 18:58:10,625] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:58:10,643] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:58:10,643] {logging_mixin.py:103} INFO - [2021-02-22 18:58:10,643] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:58:10,657] {logging_mixin.py:103} INFO - [2021-02-22 18:58:10,657] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:58:10,666] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.051 seconds
+[2021-02-22 18:58:37,906] {scheduler_job.py:181} INFO - Started process (PID=205669) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:58:37,906] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:58:37,907] {logging_mixin.py:103} INFO - [2021-02-22 18:58:37,907] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:58:37,912] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:58:37,912] {logging_mixin.py:103} INFO - [2021-02-22 18:58:37,912] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:58:37,921] {logging_mixin.py:103} INFO - [2021-02-22 18:58:37,921] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:58:37,928] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.024 seconds
+[2021-02-22 18:59:04,853] {scheduler_job.py:181} INFO - Started process (PID=205908) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:59:04,855] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:59:04,857] {logging_mixin.py:103} INFO - [2021-02-22 18:59:04,856] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:59:04,870] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:59:04,871] {logging_mixin.py:103} INFO - [2021-02-22 18:59:04,871] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:59:04,885] {logging_mixin.py:103} INFO - [2021-02-22 18:59:04,885] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:59:04,893] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.047 seconds
+[2021-02-22 18:59:32,911] {scheduler_job.py:181} INFO - Started process (PID=205968) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:59:32,913] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:59:32,915] {logging_mixin.py:103} INFO - [2021-02-22 18:59:32,914] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:59:32,935] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:59:32,936] {logging_mixin.py:103} INFO - [2021-02-22 18:59:32,936] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:59:32,951] {logging_mixin.py:103} INFO - [2021-02-22 18:59:32,950] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:59:32,960] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.056 seconds
+[2021-02-22 18:59:59,846] {scheduler_job.py:181} INFO - Started process (PID=206211) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:59:59,847] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-22 18:59:59,847] {logging_mixin.py:103} INFO - [2021-02-22 18:59:59,847] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:59:59,855] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-22 18:59:59,855] {logging_mixin.py:103} INFO - [2021-02-22 18:59:59,855] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 18:59:59,868] {logging_mixin.py:103} INFO - [2021-02-22 18:59:59,868] {dag.py:2266} INFO - Setting next_dagrun for example_xcom to 2021-02-20 00:00:00+00:00
+[2021-02-22 18:59:59,878] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.034 seconds
