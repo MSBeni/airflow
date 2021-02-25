@@ -257,3 +257,24 @@
 [2021-02-25 17:31:53,841] {logging_mixin.py:103} INFO - [2021-02-25 17:31:53,840] {dag.py:1813} INFO - Sync 1 DAGs
 [2021-02-25 17:31:53,853] {logging_mixin.py:103} INFO - [2021-02-25 17:31:53,853] {dag.py:2266} INFO - Setting next_dagrun for example_dag_decorator to None
 [2021-02-25 17:31:53,857] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.026 seconds
+[2021-02-25 17:32:20,954] {scheduler_job.py:181} INFO - Started process (PID=190110) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-02-25 17:32:20,956] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-02-25 17:32:20,957] {logging_mixin.py:103} INFO - [2021-02-25 17:32:20,957] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-02-25 17:32:20,975] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-02-25 17:32:20,976] {logging_mixin.py:103} INFO - [2021-02-25 17:32:20,976] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:32:20,989] {logging_mixin.py:103} INFO - [2021-02-25 17:32:20,988] {dag.py:2266} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-02-25 17:32:21,010] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.062 seconds
+[2021-02-25 17:32:48,781] {scheduler_job.py:181} INFO - Started process (PID=190407) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-02-25 17:32:48,782] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-02-25 17:32:48,782] {logging_mixin.py:103} INFO - [2021-02-25 17:32:48,782] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-02-25 17:32:48,789] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-02-25 17:32:48,790] {logging_mixin.py:103} INFO - [2021-02-25 17:32:48,790] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:32:48,800] {logging_mixin.py:103} INFO - [2021-02-25 17:32:48,800] {dag.py:2266} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-02-25 17:32:48,805] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.025 seconds
+[2021-02-25 17:33:16,467] {scheduler_job.py:181} INFO - Started process (PID=190490) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-02-25 17:33:16,468] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-02-25 17:33:16,469] {logging_mixin.py:103} INFO - [2021-02-25 17:33:16,469] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-02-25 17:33:16,480] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-02-25 17:33:16,481] {logging_mixin.py:103} INFO - [2021-02-25 17:33:16,481] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:33:16,491] {logging_mixin.py:103} INFO - [2021-02-25 17:33:16,491] {dag.py:2266} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-02-25 17:33:16,515] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.050 seconds

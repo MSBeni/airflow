@@ -302,3 +302,27 @@
 [2021-02-25 17:32:08,342] {logging_mixin.py:103} INFO - [2021-02-25 17:32:08,342] {dag.py:2266} INFO - Setting next_dagrun for example_external_task_marker_child to None
 [2021-02-25 17:32:08,343] {logging_mixin.py:103} INFO - [2021-02-25 17:32:08,342] {dag.py:2266} INFO - Setting next_dagrun for example_external_task_marker_parent to None
 [2021-02-25 17:32:08,366] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.043 seconds
+[2021-02-25 17:32:35,291] {scheduler_job.py:181} INFO - Started process (PID=190161) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2021-02-25 17:32:35,293] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2021-02-25 17:32:35,294] {logging_mixin.py:103} INFO - [2021-02-25 17:32:35,294] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2021-02-25 17:32:35,311] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2021-02-25 17:32:35,312] {logging_mixin.py:103} INFO - [2021-02-25 17:32:35,312] {dag.py:1813} INFO - Sync 2 DAGs
+[2021-02-25 17:32:35,327] {logging_mixin.py:103} INFO - [2021-02-25 17:32:35,327] {dag.py:2266} INFO - Setting next_dagrun for example_external_task_marker_child to None
+[2021-02-25 17:32:35,328] {logging_mixin.py:103} INFO - [2021-02-25 17:32:35,328] {dag.py:2266} INFO - Setting next_dagrun for example_external_task_marker_parent to None
+[2021-02-25 17:32:35,337] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.052 seconds
+[2021-02-25 17:33:02,796] {scheduler_job.py:181} INFO - Started process (PID=190455) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2021-02-25 17:33:02,796] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2021-02-25 17:33:02,797] {logging_mixin.py:103} INFO - [2021-02-25 17:33:02,797] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2021-02-25 17:33:02,803] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2021-02-25 17:33:02,803] {logging_mixin.py:103} INFO - [2021-02-25 17:33:02,803] {dag.py:1813} INFO - Sync 2 DAGs
+[2021-02-25 17:33:02,816] {logging_mixin.py:103} INFO - [2021-02-25 17:33:02,816] {dag.py:2266} INFO - Setting next_dagrun for example_external_task_marker_child to None
+[2021-02-25 17:33:02,817] {logging_mixin.py:103} INFO - [2021-02-25 17:33:02,817] {dag.py:2266} INFO - Setting next_dagrun for example_external_task_marker_parent to None
+[2021-02-25 17:33:02,828] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.034 seconds
+[2021-02-25 17:33:30,155] {scheduler_job.py:181} INFO - Started process (PID=190537) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2021-02-25 17:33:30,157] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2021-02-25 17:33:30,157] {logging_mixin.py:103} INFO - [2021-02-25 17:33:30,157] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2021-02-25 17:33:30,170] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2021-02-25 17:33:30,171] {logging_mixin.py:103} INFO - [2021-02-25 17:33:30,171] {dag.py:1813} INFO - Sync 2 DAGs
+[2021-02-25 17:33:30,189] {logging_mixin.py:103} INFO - [2021-02-25 17:33:30,189] {dag.py:2266} INFO - Setting next_dagrun for example_external_task_marker_child to None
+[2021-02-25 17:33:30,190] {logging_mixin.py:103} INFO - [2021-02-25 17:33:30,190] {dag.py:2266} INFO - Setting next_dagrun for example_external_task_marker_parent to None
+[2021-02-25 17:33:30,213] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.061 seconds

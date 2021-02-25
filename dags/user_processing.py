@@ -18,7 +18,7 @@ def _processing_user(ti):
     if not len(users) or 'results' not in users[0]:
         raise ValueError('User is Empty ...')
 
-    user = users[0]['results']
+    user = users[0]['results'][0]
     # Using json_normalize to create a dataframe from the dictionary
     processed_user = json_normalize({
         'first_name': user['name']['first'],

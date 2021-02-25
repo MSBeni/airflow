@@ -257,3 +257,31 @@
 [2021-02-25 17:31:49,857] {logging_mixin.py:103} INFO - [2021-02-25 17:31:49,857] {dag.py:1813} INFO - Sync 1 DAGs
 [2021-02-25 17:31:49,882] {logging_mixin.py:103} INFO - [2021-02-25 17:31:49,882] {dag.py:2266} INFO - Setting next_dagrun for example_branch_operator to 2021-02-23 00:00:00+00:00
 [2021-02-25 17:31:49,893] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py took 0.065 seconds
+[2021-02-25 17:32:17,374] {scheduler_job.py:181} INFO - Started process (PID=190106) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-02-25 17:32:17,377] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2021-02-25 17:32:17,378] {logging_mixin.py:103} INFO - [2021-02-25 17:32:17,378] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-02-25 17:32:17,393] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-02-25 17:32:17,394] {logging_mixin.py:103} INFO - [2021-02-25 17:32:17,394] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:32:17,410] {logging_mixin.py:103} INFO - [2021-02-25 17:32:17,410] {dag.py:2266} INFO - Setting next_dagrun for example_branch_operator to 2021-02-23 00:00:00+00:00
+[2021-02-25 17:32:17,418] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py took 0.051 seconds
+[2021-02-25 17:32:44,456] {scheduler_job.py:181} INFO - Started process (PID=190357) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-02-25 17:32:44,459] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2021-02-25 17:32:44,460] {logging_mixin.py:103} INFO - [2021-02-25 17:32:44,460] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-02-25 17:32:44,482] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-02-25 17:32:44,483] {logging_mixin.py:103} INFO - [2021-02-25 17:32:44,483] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:32:44,501] {logging_mixin.py:103} INFO - [2021-02-25 17:32:44,500] {dag.py:2266} INFO - Setting next_dagrun for example_branch_operator to 2021-02-23 00:00:00+00:00
+[2021-02-25 17:32:44,510] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py took 0.060 seconds
+[2021-02-25 17:33:12,455] {scheduler_job.py:181} INFO - Started process (PID=190465) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-02-25 17:33:12,456] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2021-02-25 17:33:12,457] {logging_mixin.py:103} INFO - [2021-02-25 17:33:12,456] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-02-25 17:33:12,469] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-02-25 17:33:12,470] {logging_mixin.py:103} INFO - [2021-02-25 17:33:12,470] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:33:12,495] {logging_mixin.py:103} INFO - [2021-02-25 17:33:12,495] {dag.py:2266} INFO - Setting next_dagrun for example_branch_operator to 2021-02-23 00:00:00+00:00
+[2021-02-25 17:33:12,506] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py took 0.055 seconds
+[2021-02-25 17:33:39,346] {scheduler_job.py:181} INFO - Started process (PID=190567) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-02-25 17:33:39,348] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2021-02-25 17:33:39,349] {logging_mixin.py:103} INFO - [2021-02-25 17:33:39,349] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-02-25 17:33:39,370] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-02-25 17:33:39,371] {logging_mixin.py:103} INFO - [2021-02-25 17:33:39,370] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-25 17:33:39,389] {logging_mixin.py:103} INFO - [2021-02-25 17:33:39,389] {dag.py:2266} INFO - Setting next_dagrun for example_branch_operator to 2021-02-23 00:00:00+00:00
+[2021-02-25 17:33:39,398] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py took 0.057 seconds
