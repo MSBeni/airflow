@@ -12,8 +12,9 @@ default_args = {
 }
 
 
-def _processing_user():
-    users = None
+# when your task is triggered by the scheduler you can access a task instance (ti) object
+def _processing_user(ti):
+    users = ti.xcom_pull(task_ids=['user_extraction'])
     if not len(users) or 'results' not in users[0]:
         raise ValueError('User is Empty ...')
 
@@ -27,6 +28,7 @@ def _processing_user():
         'password': user['login']['password'],
         'email': user['email']
         })
+    processed_user.to_csv('/tmp/processed_user.csv', index=None, header=False)
 
 
 # each DAG out to has a unique dag_id
@@ -69,6 +71,3 @@ with DAG(dag_id='user_processing', schedule_interval='@daily', default_args=defa
     )
 
 
-
-
-    
