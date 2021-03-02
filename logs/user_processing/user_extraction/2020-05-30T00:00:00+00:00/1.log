@@ -1,0 +1,25 @@
+[2021-03-01 20:51:14,477] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: user_processing.user_extraction 2020-05-30T00:00:00+00:00 [queued]>
+[2021-03-01 20:51:14,483] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: user_processing.user_extraction 2020-05-30T00:00:00+00:00 [queued]>
+[2021-03-01 20:51:14,483] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-01 20:51:14,483] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2021-03-01 20:51:14,483] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-01 20:51:14,498] {taskinstance.py:1038} INFO - Executing <Task(SimpleHttpOperator): user_extraction> on 2020-05-30T00:00:00+00:00
+[2021-03-01 20:51:14,505] {standard_task_runner.py:51} INFO - Started process 254155 to run task
+[2021-03-01 20:51:14,510] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'user_processing', 'user_extraction', '2020-05-30T00:00:00+00:00', '--job-id', '800', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmpt0f4qc7n']
+[2021-03-01 20:51:14,510] {standard_task_runner.py:76} INFO - Job 800: Subtask user_extraction
+[2021-03-01 20:51:14,543] {logging_mixin.py:103} INFO - Running <TaskInstance: user_processing.user_extraction 2020-05-30T00:00:00+00:00 [running]> on host pop-os.localdomain
+[2021-03-01 20:51:14,574] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=user_extraction
+AIRFLOW_CTX_EXECUTION_DATE=2020-05-30T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2020-05-30T00:00:00+00:00
+[2021-03-01 20:51:14,575] {http.py:106} INFO - Calling HTTP method
+[2021-03-01 20:51:14,578] {base.py:74} INFO - Using connection to: id: user_api. Host: https://randomuser.me/, Port: None, Schema: , Login: , Password: None, extra: None
+[2021-03-01 20:51:14,579] {http.py:140} INFO - Sending 'GET' to url: https://randomuser.me/api/
+[2021-03-01 20:51:14,654] {http.py:110} INFO - {"results":[{"gender":"female","name":{"title":"Miss","first":"Evie","last":"Wood"},"location":{"street":{"number":6717,"name":"Cameron Road"},"city":"Nelson","state":"Southland","country":"New Zealand","postcode":78360,"coordinates":{"latitude":"64.6509","longitude":"123.2005"},"timezone":{"offset":"-8:00","description":"Pacific Time (US & Canada)"}},"email":"evie.wood@example.com","login":{"uuid":"4f32a18a-c2a5-4500-afb7-01114770d0b3","username":"heavybear161","password":"randy","salt":"kNuxbax8","md5":"cf90054bc70ba3d6d7e91680adab3029","sha1":"b51f5be556d7df2babfa9f3309fdc1902dcfed60","sha256":"bd54570f7cb04bc56fe560f5194ec36531826ea17c0889c0a1fe7446a5829bee"},"dob":{"date":"1950-03-25T18:43:18.722Z","age":71},"registered":{"date":"2004-01-28T21:19:33.387Z","age":17},"phone":"(440)-807-1463","cell":"(505)-376-2747","id":{"name":"","value":null},"picture":{"large":"https://randomuser.me/api/portraits/women/27.jpg","medium":"https://randomuser.me/api/portraits/med/women/27.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/women/27.jpg"},"nat":"NZ"}],"info":{"seed":"a931c95ef966ee9d","results":1,"page":1,"version":"1.3"}}
+[2021-03-01 20:51:14,668] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=user_extraction, execution_date=20200530T000000, start_date=20210302T015114, end_date=20210302T015114
+[2021-03-01 20:51:14,687] {taskinstance.py:1195} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-03-01 20:51:14,720] {local_task_job.py:118} INFO - Task exited with return code 0
