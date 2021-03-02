@@ -215,3 +215,10 @@
 [2021-03-01 21:01:06,360] {logging_mixin.py:103} INFO - [2021-03-01 21:01:06,360] {dag.py:1813} INFO - Sync 1 DAGs
 [2021-03-01 21:01:06,373] {logging_mixin.py:103} INFO - [2021-03-01 21:01:06,373] {dag.py:2266} INFO - Setting next_dagrun for example_nested_branch_dag to 2021-02-28 00:00:00+00:00
 [2021-03-01 21:01:06,383] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.035 seconds
+[2021-03-01 21:03:52,982] {scheduler_job.py:181} INFO - Started process (PID=269385) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2021-03-01 21:03:52,983] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2021-03-01 21:03:52,983] {logging_mixin.py:103} INFO - [2021-03-01 21:03:52,983] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2021-03-01 21:03:52,991] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_nested_branch_dag']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2021-03-01 21:03:52,992] {logging_mixin.py:103} INFO - [2021-03-01 21:03:52,991] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:03:53,004] {logging_mixin.py:103} INFO - [2021-03-01 21:03:53,004] {dag.py:2266} INFO - Setting next_dagrun for example_nested_branch_dag to 2021-02-28 00:00:00+00:00
+[2021-03-01 21:03:53,013] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.032 seconds

@@ -246,3 +246,11 @@
 [2021-03-01 21:02:17,919] {logging_mixin.py:103} INFO - [2021-03-01 21:02:17,919] {dag.py:2266} INFO - Setting next_dagrun for example_xcom_args to None
 [2021-03-01 21:02:17,920] {logging_mixin.py:103} INFO - [2021-03-01 21:02:17,920] {dag.py:2266} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
 [2021-03-01 21:02:17,940] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py took 0.055 seconds
+[2021-03-01 21:05:15,091] {scheduler_job.py:181} INFO - Started process (PID=271135) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2021-03-01 21:05:15,091] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2021-03-01 21:05:15,092] {logging_mixin.py:103} INFO - [2021-03-01 21:05:15,092] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2021-03-01 21:05:15,101] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2021-03-01 21:05:15,102] {logging_mixin.py:103} INFO - [2021-03-01 21:05:15,102] {dag.py:1813} INFO - Sync 2 DAGs
+[2021-03-01 21:05:15,110] {logging_mixin.py:103} INFO - [2021-03-01 21:05:15,110] {dag.py:2266} INFO - Setting next_dagrun for example_xcom_args to None
+[2021-03-01 21:05:15,110] {logging_mixin.py:103} INFO - [2021-03-01 21:05:15,110] {dag.py:2266} INFO - Setting next_dagrun for example_xcom_args_with_operators to None
+[2021-03-01 21:05:15,128] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py took 0.039 seconds

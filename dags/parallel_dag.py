@@ -22,3 +22,12 @@ with DAG(dag_id='parallel_dag', schedule_interval='@daily', default_args=default
         task_id='task_3',
         bash_command='sleep 3'
     )
+
+    task_4 = BashOperator(
+        task_id='task_4',
+        bash_command='sleep 3'
+    )
+
+    task_1 >> [task_2, task_3] >> task_4
+
+

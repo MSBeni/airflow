@@ -215,3 +215,10 @@
 [2021-03-01 21:01:00,121] {logging_mixin.py:103} INFO - [2021-03-01 21:01:00,121] {dag.py:1813} INFO - Sync 1 DAGs
 [2021-03-01 21:01:00,142] {logging_mixin.py:103} INFO - [2021-03-01 21:01:00,142] {dag.py:2266} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2021-03-01 00:00:00+00:00
 [2021-03-01 21:01:00,152] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.045 seconds
+[2021-03-01 21:03:47,186] {scheduler_job.py:181} INFO - Started process (PID=269280) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2021-03-01 21:03:47,187] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2021-03-01 21:03:47,187] {logging_mixin.py:103} INFO - [2021-03-01 21:03:47,187] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2021-03-01 21:03:47,194] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2021-03-01 21:03:47,194] {logging_mixin.py:103} INFO - [2021-03-01 21:03:47,194] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:03:47,211] {logging_mixin.py:103} INFO - [2021-03-01 21:03:47,211] {dag.py:2266} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:03:47,219] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.035 seconds

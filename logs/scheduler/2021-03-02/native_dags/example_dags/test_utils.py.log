@@ -215,3 +215,10 @@
 [2021-03-01 21:00:13,076] {logging_mixin.py:103} INFO - [2021-03-01 21:00:13,076] {dag.py:1813} INFO - Sync 1 DAGs
 [2021-03-01 21:00:13,085] {logging_mixin.py:103} INFO - [2021-03-01 21:00:13,085] {dag.py:2266} INFO - Setting next_dagrun for test_utils to None
 [2021-03-01 21:00:13,092] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/test_utils.py took 0.023 seconds
+[2021-03-01 21:02:48,043] {scheduler_job.py:181} INFO - Started process (PID=268108) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/test_utils.py
+[2021-03-01 21:02:48,044] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-03-01 21:02:48,045] {logging_mixin.py:103} INFO - [2021-03-01 21:02:48,045] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/test_utils.py
+[2021-03-01 21:02:48,049] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/test_utils.py
+[2021-03-01 21:02:48,050] {logging_mixin.py:103} INFO - [2021-03-01 21:02:48,050] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:02:48,059] {logging_mixin.py:103} INFO - [2021-03-01 21:02:48,059] {dag.py:2266} INFO - Setting next_dagrun for test_utils to None
+[2021-03-01 21:02:48,066] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/test_utils.py took 0.024 seconds
