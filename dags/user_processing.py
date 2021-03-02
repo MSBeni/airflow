@@ -33,13 +33,13 @@ def _processing_user(ti):
 
 
 # each DAG out to has a unique dag_id
-with DAG(dag_id='user_processing', schedule_interval='@daily', default_args=default_args, catchup=False) as dag:
+with DAG(dag_id='user_processing', schedule_interval='@daily', default_args=default_args, catchup=True) as dag:
     # define tasks/operators
     creating_table = SqliteOperator(
         task_id='creating_table',        # Ought to be unique -- each task one unique id
         sqlite_conn_id='db_sqlite',
         sql='''
-            CREATE TABLE users (
+            CREATE TABLE IF NOT EXISTS users (
                 first_name TEXT NOT NULL,
                 last_name TEXT NOT NULL,
                 country TEXT NOT NULL,
