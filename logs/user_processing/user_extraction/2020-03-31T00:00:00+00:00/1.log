@@ -1,0 +1,25 @@
+[2021-03-01 20:44:51,334] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: user_processing.user_extraction 2020-03-31T00:00:00+00:00 [queued]>
+[2021-03-01 20:44:51,339] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: user_processing.user_extraction 2020-03-31T00:00:00+00:00 [queued]>
+[2021-03-01 20:44:51,339] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-01 20:44:51,339] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2021-03-01 20:44:51,339] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-01 20:44:51,348] {taskinstance.py:1038} INFO - Executing <Task(SimpleHttpOperator): user_extraction> on 2020-03-31T00:00:00+00:00
+[2021-03-01 20:44:51,353] {standard_task_runner.py:51} INFO - Started process 246328 to run task
+[2021-03-01 20:44:51,359] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'user_processing', 'user_extraction', '2020-03-31T00:00:00+00:00', '--job-id', '500', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmpy7a5uo01']
+[2021-03-01 20:44:51,360] {standard_task_runner.py:76} INFO - Job 500: Subtask user_extraction
+[2021-03-01 20:44:51,392] {logging_mixin.py:103} INFO - Running <TaskInstance: user_processing.user_extraction 2020-03-31T00:00:00+00:00 [running]> on host pop-os.localdomain
+[2021-03-01 20:44:51,415] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=user_extraction
+AIRFLOW_CTX_EXECUTION_DATE=2020-03-31T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2020-03-31T00:00:00+00:00
+[2021-03-01 20:44:51,415] {http.py:106} INFO - Calling HTTP method
+[2021-03-01 20:44:51,418] {base.py:74} INFO - Using connection to: id: user_api. Host: https://randomuser.me/, Port: None, Schema: , Login: , Password: None, extra: None
+[2021-03-01 20:44:51,419] {http.py:140} INFO - Sending 'GET' to url: https://randomuser.me/api/
+[2021-03-01 20:44:51,500] {http.py:110} INFO - {"results":[{"gender":"female","name":{"title":"Miss","first":"Luisa","last":"Crespo"},"location":{"street":{"number":7388,"name":"Calle de Segovia"},"city":"Guadalajara","state":"Castilla la Mancha","country":"Spain","postcode":92415,"coordinates":{"latitude":"-16.9139","longitude":"10.3825"},"timezone":{"offset":"+5:30","description":"Bombay, Calcutta, Madras, New Delhi"}},"email":"luisa.crespo@example.com","login":{"uuid":"920bb954-e9c1-4173-a231-711956195105","username":"bigladybug179","password":"claire","salt":"JXfeClzi","md5":"cd34ca463582f8b2e06955311691388a","sha1":"f87facf016e97058455544c242f43bf5d2ca749c","sha256":"9cdd1ae0d80e87d1161f541d3401e117aafd9f5c3daa9bf0932dc0eaf2617fe8"},"dob":{"date":"1950-07-20T20:51:45.065Z","age":71},"registered":{"date":"2012-06-03T03:36:51.930Z","age":9},"phone":"941-631-036","cell":"661-867-655","id":{"name":"DNI","value":"13467600-H"},"picture":{"large":"https://randomuser.me/api/portraits/women/30.jpg","medium":"https://randomuser.me/api/portraits/med/women/30.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/women/30.jpg"},"nat":"ES"}],"info":{"seed":"9e8758297f72709f","results":1,"page":1,"version":"1.3"}}
+[2021-03-01 20:44:51,518] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=user_extraction, execution_date=20200331T000000, start_date=20210302T014451, end_date=20210302T014451
+[2021-03-01 20:44:51,540] {taskinstance.py:1195} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-03-01 20:44:51,569] {local_task_job.py:118} INFO - Task exited with return code 0

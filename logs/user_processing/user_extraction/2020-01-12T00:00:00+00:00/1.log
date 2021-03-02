@@ -1,0 +1,25 @@
+[2021-03-01 20:36:40,947] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: user_processing.user_extraction 2020-01-12T00:00:00+00:00 [queued]>
+[2021-03-01 20:36:40,952] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: user_processing.user_extraction 2020-01-12T00:00:00+00:00 [queued]>
+[2021-03-01 20:36:40,952] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-01 20:36:40,952] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2021-03-01 20:36:40,952] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-01 20:36:40,960] {taskinstance.py:1038} INFO - Executing <Task(SimpleHttpOperator): user_extraction> on 2020-01-12T00:00:00+00:00
+[2021-03-01 20:36:40,962] {standard_task_runner.py:51} INFO - Started process 236614 to run task
+[2021-03-01 20:36:40,964] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'user_processing', 'user_extraction', '2020-01-12T00:00:00+00:00', '--job-id', '105', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmp6gk1z6d3']
+[2021-03-01 20:36:40,965] {standard_task_runner.py:76} INFO - Job 105: Subtask user_extraction
+[2021-03-01 20:36:40,990] {logging_mixin.py:103} INFO - Running <TaskInstance: user_processing.user_extraction 2020-01-12T00:00:00+00:00 [running]> on host pop-os.localdomain
+[2021-03-01 20:36:41,014] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=user_extraction
+AIRFLOW_CTX_EXECUTION_DATE=2020-01-12T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2020-01-12T00:00:00+00:00
+[2021-03-01 20:36:41,014] {http.py:106} INFO - Calling HTTP method
+[2021-03-01 20:36:41,016] {base.py:74} INFO - Using connection to: id: user_api. Host: https://randomuser.me/, Port: None, Schema: , Login: , Password: None, extra: None
+[2021-03-01 20:36:41,019] {http.py:140} INFO - Sending 'GET' to url: https://randomuser.me/api/
+[2021-03-01 20:36:41,106] {http.py:110} INFO - {"results":[{"gender":"male","name":{"title":"Mr","first":"Esteban","last":"Castillo"},"location":{"street":{"number":4488,"name":"Calle de Ferraz"},"city":"Santiago de Compostela","state":"País Vasco","country":"Spain","postcode":11440,"coordinates":{"latitude":"-21.5783","longitude":"-93.7478"},"timezone":{"offset":"+9:30","description":"Adelaide, Darwin"}},"email":"esteban.castillo@example.com","login":{"uuid":"52e77ce0-f3dc-483d-a83b-4d1c6928a39a","username":"bluepanda346","password":"kissing","salt":"8mZVHl2z","md5":"048c8af87a8121a2cd38ae21e1280a50","sha1":"72b3e4dfa4d0fee3e44ba19800e88b0326b155f0","sha256":"4982a7282dfa611225be7b05534d8fbf20084f200db597f56731399dc554129d"},"dob":{"date":"1988-10-22T22:40:36.459Z","age":33},"registered":{"date":"2004-02-08T11:36:15.077Z","age":17},"phone":"945-156-256","cell":"643-964-621","id":{"name":"DNI","value":"41239066-V"},"picture":{"large":"https://randomuser.me/api/portraits/men/79.jpg","medium":"https://randomuser.me/api/portraits/med/men/79.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/men/79.jpg"},"nat":"ES"}],"info":{"seed":"924f6fe39374e3ee","results":1,"page":1,"version":"1.3"}}
+[2021-03-01 20:36:41,124] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=user_extraction, execution_date=20200112T000000, start_date=20210302T013640, end_date=20210302T013641
+[2021-03-01 20:36:41,149] {taskinstance.py:1195} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-03-01 20:36:41,176] {local_task_job.py:118} INFO - Task exited with return code 0

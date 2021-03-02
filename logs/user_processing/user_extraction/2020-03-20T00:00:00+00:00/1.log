@@ -1,0 +1,25 @@
+[2021-03-01 20:43:42,325] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: user_processing.user_extraction 2020-03-20T00:00:00+00:00 [queued]>
+[2021-03-01 20:43:42,336] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: user_processing.user_extraction 2020-03-20T00:00:00+00:00 [queued]>
+[2021-03-01 20:43:42,337] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-01 20:43:42,337] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2021-03-01 20:43:42,337] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-01 20:43:42,351] {taskinstance.py:1038} INFO - Executing <Task(SimpleHttpOperator): user_extraction> on 2020-03-20T00:00:00+00:00
+[2021-03-01 20:43:42,354] {standard_task_runner.py:51} INFO - Started process 245013 to run task
+[2021-03-01 20:43:42,359] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'user_processing', 'user_extraction', '2020-03-20T00:00:00+00:00', '--job-id', '445', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmp2znnvh46']
+[2021-03-01 20:43:42,360] {standard_task_runner.py:76} INFO - Job 445: Subtask user_extraction
+[2021-03-01 20:43:42,386] {logging_mixin.py:103} INFO - Running <TaskInstance: user_processing.user_extraction 2020-03-20T00:00:00+00:00 [running]> on host pop-os.localdomain
+[2021-03-01 20:43:42,422] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=user_extraction
+AIRFLOW_CTX_EXECUTION_DATE=2020-03-20T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2020-03-20T00:00:00+00:00
+[2021-03-01 20:43:42,422] {http.py:106} INFO - Calling HTTP method
+[2021-03-01 20:43:42,426] {base.py:74} INFO - Using connection to: id: user_api. Host: https://randomuser.me/, Port: None, Schema: , Login: , Password: None, extra: None
+[2021-03-01 20:43:42,427] {http.py:140} INFO - Sending 'GET' to url: https://randomuser.me/api/
+[2021-03-01 20:43:42,521] {http.py:110} INFO - {"results":[{"gender":"female","name":{"title":"Ms","first":"Evelyn","last":"Brewer"},"location":{"street":{"number":3405,"name":"Daisy Dr"},"city":"Garden Grove","state":"Rhode Island","country":"United States","postcode":78622,"coordinates":{"latitude":"82.8202","longitude":"67.8127"},"timezone":{"offset":"-3:30","description":"Newfoundland"}},"email":"evelyn.brewer@example.com","login":{"uuid":"51f5525c-c65d-41a5-9726-c0def443a1d9","username":"greenrabbit149","password":"burn","salt":"xuYhOv2E","md5":"a2a4104a8a413027ab0217bd553cc867","sha1":"11256a146d5d87a62ea40b77e14f138bef4a6f8f","sha256":"173e8715fbfc793e373ff1f965d1d82287253e84ac545b9899ad64658c44ef20"},"dob":{"date":"1991-09-30T05:28:44.851Z","age":30},"registered":{"date":"2018-07-09T08:48:34.886Z","age":3},"phone":"(221)-608-5884","cell":"(186)-835-6356","id":{"name":"SSN","value":"222-79-0054"},"picture":{"large":"https://randomuser.me/api/portraits/women/92.jpg","medium":"https://randomuser.me/api/portraits/med/women/92.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/women/92.jpg"},"nat":"US"}],"info":{"seed":"c4b47553ce70213b","results":1,"page":1,"version":"1.3"}}
+[2021-03-01 20:43:42,540] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=user_extraction, execution_date=20200320T000000, start_date=20210302T014342, end_date=20210302T014342
+[2021-03-01 20:43:42,562] {taskinstance.py:1195} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-03-01 20:43:42,570] {local_task_job.py:118} INFO - Task exited with return code 0

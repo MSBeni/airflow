@@ -1,0 +1,25 @@
+[2021-03-01 20:36:59,548] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: user_processing.user_extraction 2020-01-15T00:00:00+00:00 [queued]>
+[2021-03-01 20:36:59,555] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: user_processing.user_extraction 2020-01-15T00:00:00+00:00 [queued]>
+[2021-03-01 20:36:59,555] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-01 20:36:59,555] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2021-03-01 20:36:59,555] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-01 20:36:59,563] {taskinstance.py:1038} INFO - Executing <Task(SimpleHttpOperator): user_extraction> on 2020-01-15T00:00:00+00:00
+[2021-03-01 20:36:59,565] {standard_task_runner.py:51} INFO - Started process 236923 to run task
+[2021-03-01 20:36:59,569] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'user_processing', 'user_extraction', '2020-01-15T00:00:00+00:00', '--job-id', '120', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmpbx4riz9n']
+[2021-03-01 20:36:59,569] {standard_task_runner.py:76} INFO - Job 120: Subtask user_extraction
+[2021-03-01 20:36:59,613] {logging_mixin.py:103} INFO - Running <TaskInstance: user_processing.user_extraction 2020-01-15T00:00:00+00:00 [running]> on host pop-os.localdomain
+[2021-03-01 20:36:59,637] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=user_extraction
+AIRFLOW_CTX_EXECUTION_DATE=2020-01-15T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2020-01-15T00:00:00+00:00
+[2021-03-01 20:36:59,637] {http.py:106} INFO - Calling HTTP method
+[2021-03-01 20:36:59,640] {base.py:74} INFO - Using connection to: id: user_api. Host: https://randomuser.me/, Port: None, Schema: , Login: , Password: None, extra: None
+[2021-03-01 20:36:59,641] {http.py:140} INFO - Sending 'GET' to url: https://randomuser.me/api/
+[2021-03-01 20:36:59,731] {http.py:110} INFO - {"results":[{"gender":"male","name":{"title":"Mr","first":"Gene","last":"Foster"},"location":{"street":{"number":4288,"name":"Park Avenue"},"city":"Newry","state":"Oxfordshire","country":"United Kingdom","postcode":"Q06 0RS","coordinates":{"latitude":"15.2469","longitude":"-137.1511"},"timezone":{"offset":"+9:30","description":"Adelaide, Darwin"}},"email":"gene.foster@example.com","login":{"uuid":"54e699b3-853b-4315-96ce-34f2136f7cba","username":"silvertiger289","password":"hihihi","salt":"GvlSpfvx","md5":"2f73087a1ffab126a459956d4dffadff","sha1":"106de14c88a7bd066bebccad431f12a6be10361a","sha256":"3a4a17c4b99a249e4f48cd732fd76046618e614fde42a2030e50d93fabf19405"},"dob":{"date":"1961-07-10T19:33:56.850Z","age":60},"registered":{"date":"2019-07-23T16:49:23.986Z","age":2},"phone":"01024 94766","cell":"0718-608-207","id":{"name":"NINO","value":"AW 67 81 45 R"},"picture":{"large":"https://randomuser.me/api/portraits/men/15.jpg","medium":"https://randomuser.me/api/portraits/med/men/15.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/men/15.jpg"},"nat":"GB"}],"info":{"seed":"3053c99a7430d977","results":1,"page":1,"version":"1.3"}}
+[2021-03-01 20:36:59,753] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=user_extraction, execution_date=20200115T000000, start_date=20210302T013659, end_date=20210302T013659
+[2021-03-01 20:36:59,782] {taskinstance.py:1195} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-03-01 20:36:59,820] {local_task_job.py:118} INFO - Task exited with return code 0

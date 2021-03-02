@@ -1,0 +1,25 @@
+[2021-03-01 20:37:18,212] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: user_processing.user_extraction 2020-01-18T00:00:00+00:00 [queued]>
+[2021-03-01 20:37:18,217] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: user_processing.user_extraction 2020-01-18T00:00:00+00:00 [queued]>
+[2021-03-01 20:37:18,217] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-01 20:37:18,217] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2021-03-01 20:37:18,217] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-01 20:37:18,227] {taskinstance.py:1038} INFO - Executing <Task(SimpleHttpOperator): user_extraction> on 2020-01-18T00:00:00+00:00
+[2021-03-01 20:37:18,232] {standard_task_runner.py:51} INFO - Started process 237243 to run task
+[2021-03-01 20:37:18,236] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'user_processing', 'user_extraction', '2020-01-18T00:00:00+00:00', '--job-id', '135', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmp2w17pydr']
+[2021-03-01 20:37:18,237] {standard_task_runner.py:76} INFO - Job 135: Subtask user_extraction
+[2021-03-01 20:37:18,259] {logging_mixin.py:103} INFO - Running <TaskInstance: user_processing.user_extraction 2020-01-18T00:00:00+00:00 [running]> on host pop-os.localdomain
+[2021-03-01 20:37:18,278] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=user_extraction
+AIRFLOW_CTX_EXECUTION_DATE=2020-01-18T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2020-01-18T00:00:00+00:00
+[2021-03-01 20:37:18,278] {http.py:106} INFO - Calling HTTP method
+[2021-03-01 20:37:18,280] {base.py:74} INFO - Using connection to: id: user_api. Host: https://randomuser.me/, Port: None, Schema: , Login: , Password: None, extra: None
+[2021-03-01 20:37:18,282] {http.py:140} INFO - Sending 'GET' to url: https://randomuser.me/api/
+[2021-03-01 20:37:18,376] {http.py:110} INFO - {"results":[{"gender":"female","name":{"title":"Miss","first":"Boukje","last":"Basten"},"location":{"street":{"number":4011,"name":"Fugelliet"},"city":"Engelen","state":"Noord-Brabant","country":"Netherlands","postcode":59746,"coordinates":{"latitude":"38.3845","longitude":"131.6379"},"timezone":{"offset":"-4:00","description":"Atlantic Time (Canada), Caracas, La Paz"}},"email":"boukje.basten@example.com","login":{"uuid":"10446839-81e7-4deb-bab1-81659b68f224","username":"biglion204","password":"popo","salt":"f5DZ3TSP","md5":"67b52a89aa8ed87d22bf9c1fe764d67a","sha1":"9937d8cd37d3bf0e9a7bdb3bce3a4adad2e1435d","sha256":"164e66ab6675f9709589061fbca0e30776b04809bba7f48fa4568a843fd06817"},"dob":{"date":"1965-05-29T00:50:37.187Z","age":56},"registered":{"date":"2007-12-18T08:46:32.110Z","age":14},"phone":"(735)-911-2058","cell":"(970)-769-6976","id":{"name":"BSN","value":"23890510"},"picture":{"large":"https://randomuser.me/api/portraits/women/59.jpg","medium":"https://randomuser.me/api/portraits/med/women/59.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/women/59.jpg"},"nat":"NL"}],"info":{"seed":"adfaf4beac0237c6","results":1,"page":1,"version":"1.3"}}
+[2021-03-01 20:37:18,407] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=user_extraction, execution_date=20200118T000000, start_date=20210302T013718, end_date=20210302T013718
+[2021-03-01 20:37:18,436] {taskinstance.py:1195} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-03-01 20:37:18,447] {local_task_job.py:118} INFO - Task exited with return code 0

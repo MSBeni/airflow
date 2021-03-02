@@ -1,0 +1,25 @@
+[2021-03-01 20:46:15,729] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: user_processing.user_extraction 2020-04-13T00:00:00+00:00 [queued]>
+[2021-03-01 20:46:15,737] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: user_processing.user_extraction 2020-04-13T00:00:00+00:00 [queued]>
+[2021-03-01 20:46:15,737] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-01 20:46:15,737] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2021-03-01 20:46:15,737] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-01 20:46:15,749] {taskinstance.py:1038} INFO - Executing <Task(SimpleHttpOperator): user_extraction> on 2020-04-13T00:00:00+00:00
+[2021-03-01 20:46:15,751] {standard_task_runner.py:51} INFO - Started process 247943 to run task
+[2021-03-01 20:46:15,754] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'user_processing', 'user_extraction', '2020-04-13T00:00:00+00:00', '--job-id', '565', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmpboj_uaf4']
+[2021-03-01 20:46:15,754] {standard_task_runner.py:76} INFO - Job 565: Subtask user_extraction
+[2021-03-01 20:46:15,778] {logging_mixin.py:103} INFO - Running <TaskInstance: user_processing.user_extraction 2020-04-13T00:00:00+00:00 [running]> on host pop-os.localdomain
+[2021-03-01 20:46:15,808] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=user_extraction
+AIRFLOW_CTX_EXECUTION_DATE=2020-04-13T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2020-04-13T00:00:00+00:00
+[2021-03-01 20:46:15,809] {http.py:106} INFO - Calling HTTP method
+[2021-03-01 20:46:15,812] {base.py:74} INFO - Using connection to: id: user_api. Host: https://randomuser.me/, Port: None, Schema: , Login: , Password: None, extra: None
+[2021-03-01 20:46:15,813] {http.py:140} INFO - Sending 'GET' to url: https://randomuser.me/api/
+[2021-03-01 20:46:15,912] {http.py:110} INFO - {"results":[{"gender":"female","name":{"title":"Miss","first":"Edeltraud","last":"Seidler"},"location":{"street":{"number":3500,"name":"Poststraße"},"city":"Lebach","state":"Niedersachsen","country":"Germany","postcode":56109,"coordinates":{"latitude":"-39.0749","longitude":"15.4085"},"timezone":{"offset":"-10:00","description":"Hawaii"}},"email":"edeltraud.seidler@example.com","login":{"uuid":"3d215c78-8163-44ac-ba2f-c3e2cfc15cf3","username":"whiterabbit290","password":"bimmer","salt":"gxnpQV0O","md5":"2ed93ed481fd9dc5c6553277336eaa8a","sha1":"16151293e9709dd1cc1bf512968981783662e115","sha256":"5ff04578dfdf96f39d135fb06031d48ddb992db41e040c5388fbc7a5f866867e"},"dob":{"date":"1994-02-07T22:33:41.370Z","age":27},"registered":{"date":"2004-10-20T07:47:53.654Z","age":17},"phone":"0970-3792109","cell":"0171-5185405","id":{"name":"","value":null},"picture":{"large":"https://randomuser.me/api/portraits/women/75.jpg","medium":"https://randomuser.me/api/portraits/med/women/75.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/women/75.jpg"},"nat":"DE"}],"info":{"seed":"ecac59e0185e2363","results":1,"page":1,"version":"1.3"}}
+[2021-03-01 20:46:15,923] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=user_extraction, execution_date=20200413T000000, start_date=20210302T014615, end_date=20210302T014615
+[2021-03-01 20:46:15,941] {taskinstance.py:1195} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-03-01 20:46:15,965] {local_task_job.py:118} INFO - Task exited with return code 0

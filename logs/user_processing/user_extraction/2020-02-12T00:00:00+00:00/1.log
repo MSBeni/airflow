@@ -1,0 +1,25 @@
+[2021-03-01 20:39:54,090] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: user_processing.user_extraction 2020-02-12T00:00:00+00:00 [queued]>
+[2021-03-01 20:39:54,096] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: user_processing.user_extraction 2020-02-12T00:00:00+00:00 [queued]>
+[2021-03-01 20:39:54,096] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-01 20:39:54,096] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2021-03-01 20:39:54,096] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-01 20:39:54,104] {taskinstance.py:1038} INFO - Executing <Task(SimpleHttpOperator): user_extraction> on 2020-02-12T00:00:00+00:00
+[2021-03-01 20:39:54,106] {standard_task_runner.py:51} INFO - Started process 240357 to run task
+[2021-03-01 20:39:54,108] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'user_processing', 'user_extraction', '2020-02-12T00:00:00+00:00', '--job-id', '260', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmpcofva3uf']
+[2021-03-01 20:39:54,109] {standard_task_runner.py:76} INFO - Job 260: Subtask user_extraction
+[2021-03-01 20:39:54,130] {logging_mixin.py:103} INFO - Running <TaskInstance: user_processing.user_extraction 2020-02-12T00:00:00+00:00 [running]> on host pop-os.localdomain
+[2021-03-01 20:39:54,159] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=user_extraction
+AIRFLOW_CTX_EXECUTION_DATE=2020-02-12T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2020-02-12T00:00:00+00:00
+[2021-03-01 20:39:54,159] {http.py:106} INFO - Calling HTTP method
+[2021-03-01 20:39:54,162] {base.py:74} INFO - Using connection to: id: user_api. Host: https://randomuser.me/, Port: None, Schema: , Login: , Password: None, extra: None
+[2021-03-01 20:39:54,164] {http.py:140} INFO - Sending 'GET' to url: https://randomuser.me/api/
+[2021-03-01 20:39:54,399] {http.py:110} INFO - {"results":[{"gender":"female","name":{"title":"Ms","first":"Carmen","last":"Mason"},"location":{"street":{"number":1201,"name":"Preston Rd"},"city":"Glendale","state":"South Dakota","country":"United States","postcode":24147,"coordinates":{"latitude":"82.8076","longitude":"106.4185"},"timezone":{"offset":"-11:00","description":"Midway Island, Samoa"}},"email":"carmen.mason@example.com","login":{"uuid":"28d01a5c-2f48-46d8-ac8a-184e5b2d2db8","username":"redbutterfly560","password":"kathy1","salt":"7sHA2FkX","md5":"a4818adf2fcf2dfe4a59ebb1827b2a73","sha1":"26532847561f9a7edf5ca65a03d55e15f91023ed","sha256":"1d3c7de36db610870f519c10801f87fc47c80d2832d65d101eebb66b47b36d43"},"dob":{"date":"1961-06-04T06:29:25.080Z","age":60},"registered":{"date":"2017-10-16T07:32:36.882Z","age":4},"phone":"(618)-187-5468","cell":"(120)-496-9747","id":{"name":"SSN","value":"494-46-2637"},"picture":{"large":"https://randomuser.me/api/portraits/women/31.jpg","medium":"https://randomuser.me/api/portraits/med/women/31.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/women/31.jpg"},"nat":"US"}],"info":{"seed":"8ed4bcf09fe393c9","results":1,"page":1,"version":"1.3"}}
+[2021-03-01 20:39:54,417] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=user_extraction, execution_date=20200212T000000, start_date=20210302T013954, end_date=20210302T013954
+[2021-03-01 20:39:54,443] {taskinstance.py:1195} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-03-01 20:39:54,481] {local_task_job.py:118} INFO - Task exited with return code 0

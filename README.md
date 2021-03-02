@@ -134,3 +134,21 @@ Then type command ```.tabels``` to see the available tables:
 ```bash
 sqlite> .tabels
 ```
+
+
+## Configuring Executor in Airflow
+Two parameters are used in airflow in order to configure your executor.
+- 1- sql_alchemy_conn
+- 2- executor
+
+for the sql_alchemy_conn run this command in the corresponding airflow virtual environment:
+```bash
+airflow config get-value core sql_alchemy_conn
+```
+You should receive such an output: sqlite:////home/i-sip_iot/airflow/airflow.db
+
+for the executor run this command in the corresponding airflow virtual environment:
+```bash
+airflow config get-value core executor
+```
+You should receive such an output: SequentialExecutor

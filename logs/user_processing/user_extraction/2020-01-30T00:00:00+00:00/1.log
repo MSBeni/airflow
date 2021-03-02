@@ -1,0 +1,25 @@
+[2021-03-01 20:38:33,591] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: user_processing.user_extraction 2020-01-30T00:00:00+00:00 [queued]>
+[2021-03-01 20:38:33,597] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: user_processing.user_extraction 2020-01-30T00:00:00+00:00 [queued]>
+[2021-03-01 20:38:33,597] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-01 20:38:33,597] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2021-03-01 20:38:33,597] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-01 20:38:33,610] {taskinstance.py:1038} INFO - Executing <Task(SimpleHttpOperator): user_extraction> on 2020-01-30T00:00:00+00:00
+[2021-03-01 20:38:33,616] {standard_task_runner.py:51} INFO - Started process 238658 to run task
+[2021-03-01 20:38:33,621] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'user_processing', 'user_extraction', '2020-01-30T00:00:00+00:00', '--job-id', '195', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmpofeg61pq']
+[2021-03-01 20:38:33,622] {standard_task_runner.py:76} INFO - Job 195: Subtask user_extraction
+[2021-03-01 20:38:33,657] {logging_mixin.py:103} INFO - Running <TaskInstance: user_processing.user_extraction 2020-01-30T00:00:00+00:00 [running]> on host pop-os.localdomain
+[2021-03-01 20:38:33,685] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=user_extraction
+AIRFLOW_CTX_EXECUTION_DATE=2020-01-30T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2020-01-30T00:00:00+00:00
+[2021-03-01 20:38:33,685] {http.py:106} INFO - Calling HTTP method
+[2021-03-01 20:38:33,688] {base.py:74} INFO - Using connection to: id: user_api. Host: https://randomuser.me/, Port: None, Schema: , Login: , Password: None, extra: None
+[2021-03-01 20:38:33,689] {http.py:140} INFO - Sending 'GET' to url: https://randomuser.me/api/
+[2021-03-01 20:38:33,802] {http.py:110} INFO - {"results":[{"gender":"female","name":{"title":"Ms","first":"Linnea","last":"Ahonen"},"location":{"street":{"number":2634,"name":"Visiokatu"},"city":"Toholampi","state":"Uusimaa","country":"Finland","postcode":22407,"coordinates":{"latitude":"-11.0091","longitude":"13.5655"},"timezone":{"offset":"+5:30","description":"Bombay, Calcutta, Madras, New Delhi"}},"email":"linnea.ahonen@example.com","login":{"uuid":"70eb4fee-2a75-465c-97a8-b7fd18c53c86","username":"orangepeacock524","password":"newness","salt":"ODwytWwE","md5":"e22e8ddc7dc44e0b2d2de861cc401200","sha1":"2eff541e0e2bf27032d12aa44d600bc077d4b159","sha256":"153feb9861a8152acca4ded27e5a05ad12223caea36199c0e60808ffb5bd14aa"},"dob":{"date":"1996-03-15T05:56:11.054Z","age":25},"registered":{"date":"2016-07-13T19:55:59.846Z","age":5},"phone":"06-732-754","cell":"048-686-45-62","id":{"name":"HETU","value":"NaNNA746undefined"},"picture":{"large":"https://randomuser.me/api/portraits/women/11.jpg","medium":"https://randomuser.me/api/portraits/med/women/11.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/women/11.jpg"},"nat":"FI"}],"info":{"seed":"b9daf9eb9547798e","results":1,"page":1,"version":"1.3"}}
+[2021-03-01 20:38:33,822] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=user_extraction, execution_date=20200130T000000, start_date=20210302T013833, end_date=20210302T013833
+[2021-03-01 20:38:33,845] {taskinstance.py:1195} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-03-01 20:38:33,872] {local_task_job.py:118} INFO - Task exited with return code 0
