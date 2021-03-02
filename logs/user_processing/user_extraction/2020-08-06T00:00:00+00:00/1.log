@@ -1,0 +1,25 @@
+[2021-03-01 20:58:05,492] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: user_processing.user_extraction 2020-08-06T00:00:00+00:00 [queued]>
+[2021-03-01 20:58:05,496] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: user_processing.user_extraction 2020-08-06T00:00:00+00:00 [queued]>
+[2021-03-01 20:58:05,496] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-01 20:58:05,496] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2021-03-01 20:58:05,496] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-01 20:58:05,504] {taskinstance.py:1038} INFO - Executing <Task(SimpleHttpOperator): user_extraction> on 2020-08-06T00:00:00+00:00
+[2021-03-01 20:58:05,506] {standard_task_runner.py:51} INFO - Started process 262381 to run task
+[2021-03-01 20:58:05,509] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'user_processing', 'user_extraction', '2020-08-06T00:00:00+00:00', '--job-id', '1140', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmphbkvcj9a']
+[2021-03-01 20:58:05,509] {standard_task_runner.py:76} INFO - Job 1140: Subtask user_extraction
+[2021-03-01 20:58:05,528] {logging_mixin.py:103} INFO - Running <TaskInstance: user_processing.user_extraction 2020-08-06T00:00:00+00:00 [running]> on host pop-os.localdomain
+[2021-03-01 20:58:05,561] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=user_extraction
+AIRFLOW_CTX_EXECUTION_DATE=2020-08-06T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2020-08-06T00:00:00+00:00
+[2021-03-01 20:58:05,562] {http.py:106} INFO - Calling HTTP method
+[2021-03-01 20:58:05,564] {base.py:74} INFO - Using connection to: id: user_api. Host: https://randomuser.me/, Port: None, Schema: , Login: , Password: None, extra: None
+[2021-03-01 20:58:05,565] {http.py:140} INFO - Sending 'GET' to url: https://randomuser.me/api/
+[2021-03-01 20:58:05,661] {http.py:110} INFO - {"results":[{"gender":"male","name":{"title":"Mr","first":"Don","last":"Sanchez"},"location":{"street":{"number":6363,"name":"Fincher Rd"},"city":"San Mateo","state":"New Jersey","country":"United States","postcode":28504,"coordinates":{"latitude":"89.8910","longitude":"-108.4761"},"timezone":{"offset":"-7:00","description":"Mountain Time (US & Canada)"}},"email":"don.sanchez@example.com","login":{"uuid":"4c3a4c93-9254-4f0f-abbb-ccc694cc8f3d","username":"sadpanda829","password":"probes","salt":"Mjus8c8j","md5":"1eceeaf23b55b82938e7ddf5d5bcccf4","sha1":"40d6e6c5071a35210aff1fad6edc20ca4c0336e8","sha256":"52082e2f1e02cdcb1ba0eb90e119aaa55e50dd3b7c096734152c6f6c45266eba"},"dob":{"date":"1987-04-23T22:16:15.098Z","age":34},"registered":{"date":"2015-08-28T13:59:57.734Z","age":6},"phone":"(627)-759-2805","cell":"(950)-173-6958","id":{"name":"SSN","value":"901-72-7274"},"picture":{"large":"https://randomuser.me/api/portraits/men/42.jpg","medium":"https://randomuser.me/api/portraits/med/men/42.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/men/42.jpg"},"nat":"US"}],"info":{"seed":"df3f478e924158f3","results":1,"page":1,"version":"1.3"}}
+[2021-03-01 20:58:05,677] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=user_extraction, execution_date=20200806T000000, start_date=20210302T015805, end_date=20210302T015805
+[2021-03-01 20:58:05,701] {taskinstance.py:1195} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-03-01 20:58:05,720] {local_task_job.py:118} INFO - Task exited with return code 0

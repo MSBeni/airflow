@@ -1,0 +1,25 @@
+[2021-03-01 20:53:14,690] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: user_processing.user_extraction 2020-06-18T00:00:00+00:00 [queued]>
+[2021-03-01 20:53:14,695] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: user_processing.user_extraction 2020-06-18T00:00:00+00:00 [queued]>
+[2021-03-01 20:53:14,695] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-01 20:53:14,695] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2021-03-01 20:53:14,695] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-01 20:53:14,703] {taskinstance.py:1038} INFO - Executing <Task(SimpleHttpOperator): user_extraction> on 2020-06-18T00:00:00+00:00
+[2021-03-01 20:53:14,705] {standard_task_runner.py:51} INFO - Started process 256506 to run task
+[2021-03-01 20:53:14,707] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'user_processing', 'user_extraction', '2020-06-18T00:00:00+00:00', '--job-id', '895', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmpextj6ut3']
+[2021-03-01 20:53:14,708] {standard_task_runner.py:76} INFO - Job 895: Subtask user_extraction
+[2021-03-01 20:53:14,727] {logging_mixin.py:103} INFO - Running <TaskInstance: user_processing.user_extraction 2020-06-18T00:00:00+00:00 [running]> on host pop-os.localdomain
+[2021-03-01 20:53:14,752] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=user_extraction
+AIRFLOW_CTX_EXECUTION_DATE=2020-06-18T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2020-06-18T00:00:00+00:00
+[2021-03-01 20:53:14,753] {http.py:106} INFO - Calling HTTP method
+[2021-03-01 20:53:14,762] {base.py:74} INFO - Using connection to: id: user_api. Host: https://randomuser.me/, Port: None, Schema: , Login: , Password: None, extra: None
+[2021-03-01 20:53:14,767] {http.py:140} INFO - Sending 'GET' to url: https://randomuser.me/api/
+[2021-03-01 20:53:14,875] {http.py:110} INFO - {"results":[{"gender":"female","name":{"title":"Miss","first":"Marciele","last":"Carvalho"},"location":{"street":{"number":3618,"name":"Rua Treze de Maio "},"city":"Itatiba","state":"Acre","country":"Brazil","postcode":56972,"coordinates":{"latitude":"-70.8744","longitude":"109.6846"},"timezone":{"offset":"-4:00","description":"Atlantic Time (Canada), Caracas, La Paz"}},"email":"marciele.carvalho@example.com","login":{"uuid":"a2345d60-83f2-4709-9597-1bc11cff0744","username":"lazycat748","password":"magical","salt":"n0jDdK1x","md5":"ecebe8c2e20df7fbca332c3969f373e4","sha1":"c563645aa23278d0b78775bee107a85ff907eea8","sha256":"be15e2221541009df72b944f5a6ff2e13f8482ed5de95291473389978cec1438"},"dob":{"date":"1986-11-25T20:47:47.216Z","age":35},"registered":{"date":"2004-05-08T07:07:47.057Z","age":17},"phone":"(79) 9042-2647","cell":"(43) 7515-3158","id":{"name":"","value":null},"picture":{"large":"https://randomuser.me/api/portraits/women/11.jpg","medium":"https://randomuser.me/api/portraits/med/women/11.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/women/11.jpg"},"nat":"BR"}],"info":{"seed":"4580291fbc629d39","results":1,"page":1,"version":"1.3"}}
+[2021-03-01 20:53:14,889] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=user_extraction, execution_date=20200618T000000, start_date=20210302T015314, end_date=20210302T015314
+[2021-03-01 20:53:14,912] {taskinstance.py:1195} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-03-01 20:53:14,959] {local_task_job.py:118} INFO - Task exited with return code 0

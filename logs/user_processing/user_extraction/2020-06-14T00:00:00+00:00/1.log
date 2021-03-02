@@ -1,0 +1,25 @@
+[2021-03-01 20:52:51,056] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: user_processing.user_extraction 2020-06-14T00:00:00+00:00 [queued]>
+[2021-03-01 20:52:51,061] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: user_processing.user_extraction 2020-06-14T00:00:00+00:00 [queued]>
+[2021-03-01 20:52:51,061] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-01 20:52:51,061] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2021-03-01 20:52:51,061] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-01 20:52:51,069] {taskinstance.py:1038} INFO - Executing <Task(SimpleHttpOperator): user_extraction> on 2020-06-14T00:00:00+00:00
+[2021-03-01 20:52:51,071] {standard_task_runner.py:51} INFO - Started process 256108 to run task
+[2021-03-01 20:52:51,074] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'user_processing', 'user_extraction', '2020-06-14T00:00:00+00:00', '--job-id', '875', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmp4gbyjo8l']
+[2021-03-01 20:52:51,074] {standard_task_runner.py:76} INFO - Job 875: Subtask user_extraction
+[2021-03-01 20:52:51,094] {logging_mixin.py:103} INFO - Running <TaskInstance: user_processing.user_extraction 2020-06-14T00:00:00+00:00 [running]> on host pop-os.localdomain
+[2021-03-01 20:52:51,122] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=user_extraction
+AIRFLOW_CTX_EXECUTION_DATE=2020-06-14T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2020-06-14T00:00:00+00:00
+[2021-03-01 20:52:51,122] {http.py:106} INFO - Calling HTTP method
+[2021-03-01 20:52:51,125] {base.py:74} INFO - Using connection to: id: user_api. Host: https://randomuser.me/, Port: None, Schema: , Login: , Password: None, extra: None
+[2021-03-01 20:52:51,126] {http.py:140} INFO - Sending 'GET' to url: https://randomuser.me/api/
+[2021-03-01 20:52:51,238] {http.py:110} INFO - {"results":[{"gender":"male","name":{"title":"Mr","first":"Joshua","last":"Kuhn"},"location":{"street":{"number":8530,"name":"Pockrus Page Rd"},"city":"Farmers Branch","state":"New Mexico","country":"United States","postcode":87115,"coordinates":{"latitude":"86.4201","longitude":"-56.1788"},"timezone":{"offset":"-3:00","description":"Brazil, Buenos Aires, Georgetown"}},"email":"joshua.kuhn@example.com","login":{"uuid":"885da49d-569c-46d6-b30b-4b3de3108257","username":"angrypeacock346","password":"camel","salt":"wyJUzYAD","md5":"6d4e3f270c4faa1e056f9f92962f3917","sha1":"7254023081844a4683fb207506109fcfdaf1a313","sha256":"aef67c3c9a4fc4674516e7037ddbbdb45090c74d546f5a41adb84c3ef358891b"},"dob":{"date":"1985-01-15T23:40:10.071Z","age":36},"registered":{"date":"2005-11-16T01:25:51.206Z","age":16},"phone":"(810)-051-3496","cell":"(332)-293-6234","id":{"name":"SSN","value":"297-47-6410"},"picture":{"large":"https://randomuser.me/api/portraits/men/84.jpg","medium":"https://randomuser.me/api/portraits/med/men/84.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/men/84.jpg"},"nat":"US"}],"info":{"seed":"dab19362b9347ec2","results":1,"page":1,"version":"1.3"}}
+[2021-03-01 20:52:51,258] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=user_extraction, execution_date=20200614T000000, start_date=20210302T015251, end_date=20210302T015251
+[2021-03-01 20:52:51,285] {taskinstance.py:1195} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-03-01 20:52:51,325] {local_task_job.py:118} INFO - Task exited with return code 0

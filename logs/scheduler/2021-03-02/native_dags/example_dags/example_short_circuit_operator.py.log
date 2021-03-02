@@ -187,3 +187,31 @@
 [2021-03-01 20:51:10,761] {logging_mixin.py:103} INFO - [2021-03-01 20:51:10,761] {dag.py:1813} INFO - Sync 1 DAGs
 [2021-03-01 20:51:10,771] {logging_mixin.py:103} INFO - [2021-03-01 20:51:10,771] {dag.py:2266} INFO - Setting next_dagrun for example_short_circuit_operator to 2021-02-28 00:00:00+00:00
 [2021-03-01 20:51:10,780] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.028 seconds
+[2021-03-01 20:53:52,942] {scheduler_job.py:181} INFO - Started process (PID=257330) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2021-03-01 20:53:52,942] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2021-03-01 20:53:52,943] {logging_mixin.py:103} INFO - [2021-03-01 20:53:52,943] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2021-03-01 20:53:52,949] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2021-03-01 20:53:52,950] {logging_mixin.py:103} INFO - [2021-03-01 20:53:52,949] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 20:53:52,959] {logging_mixin.py:103} INFO - [2021-03-01 20:53:52,959] {dag.py:2266} INFO - Setting next_dagrun for example_short_circuit_operator to 2021-02-28 00:00:00+00:00
+[2021-03-01 20:53:52,968] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.028 seconds
+[2021-03-01 20:56:26,509] {scheduler_job.py:181} INFO - Started process (PID=260330) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2021-03-01 20:56:26,510] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2021-03-01 20:56:26,511] {logging_mixin.py:103} INFO - [2021-03-01 20:56:26,511] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2021-03-01 20:56:26,516] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2021-03-01 20:56:26,516] {logging_mixin.py:103} INFO - [2021-03-01 20:56:26,516] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 20:56:26,524] {logging_mixin.py:103} INFO - [2021-03-01 20:56:26,524] {dag.py:2266} INFO - Setting next_dagrun for example_short_circuit_operator to 2021-02-28 00:00:00+00:00
+[2021-03-01 20:56:26,532] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.024 seconds
+[2021-03-01 20:59:02,408] {scheduler_job.py:181} INFO - Started process (PID=263558) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2021-03-01 20:59:02,409] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2021-03-01 20:59:02,409] {logging_mixin.py:103} INFO - [2021-03-01 20:59:02,409] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2021-03-01 20:59:02,415] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2021-03-01 20:59:02,416] {logging_mixin.py:103} INFO - [2021-03-01 20:59:02,416] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 20:59:02,424] {logging_mixin.py:103} INFO - [2021-03-01 20:59:02,424] {dag.py:2266} INFO - Setting next_dagrun for example_short_circuit_operator to 2021-02-28 00:00:00+00:00
+[2021-03-01 20:59:02,432] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.025 seconds
+[2021-03-01 21:01:36,389] {scheduler_job.py:181} INFO - Started process (PID=266622) to work on /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2021-03-01 21:01:36,390] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2021-03-01 21:01:36,390] {logging_mixin.py:103} INFO - [2021-03-01 21:01:36,390] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2021-03-01 21:01:36,395] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2021-03-01 21:01:36,396] {logging_mixin.py:103} INFO - [2021-03-01 21:01:36,396] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:01:36,404] {logging_mixin.py:103} INFO - [2021-03-01 21:01:36,404] {dag.py:2266} INFO - Setting next_dagrun for example_short_circuit_operator to 2021-02-28 00:00:00+00:00
+[2021-03-01 21:01:36,412] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/anaconda3/envs/sandbox/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.025 seconds
