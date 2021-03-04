@@ -2185,3 +2185,749 @@
 [2021-03-01 21:05:38,766] {scheduler_job.py:181} INFO - Started process (PID=271576) to work on /home/i-sip_iot/airflow/dags/user_processing.py
 [2021-03-01 21:05:38,767] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
 [2021-03-01 21:05:38,768] {logging_mixin.py:103} INFO - [2021-03-01 21:05:38,768] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:05:39,090] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:05:39,094] {logging_mixin.py:103} INFO - [2021-03-01 21:05:39,094] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:05:39,102] {logging_mixin.py:103} INFO - [2021-03-01 21:05:39,102] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2020-10-21 00:00:00+00:00
+[2021-03-01 21:05:39,109] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.344 seconds
+[2021-03-01 21:05:44,767] {scheduler_job.py:181} INFO - Started process (PID=271683) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:05:44,768] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:05:44,768] {logging_mixin.py:103} INFO - [2021-03-01 21:05:44,768] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:05:45,036] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:05:45,040] {logging_mixin.py:103} INFO - [2021-03-01 21:05:45,039] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:05:45,047] {logging_mixin.py:103} INFO - [2021-03-01 21:05:45,047] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2020-10-22 00:00:00+00:00
+[2021-03-01 21:05:45,055] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.289 seconds
+[2021-03-01 21:05:51,189] {scheduler_job.py:181} INFO - Started process (PID=271790) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:05:51,190] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:05:51,190] {logging_mixin.py:103} INFO - [2021-03-01 21:05:51,190] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:05:51,463] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:05:51,467] {logging_mixin.py:103} INFO - [2021-03-01 21:05:51,466] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:05:51,473] {logging_mixin.py:103} INFO - [2021-03-01 21:05:51,473] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2020-10-23 00:00:00+00:00
+[2021-03-01 21:05:51,480] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.293 seconds
+[2021-03-01 21:05:57,970] {scheduler_job.py:181} INFO - Started process (PID=272047) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:05:57,971] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:05:57,971] {logging_mixin.py:103} INFO - [2021-03-01 21:05:57,971] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:05:58,373] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:05:58,378] {logging_mixin.py:103} INFO - [2021-03-01 21:05:58,378] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:05:58,392] {logging_mixin.py:103} INFO - [2021-03-01 21:05:58,392] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2020-10-24 00:00:00+00:00
+[2021-03-01 21:05:58,404] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.436 seconds
+[2021-03-01 21:06:05,050] {scheduler_job.py:181} INFO - Started process (PID=272156) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:06:05,051] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:06:05,051] {logging_mixin.py:103} INFO - [2021-03-01 21:06:05,051] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:06:05,417] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:06:05,421] {logging_mixin.py:103} INFO - [2021-03-01 21:06:05,421] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:06:05,428] {logging_mixin.py:103} INFO - [2021-03-01 21:06:05,428] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2020-10-25 00:00:00+00:00
+[2021-03-01 21:06:05,435] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.387 seconds
+[2021-03-01 21:06:12,430] {scheduler_job.py:181} INFO - Started process (PID=272297) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:06:12,431] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:06:12,431] {logging_mixin.py:103} INFO - [2021-03-01 21:06:12,431] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:06:12,827] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:06:12,836] {logging_mixin.py:103} INFO - [2021-03-01 21:06:12,836] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:06:12,847] {logging_mixin.py:103} INFO - [2021-03-01 21:06:12,846] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2020-10-26 00:00:00+00:00
+[2021-03-01 21:06:12,854] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.426 seconds
+[2021-03-01 21:06:23,009] {scheduler_job.py:181} INFO - Started process (PID=272442) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:06:23,011] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:06:23,011] {logging_mixin.py:103} INFO - [2021-03-01 21:06:23,011] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:06:23,433] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:06:23,438] {logging_mixin.py:103} INFO - [2021-03-01 21:06:23,438] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:06:23,449] {logging_mixin.py:103} INFO - [2021-03-01 21:06:23,449] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2020-10-27 00:00:00+00:00
+[2021-03-01 21:06:23,457] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.450 seconds
+[2021-03-01 21:06:30,378] {scheduler_job.py:181} INFO - Started process (PID=272547) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:06:30,380] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:06:30,381] {logging_mixin.py:103} INFO - [2021-03-01 21:06:30,381] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:06:30,652] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:06:30,656] {logging_mixin.py:103} INFO - [2021-03-01 21:06:30,656] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:06:30,665] {logging_mixin.py:103} INFO - [2021-03-01 21:06:30,665] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2020-10-28 00:00:00+00:00
+[2021-03-01 21:06:30,672] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.295 seconds
+[2021-03-01 21:06:37,101] {scheduler_job.py:181} INFO - Started process (PID=272643) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:06:37,102] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:06:37,102] {logging_mixin.py:103} INFO - [2021-03-01 21:06:37,102] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:06:37,402] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:06:37,406] {logging_mixin.py:103} INFO - [2021-03-01 21:06:37,406] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:06:37,413] {logging_mixin.py:103} INFO - [2021-03-01 21:06:37,413] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2020-10-29 00:00:00+00:00
+[2021-03-01 21:06:37,420] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.320 seconds
+[2021-03-01 21:06:44,122] {scheduler_job.py:181} INFO - Started process (PID=272743) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:06:44,123] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:06:44,123] {logging_mixin.py:103} INFO - [2021-03-01 21:06:44,123] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:06:44,483] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:06:44,487] {logging_mixin.py:103} INFO - [2021-03-01 21:06:44,487] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:06:44,498] {logging_mixin.py:103} INFO - [2021-03-01 21:06:44,497] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2020-10-30 00:00:00+00:00
+[2021-03-01 21:06:44,505] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.384 seconds
+[2021-03-01 21:06:55,455] {scheduler_job.py:181} INFO - Started process (PID=272887) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:06:55,456] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:06:55,456] {logging_mixin.py:103} INFO - [2021-03-01 21:06:55,456] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:06:56,178] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:06:56,214] {logging_mixin.py:103} INFO - [2021-03-01 21:06:56,214] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:06:56,288] {logging_mixin.py:103} INFO - [2021-03-01 21:06:56,288] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2020-10-31 00:00:00+00:00
+[2021-03-01 21:06:56,352] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.899 seconds
+[2021-03-01 21:07:03,314] {scheduler_job.py:181} INFO - Started process (PID=273155) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:07:03,314] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:07:03,315] {logging_mixin.py:103} INFO - [2021-03-01 21:07:03,315] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:07:03,739] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:07:03,744] {logging_mixin.py:103} INFO - [2021-03-01 21:07:03,744] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:07:03,756] {logging_mixin.py:103} INFO - [2021-03-01 21:07:03,756] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2020-11-01 00:00:00+00:00
+[2021-03-01 21:07:03,766] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.454 seconds
+[2021-03-01 21:07:46,990] {scheduler_job.py:181} INFO - Started process (PID=273437) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:07:46,991] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:07:46,991] {logging_mixin.py:103} INFO - [2021-03-01 21:07:46,991] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:07:47,396] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:07:47,397] {logging_mixin.py:103} INFO - [2021-03-01 21:07:47,397] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:07:47,406] {logging_mixin.py:103} INFO - [2021-03-01 21:07:47,406] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2020-11-01 00:00:00+00:00
+[2021-03-01 21:07:47,414] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.426 seconds
+[2021-03-01 21:08:15,403] {scheduler_job.py:181} INFO - Started process (PID=273734) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:08:15,405] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:08:15,405] {logging_mixin.py:103} INFO - [2021-03-01 21:08:15,405] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:08:15,766] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:08:15,766] {logging_mixin.py:103} INFO - [2021-03-01 21:08:15,766] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:08:15,775] {logging_mixin.py:103} INFO - [2021-03-01 21:08:15,775] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2020-11-01 00:00:00+00:00
+[2021-03-01 21:08:15,782] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.380 seconds
+[2021-03-01 21:08:44,025] {scheduler_job.py:181} INFO - Started process (PID=273827) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:08:44,028] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:08:44,029] {logging_mixin.py:103} INFO - [2021-03-01 21:08:44,029] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:08:44,412] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:08:44,412] {logging_mixin.py:103} INFO - [2021-03-01 21:08:44,412] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:08:44,421] {logging_mixin.py:103} INFO - [2021-03-01 21:08:44,421] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2020-11-01 00:00:00+00:00
+[2021-03-01 21:08:44,428] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.409 seconds
+[2021-03-01 21:09:13,166] {scheduler_job.py:181} INFO - Started process (PID=274100) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:09:13,169] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:09:13,170] {logging_mixin.py:103} INFO - [2021-03-01 21:09:13,170] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:09:13,540] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:09:13,541] {logging_mixin.py:103} INFO - [2021-03-01 21:09:13,541] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:09:13,550] {logging_mixin.py:103} INFO - [2021-03-01 21:09:13,550] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2020-11-01 00:00:00+00:00
+[2021-03-01 21:09:13,556] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.397 seconds
+[2021-03-01 21:09:41,071] {scheduler_job.py:181} INFO - Started process (PID=274216) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:09:41,073] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:09:41,075] {logging_mixin.py:103} INFO - [2021-03-01 21:09:41,075] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:09:41,457] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:09:41,457] {logging_mixin.py:103} INFO - [2021-03-01 21:09:41,457] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:09:41,465] {logging_mixin.py:103} INFO - [2021-03-01 21:09:41,465] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2020-11-01 00:00:00+00:00
+[2021-03-01 21:09:41,472] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.407 seconds
+[2021-03-01 21:10:10,545] {scheduler_job.py:181} INFO - Started process (PID=274482) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:10:10,546] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:10:10,546] {logging_mixin.py:103} INFO - [2021-03-01 21:10:10,546] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:10:10,903] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:10:10,903] {logging_mixin.py:103} INFO - [2021-03-01 21:10:10,903] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:10:10,912] {logging_mixin.py:103} INFO - [2021-03-01 21:10:10,912] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2020-11-01 00:00:00+00:00
+[2021-03-01 21:10:10,918] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.374 seconds
+[2021-03-01 21:10:38,034] {scheduler_job.py:181} INFO - Started process (PID=274590) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:10:38,035] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:10:38,036] {logging_mixin.py:103} INFO - [2021-03-01 21:10:38,036] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:10:38,422] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:10:38,422] {logging_mixin.py:103} INFO - [2021-03-01 21:10:38,422] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:10:38,430] {logging_mixin.py:103} INFO - [2021-03-01 21:10:38,430] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2020-11-01 00:00:00+00:00
+[2021-03-01 21:10:38,437] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.406 seconds
+[2021-03-01 21:11:07,606] {scheduler_job.py:181} INFO - Started process (PID=274833) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:11:07,609] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:11:07,611] {logging_mixin.py:103} INFO - [2021-03-01 21:11:07,610] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:11:07,965] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:11:07,966] {logging_mixin.py:103} INFO - [2021-03-01 21:11:07,966] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:11:07,976] {logging_mixin.py:103} INFO - [2021-03-01 21:11:07,976] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2020-11-01 00:00:00+00:00
+[2021-03-01 21:11:07,984] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.385 seconds
+[2021-03-01 21:11:35,088] {scheduler_job.py:181} INFO - Started process (PID=274980) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:11:35,090] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:11:35,092] {logging_mixin.py:103} INFO - [2021-03-01 21:11:35,092] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:11:35,471] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:11:35,472] {logging_mixin.py:103} INFO - [2021-03-01 21:11:35,472] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:11:35,482] {logging_mixin.py:103} INFO - [2021-03-01 21:11:35,481] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2020-11-01 00:00:00+00:00
+[2021-03-01 21:11:35,490] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.408 seconds
+[2021-03-01 21:12:03,555] {scheduler_job.py:181} INFO - Started process (PID=275274) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:12:03,558] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:12:03,560] {logging_mixin.py:103} INFO - [2021-03-01 21:12:03,559] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:12:03,948] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:12:03,948] {logging_mixin.py:103} INFO - [2021-03-01 21:12:03,948] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:12:03,967] {logging_mixin.py:103} INFO - [2021-03-01 21:12:03,967] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:12:03,988] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.440 seconds
+[2021-03-01 21:12:32,041] {scheduler_job.py:181} INFO - Started process (PID=275374) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:12:32,042] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:12:32,042] {logging_mixin.py:103} INFO - [2021-03-01 21:12:32,042] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:12:32,478] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:12:32,478] {logging_mixin.py:103} INFO - [2021-03-01 21:12:32,478] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:12:32,496] {logging_mixin.py:103} INFO - [2021-03-01 21:12:32,495] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:12:32,503] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.464 seconds
+[2021-03-01 21:13:01,191] {scheduler_job.py:181} INFO - Started process (PID=275452) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:13:01,193] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:13:01,195] {logging_mixin.py:103} INFO - [2021-03-01 21:13:01,194] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:13:01,681] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:13:01,683] {logging_mixin.py:103} INFO - [2021-03-01 21:13:01,683] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:13:01,712] {logging_mixin.py:103} INFO - [2021-03-01 21:13:01,712] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:13:01,722] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.537 seconds
+[2021-03-01 21:13:29,050] {scheduler_job.py:181} INFO - Started process (PID=275728) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:13:29,051] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:13:29,052] {logging_mixin.py:103} INFO - [2021-03-01 21:13:29,052] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:13:29,461] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:13:29,461] {logging_mixin.py:103} INFO - [2021-03-01 21:13:29,461] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:13:29,477] {logging_mixin.py:103} INFO - [2021-03-01 21:13:29,476] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:13:29,486] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.438 seconds
+[2021-03-01 21:14:01,521] {scheduler_job.py:181} INFO - Started process (PID=275843) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:14:01,524] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:14:01,525] {logging_mixin.py:103} INFO - [2021-03-01 21:14:01,525] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:14:01,924] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:14:01,924] {logging_mixin.py:103} INFO - [2021-03-01 21:14:01,924] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:14:01,937] {logging_mixin.py:103} INFO - [2021-03-01 21:14:01,937] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:14:01,946] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.431 seconds
+[2021-03-01 21:14:29,922] {scheduler_job.py:181} INFO - Started process (PID=276103) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:14:29,922] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:14:29,923] {logging_mixin.py:103} INFO - [2021-03-01 21:14:29,923] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:14:30,243] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:14:30,243] {logging_mixin.py:103} INFO - [2021-03-01 21:14:30,243] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:14:30,265] {logging_mixin.py:103} INFO - [2021-03-01 21:14:30,265] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:14:30,273] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.353 seconds
+[2021-03-01 21:15:06,980] {scheduler_job.py:181} INFO - Started process (PID=276429) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:15:06,982] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:15:06,983] {logging_mixin.py:103} INFO - [2021-03-01 21:15:06,983] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:15:07,386] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:15:07,387] {logging_mixin.py:103} INFO - [2021-03-01 21:15:07,387] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:15:07,400] {logging_mixin.py:103} INFO - [2021-03-01 21:15:07,399] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:15:07,406] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.434 seconds
+[2021-03-01 21:15:33,199] {scheduler_job.py:181} INFO - Started process (PID=276535) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:15:33,200] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:15:33,201] {logging_mixin.py:103} INFO - [2021-03-01 21:15:33,200] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:15:33,594] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:15:33,594] {logging_mixin.py:103} INFO - [2021-03-01 21:15:33,594] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:15:33,607] {logging_mixin.py:103} INFO - [2021-03-01 21:15:33,607] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:15:33,615] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.418 seconds
+[2021-03-01 21:16:00,531] {scheduler_job.py:181} INFO - Started process (PID=276620) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:16:00,532] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:16:00,532] {logging_mixin.py:103} INFO - [2021-03-01 21:16:00,532] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:16:00,882] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:16:00,883] {logging_mixin.py:103} INFO - [2021-03-01 21:16:00,883] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:16:00,896] {logging_mixin.py:103} INFO - [2021-03-01 21:16:00,896] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:16:00,902] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.374 seconds
+[2021-03-01 21:16:26,691] {scheduler_job.py:181} INFO - Started process (PID=276903) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:16:26,692] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:16:26,692] {logging_mixin.py:103} INFO - [2021-03-01 21:16:26,692] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:16:27,094] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:16:27,095] {logging_mixin.py:103} INFO - [2021-03-01 21:16:27,095] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:16:27,111] {logging_mixin.py:103} INFO - [2021-03-01 21:16:27,111] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:16:27,120] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.430 seconds
+[2021-03-01 21:16:52,961] {scheduler_job.py:181} INFO - Started process (PID=277028) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:16:52,965] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:16:52,966] {logging_mixin.py:103} INFO - [2021-03-01 21:16:52,966] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:16:53,373] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:16:53,373] {logging_mixin.py:103} INFO - [2021-03-01 21:16:53,373] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:16:53,388] {logging_mixin.py:103} INFO - [2021-03-01 21:16:53,388] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:16:53,395] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.440 seconds
+[2021-03-01 21:17:21,214] {scheduler_job.py:181} INFO - Started process (PID=277342) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:17:21,218] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:17:21,218] {logging_mixin.py:103} INFO - [2021-03-01 21:17:21,218] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:17:21,635] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:17:21,635] {logging_mixin.py:103} INFO - [2021-03-01 21:17:21,635] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:17:21,648] {logging_mixin.py:103} INFO - [2021-03-01 21:17:21,648] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:17:21,656] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.444 seconds
+[2021-03-01 21:17:47,360] {scheduler_job.py:181} INFO - Started process (PID=277491) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:17:47,361] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:17:47,361] {logging_mixin.py:103} INFO - [2021-03-01 21:17:47,361] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:17:47,741] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:17:47,741] {logging_mixin.py:103} INFO - [2021-03-01 21:17:47,741] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:17:47,756] {logging_mixin.py:103} INFO - [2021-03-01 21:17:47,756] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:17:47,763] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.405 seconds
+[2021-03-01 21:18:14,727] {scheduler_job.py:181} INFO - Started process (PID=277751) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:18:14,730] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:18:14,731] {logging_mixin.py:103} INFO - [2021-03-01 21:18:14,731] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:18:15,090] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:18:15,090] {logging_mixin.py:103} INFO - [2021-03-01 21:18:15,090] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:18:15,102] {logging_mixin.py:103} INFO - [2021-03-01 21:18:15,102] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:18:15,109] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.388 seconds
+[2021-03-01 21:18:40,987] {scheduler_job.py:181} INFO - Started process (PID=277885) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:18:40,987] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:18:40,988] {logging_mixin.py:103} INFO - [2021-03-01 21:18:40,988] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:18:41,372] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:18:41,373] {logging_mixin.py:103} INFO - [2021-03-01 21:18:41,373] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:18:41,386] {logging_mixin.py:103} INFO - [2021-03-01 21:18:41,385] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:18:41,393] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.408 seconds
+[2021-03-01 21:19:07,192] {scheduler_job.py:181} INFO - Started process (PID=278159) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:19:07,193] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:19:07,193] {logging_mixin.py:103} INFO - [2021-03-01 21:19:07,193] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:19:07,640] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:19:07,641] {logging_mixin.py:103} INFO - [2021-03-01 21:19:07,641] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:19:07,655] {logging_mixin.py:103} INFO - [2021-03-01 21:19:07,655] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:19:07,662] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.473 seconds
+[2021-03-01 21:19:34,370] {scheduler_job.py:181} INFO - Started process (PID=278280) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:19:34,372] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:19:34,373] {logging_mixin.py:103} INFO - [2021-03-01 21:19:34,373] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:19:34,750] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:19:34,750] {logging_mixin.py:103} INFO - [2021-03-01 21:19:34,750] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:19:34,762] {logging_mixin.py:103} INFO - [2021-03-01 21:19:34,762] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:19:34,769] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.403 seconds
+[2021-03-01 21:20:02,511] {scheduler_job.py:181} INFO - Started process (PID=278409) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:20:02,515] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:20:02,516] {logging_mixin.py:103} INFO - [2021-03-01 21:20:02,516] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:20:02,877] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:20:02,878] {logging_mixin.py:103} INFO - [2021-03-01 21:20:02,878] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:20:02,890] {logging_mixin.py:103} INFO - [2021-03-01 21:20:02,890] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:20:02,899] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.391 seconds
+[2021-03-01 21:20:28,891] {scheduler_job.py:181} INFO - Started process (PID=278719) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:20:28,891] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:20:28,892] {logging_mixin.py:103} INFO - [2021-03-01 21:20:28,892] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:20:29,256] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:20:29,257] {logging_mixin.py:103} INFO - [2021-03-01 21:20:29,257] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:20:29,273] {logging_mixin.py:103} INFO - [2021-03-01 21:20:29,273] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:20:29,282] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.393 seconds
+[2021-03-01 21:20:55,195] {scheduler_job.py:181} INFO - Started process (PID=278799) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:20:55,196] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:20:55,197] {logging_mixin.py:103} INFO - [2021-03-01 21:20:55,197] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:20:55,583] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:20:55,584] {logging_mixin.py:103} INFO - [2021-03-01 21:20:55,584] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:20:55,597] {logging_mixin.py:103} INFO - [2021-03-01 21:20:55,597] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:20:55,605] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.412 seconds
+[2021-03-01 21:21:21,456] {scheduler_job.py:181} INFO - Started process (PID=279034) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:21:21,458] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:21:21,459] {logging_mixin.py:103} INFO - [2021-03-01 21:21:21,458] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:21:21,846] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:21:21,846] {logging_mixin.py:103} INFO - [2021-03-01 21:21:21,846] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:21:21,859] {logging_mixin.py:103} INFO - [2021-03-01 21:21:21,859] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:21:21,867] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.417 seconds
+[2021-03-01 21:21:46,745] {scheduler_job.py:181} INFO - Started process (PID=279131) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:21:46,746] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:21:46,746] {logging_mixin.py:103} INFO - [2021-03-01 21:21:46,746] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:21:47,108] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:21:47,108] {logging_mixin.py:103} INFO - [2021-03-01 21:21:47,108] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:21:47,120] {logging_mixin.py:103} INFO - [2021-03-01 21:21:47,120] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:21:47,128] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.386 seconds
+[2021-03-01 21:22:14,863] {scheduler_job.py:181} INFO - Started process (PID=279399) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:22:14,864] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:22:14,865] {logging_mixin.py:103} INFO - [2021-03-01 21:22:14,865] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:22:15,249] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:22:15,250] {logging_mixin.py:103} INFO - [2021-03-01 21:22:15,250] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:22:15,265] {logging_mixin.py:103} INFO - [2021-03-01 21:22:15,265] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:22:15,274] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.414 seconds
+[2021-03-01 21:22:42,165] {scheduler_job.py:181} INFO - Started process (PID=279500) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:22:42,166] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:22:42,167] {logging_mixin.py:103} INFO - [2021-03-01 21:22:42,167] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:22:42,547] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:22:42,548] {logging_mixin.py:103} INFO - [2021-03-01 21:22:42,547] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:22:42,561] {logging_mixin.py:103} INFO - [2021-03-01 21:22:42,561] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:22:42,568] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.405 seconds
+[2021-03-01 21:23:08,372] {scheduler_job.py:181} INFO - Started process (PID=279568) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:23:08,373] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:23:08,374] {logging_mixin.py:103} INFO - [2021-03-01 21:23:08,374] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:23:08,724] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:23:08,724] {logging_mixin.py:103} INFO - [2021-03-01 21:23:08,724] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:23:08,736] {logging_mixin.py:103} INFO - [2021-03-01 21:23:08,736] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:23:08,743] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.373 seconds
+[2021-03-01 21:23:35,109] {scheduler_job.py:181} INFO - Started process (PID=279843) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:23:35,110] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:23:35,111] {logging_mixin.py:103} INFO - [2021-03-01 21:23:35,111] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:23:35,529] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:23:35,530] {logging_mixin.py:103} INFO - [2021-03-01 21:23:35,530] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:23:35,544] {logging_mixin.py:103} INFO - [2021-03-01 21:23:35,544] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:23:35,551] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.444 seconds
+[2021-03-01 21:24:01,867] {scheduler_job.py:181} INFO - Started process (PID=279951) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:24:01,868] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:24:01,868] {logging_mixin.py:103} INFO - [2021-03-01 21:24:01,868] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:24:02,223] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:24:02,223] {logging_mixin.py:103} INFO - [2021-03-01 21:24:02,223] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:24:02,239] {logging_mixin.py:103} INFO - [2021-03-01 21:24:02,239] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:24:02,248] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.383 seconds
+[2021-03-01 21:24:28,125] {scheduler_job.py:181} INFO - Started process (PID=280197) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:24:28,127] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:24:28,128] {logging_mixin.py:103} INFO - [2021-03-01 21:24:28,128] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:24:28,513] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:24:28,513] {logging_mixin.py:103} INFO - [2021-03-01 21:24:28,513] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:24:28,526] {logging_mixin.py:103} INFO - [2021-03-01 21:24:28,526] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:24:28,534] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.412 seconds
+[2021-03-01 21:24:54,356] {scheduler_job.py:181} INFO - Started process (PID=280307) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:24:54,358] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:24:54,359] {logging_mixin.py:103} INFO - [2021-03-01 21:24:54,358] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:24:54,715] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:24:54,715] {logging_mixin.py:103} INFO - [2021-03-01 21:24:54,715] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:24:54,728] {logging_mixin.py:103} INFO - [2021-03-01 21:24:54,728] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:24:54,735] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.384 seconds
+[2021-03-01 21:25:21,522] {scheduler_job.py:181} INFO - Started process (PID=280575) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:25:21,525] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:25:21,526] {logging_mixin.py:103} INFO - [2021-03-01 21:25:21,526] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:25:21,883] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:25:21,884] {logging_mixin.py:103} INFO - [2021-03-01 21:25:21,884] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:25:21,896] {logging_mixin.py:103} INFO - [2021-03-01 21:25:21,896] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:25:21,903] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.388 seconds
+[2021-03-01 21:25:49,642] {scheduler_job.py:181} INFO - Started process (PID=280673) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:25:49,647] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:25:49,648] {logging_mixin.py:103} INFO - [2021-03-01 21:25:49,648] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:25:50,024] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:25:50,024] {logging_mixin.py:103} INFO - [2021-03-01 21:25:50,024] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:25:50,038] {logging_mixin.py:103} INFO - [2021-03-01 21:25:50,038] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:25:50,046] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.407 seconds
+[2021-03-01 21:26:16,150] {scheduler_job.py:181} INFO - Started process (PID=280916) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:26:16,155] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:26:16,155] {logging_mixin.py:103} INFO - [2021-03-01 21:26:16,155] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:26:16,560] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:26:16,560] {logging_mixin.py:103} INFO - [2021-03-01 21:26:16,560] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:26:16,576] {logging_mixin.py:103} INFO - [2021-03-01 21:26:16,576] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:26:16,584] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.438 seconds
+[2021-03-01 21:26:42,286] {scheduler_job.py:181} INFO - Started process (PID=281018) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:26:42,287] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:26:42,287] {logging_mixin.py:103} INFO - [2021-03-01 21:26:42,287] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:26:42,623] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:26:42,624] {logging_mixin.py:103} INFO - [2021-03-01 21:26:42,624] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:26:42,637] {logging_mixin.py:103} INFO - [2021-03-01 21:26:42,637] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:26:42,644] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.360 seconds
+[2021-03-01 21:27:07,560] {scheduler_job.py:181} INFO - Started process (PID=281110) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:27:07,561] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:27:07,562] {logging_mixin.py:103} INFO - [2021-03-01 21:27:07,562] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:27:07,926] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:27:07,927] {logging_mixin.py:103} INFO - [2021-03-01 21:27:07,927] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:27:07,939] {logging_mixin.py:103} INFO - [2021-03-01 21:27:07,939] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:27:07,946] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.391 seconds
+[2021-03-01 21:27:34,867] {scheduler_job.py:181} INFO - Started process (PID=281365) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:27:34,868] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:27:34,868] {logging_mixin.py:103} INFO - [2021-03-01 21:27:34,868] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:27:35,227] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:27:35,227] {logging_mixin.py:103} INFO - [2021-03-01 21:27:35,227] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:27:35,248] {logging_mixin.py:103} INFO - [2021-03-01 21:27:35,248] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:27:35,258] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.393 seconds
+[2021-03-01 21:28:02,154] {scheduler_job.py:181} INFO - Started process (PID=281444) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:28:02,158] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:28:02,159] {logging_mixin.py:103} INFO - [2021-03-01 21:28:02,158] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:28:02,550] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:28:02,551] {logging_mixin.py:103} INFO - [2021-03-01 21:28:02,551] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:28:02,563] {logging_mixin.py:103} INFO - [2021-03-01 21:28:02,563] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:28:02,572] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.420 seconds
+[2021-03-01 21:28:28,291] {scheduler_job.py:181} INFO - Started process (PID=281704) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:28:28,292] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:28:28,293] {logging_mixin.py:103} INFO - [2021-03-01 21:28:28,292] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:28:28,661] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:28:28,661] {logging_mixin.py:103} INFO - [2021-03-01 21:28:28,661] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:28:28,673] {logging_mixin.py:103} INFO - [2021-03-01 21:28:28,673] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:28:28,680] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.390 seconds
+[2021-03-01 21:28:54,539] {scheduler_job.py:181} INFO - Started process (PID=281793) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:28:54,544] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:28:54,545] {logging_mixin.py:103} INFO - [2021-03-01 21:28:54,544] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:28:54,937] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:28:54,937] {logging_mixin.py:103} INFO - [2021-03-01 21:28:54,937] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:28:54,953] {logging_mixin.py:103} INFO - [2021-03-01 21:28:54,952] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:28:54,960] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.424 seconds
+[2021-03-01 21:29:20,814] {scheduler_job.py:181} INFO - Started process (PID=282079) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:29:20,815] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:29:20,816] {logging_mixin.py:103} INFO - [2021-03-01 21:29:20,816] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:29:21,194] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:29:21,194] {logging_mixin.py:103} INFO - [2021-03-01 21:29:21,194] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:29:21,206] {logging_mixin.py:103} INFO - [2021-03-01 21:29:21,205] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:29:21,213] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.400 seconds
+[2021-03-01 21:29:48,133] {scheduler_job.py:181} INFO - Started process (PID=282175) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:29:48,139] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:29:48,140] {logging_mixin.py:103} INFO - [2021-03-01 21:29:48,140] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:29:48,499] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:29:48,499] {logging_mixin.py:103} INFO - [2021-03-01 21:29:48,499] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:29:48,516] {logging_mixin.py:103} INFO - [2021-03-01 21:29:48,516] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:29:48,523] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.396 seconds
+[2021-03-01 21:30:14,264] {scheduler_job.py:181} INFO - Started process (PID=282280) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:30:14,265] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:30:14,265] {logging_mixin.py:103} INFO - [2021-03-01 21:30:14,265] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:30:14,658] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:30:14,658] {logging_mixin.py:103} INFO - [2021-03-01 21:30:14,658] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:30:14,672] {logging_mixin.py:103} INFO - [2021-03-01 21:30:14,672] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:30:14,680] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.418 seconds
+[2021-03-01 21:30:40,547] {scheduler_job.py:181} INFO - Started process (PID=282561) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:30:40,550] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:30:40,552] {logging_mixin.py:103} INFO - [2021-03-01 21:30:40,551] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:30:40,879] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:30:40,880] {logging_mixin.py:103} INFO - [2021-03-01 21:30:40,880] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:30:40,892] {logging_mixin.py:103} INFO - [2021-03-01 21:30:40,892] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:30:40,898] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.354 seconds
+[2021-03-01 21:31:07,834] {scheduler_job.py:181} INFO - Started process (PID=282648) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:31:07,834] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:31:07,835] {logging_mixin.py:103} INFO - [2021-03-01 21:31:07,835] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:31:08,177] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:31:08,178] {logging_mixin.py:103} INFO - [2021-03-01 21:31:08,177] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:31:08,190] {logging_mixin.py:103} INFO - [2021-03-01 21:31:08,190] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:31:08,198] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.366 seconds
+[2021-03-01 21:31:35,052] {scheduler_job.py:181} INFO - Started process (PID=282894) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:31:35,055] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:31:35,058] {logging_mixin.py:103} INFO - [2021-03-01 21:31:35,057] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:31:35,447] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:31:35,448] {logging_mixin.py:103} INFO - [2021-03-01 21:31:35,448] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:31:35,463] {logging_mixin.py:103} INFO - [2021-03-01 21:31:35,463] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:31:35,471] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.425 seconds
+[2021-03-01 21:32:02,352] {scheduler_job.py:181} INFO - Started process (PID=282999) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:32:02,356] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:32:02,356] {logging_mixin.py:103} INFO - [2021-03-01 21:32:02,356] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:32:02,733] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:32:02,734] {logging_mixin.py:103} INFO - [2021-03-01 21:32:02,734] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:32:02,746] {logging_mixin.py:103} INFO - [2021-03-01 21:32:02,746] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:32:02,753] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.403 seconds
+[2021-03-01 21:32:28,624] {scheduler_job.py:181} INFO - Started process (PID=283262) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:32:28,626] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:32:28,627] {logging_mixin.py:103} INFO - [2021-03-01 21:32:28,627] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:32:29,003] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:32:29,004] {logging_mixin.py:103} INFO - [2021-03-01 21:32:29,004] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:32:29,017] {logging_mixin.py:103} INFO - [2021-03-01 21:32:29,017] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:32:29,024] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.405 seconds
+[2021-03-01 21:32:54,939] {scheduler_job.py:181} INFO - Started process (PID=283336) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:32:54,943] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:32:54,944] {logging_mixin.py:103} INFO - [2021-03-01 21:32:54,944] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:32:55,331] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:32:55,331] {logging_mixin.py:103} INFO - [2021-03-01 21:32:55,331] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:32:55,346] {logging_mixin.py:103} INFO - [2021-03-01 21:32:55,346] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:32:55,353] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.421 seconds
+[2021-03-01 21:33:21,058] {scheduler_job.py:181} INFO - Started process (PID=283608) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:33:21,059] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:33:21,059] {logging_mixin.py:103} INFO - [2021-03-01 21:33:21,059] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:33:21,446] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:33:21,447] {logging_mixin.py:103} INFO - [2021-03-01 21:33:21,447] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:33:21,460] {logging_mixin.py:103} INFO - [2021-03-01 21:33:21,460] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:33:21,468] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.412 seconds
+[2021-03-01 21:33:49,281] {scheduler_job.py:181} INFO - Started process (PID=283704) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:33:49,282] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:33:49,282] {logging_mixin.py:103} INFO - [2021-03-01 21:33:49,282] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:33:49,651] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:33:49,652] {logging_mixin.py:103} INFO - [2021-03-01 21:33:49,652] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:33:49,664] {logging_mixin.py:103} INFO - [2021-03-01 21:33:49,664] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:33:49,671] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.391 seconds
+[2021-03-01 21:34:16,556] {scheduler_job.py:181} INFO - Started process (PID=283814) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:34:16,557] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:34:16,557] {logging_mixin.py:103} INFO - [2021-03-01 21:34:16,557] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:34:16,934] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:34:16,934] {logging_mixin.py:103} INFO - [2021-03-01 21:34:16,934] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:34:16,949] {logging_mixin.py:103} INFO - [2021-03-01 21:34:16,949] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:34:16,956] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.402 seconds
+[2021-03-01 21:34:42,834] {scheduler_job.py:181} INFO - Started process (PID=284079) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:34:42,835] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:34:42,835] {logging_mixin.py:103} INFO - [2021-03-01 21:34:42,835] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:34:43,157] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:34:43,157] {logging_mixin.py:103} INFO - [2021-03-01 21:34:43,157] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:34:43,169] {logging_mixin.py:103} INFO - [2021-03-01 21:34:43,169] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:34:43,176] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.345 seconds
+[2021-03-01 21:35:09,116] {scheduler_job.py:181} INFO - Started process (PID=284168) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:35:09,117] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:35:09,118] {logging_mixin.py:103} INFO - [2021-03-01 21:35:09,118] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:35:09,479] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:35:09,479] {logging_mixin.py:103} INFO - [2021-03-01 21:35:09,479] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:35:09,496] {logging_mixin.py:103} INFO - [2021-03-01 21:35:09,496] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:35:09,506] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.391 seconds
+[2021-03-01 21:35:35,592] {scheduler_job.py:181} INFO - Started process (PID=284427) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:35:35,595] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:35:35,596] {logging_mixin.py:103} INFO - [2021-03-01 21:35:35,596] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:35:35,958] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:35:35,959] {logging_mixin.py:103} INFO - [2021-03-01 21:35:35,959] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:35:35,971] {logging_mixin.py:103} INFO - [2021-03-01 21:35:35,971] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:35:35,978] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.390 seconds
+[2021-03-01 21:36:02,575] {scheduler_job.py:181} INFO - Started process (PID=284515) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:36:02,577] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:36:02,577] {logging_mixin.py:103} INFO - [2021-03-01 21:36:02,577] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:36:02,968] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:36:02,968] {logging_mixin.py:103} INFO - [2021-03-01 21:36:02,968] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:36:02,984] {logging_mixin.py:103} INFO - [2021-03-01 21:36:02,984] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:36:02,992] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.421 seconds
+[2021-03-01 21:36:30,937] {scheduler_job.py:181} INFO - Started process (PID=284779) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:36:30,939] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:36:30,940] {logging_mixin.py:103} INFO - [2021-03-01 21:36:30,940] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:36:31,362] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:36:31,363] {logging_mixin.py:103} INFO - [2021-03-01 21:36:31,363] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:36:31,377] {logging_mixin.py:103} INFO - [2021-03-01 21:36:31,377] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:36:31,384] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.452 seconds
+[2021-03-01 21:36:56,280] {scheduler_job.py:181} INFO - Started process (PID=284866) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:36:56,283] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:36:56,284] {logging_mixin.py:103} INFO - [2021-03-01 21:36:56,284] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:36:56,640] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:36:56,640] {logging_mixin.py:103} INFO - [2021-03-01 21:36:56,640] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:36:56,652] {logging_mixin.py:103} INFO - [2021-03-01 21:36:56,652] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:36:56,659] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.381 seconds
+[2021-03-01 21:37:22,991] {scheduler_job.py:181} INFO - Started process (PID=285111) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:37:22,992] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:37:22,993] {logging_mixin.py:103} INFO - [2021-03-01 21:37:22,993] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:37:23,409] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:37:23,410] {logging_mixin.py:103} INFO - [2021-03-01 21:37:23,410] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:37:23,423] {logging_mixin.py:103} INFO - [2021-03-01 21:37:23,423] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:37:23,431] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.443 seconds
+[2021-03-01 21:37:49,809] {scheduler_job.py:181} INFO - Started process (PID=285228) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:37:49,812] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:37:49,815] {logging_mixin.py:103} INFO - [2021-03-01 21:37:49,815] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:37:50,184] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:37:50,184] {logging_mixin.py:103} INFO - [2021-03-01 21:37:50,184] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:37:50,198] {logging_mixin.py:103} INFO - [2021-03-01 21:37:50,198] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:37:50,205] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.403 seconds
+[2021-03-01 21:38:16,093] {scheduler_job.py:181} INFO - Started process (PID=285315) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:38:16,094] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:38:16,095] {logging_mixin.py:103} INFO - [2021-03-01 21:38:16,095] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:38:16,417] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:38:16,417] {logging_mixin.py:103} INFO - [2021-03-01 21:38:16,417] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:38:16,430] {logging_mixin.py:103} INFO - [2021-03-01 21:38:16,430] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:38:16,436] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.347 seconds
+[2021-03-01 21:38:42,390] {scheduler_job.py:181} INFO - Started process (PID=285554) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:38:42,391] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:38:42,391] {logging_mixin.py:103} INFO - [2021-03-01 21:38:42,391] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:38:42,724] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:38:42,724] {logging_mixin.py:103} INFO - [2021-03-01 21:38:42,724] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:38:42,737] {logging_mixin.py:103} INFO - [2021-03-01 21:38:42,737] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:38:42,744] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.355 seconds
+[2021-03-01 21:39:10,661] {scheduler_job.py:181} INFO - Started process (PID=285651) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:39:10,663] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:39:10,664] {logging_mixin.py:103} INFO - [2021-03-01 21:39:10,664] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:39:11,044] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:39:11,044] {logging_mixin.py:103} INFO - [2021-03-01 21:39:11,044] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:39:11,057] {logging_mixin.py:103} INFO - [2021-03-01 21:39:11,057] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:39:11,064] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.406 seconds
+[2021-03-01 21:39:37,690] {scheduler_job.py:181} INFO - Started process (PID=285919) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:39:37,692] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:39:37,693] {logging_mixin.py:103} INFO - [2021-03-01 21:39:37,692] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:39:38,075] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:39:38,076] {logging_mixin.py:103} INFO - [2021-03-01 21:39:38,076] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:39:38,090] {logging_mixin.py:103} INFO - [2021-03-01 21:39:38,089] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:39:38,096] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.412 seconds
+[2021-03-01 21:40:04,246] {scheduler_job.py:181} INFO - Started process (PID=286004) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:40:04,248] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:40:04,249] {logging_mixin.py:103} INFO - [2021-03-01 21:40:04,249] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:40:04,660] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:40:04,661] {logging_mixin.py:103} INFO - [2021-03-01 21:40:04,661] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:40:04,679] {logging_mixin.py:103} INFO - [2021-03-01 21:40:04,679] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:40:04,688] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.446 seconds
+[2021-03-01 21:40:30,400] {scheduler_job.py:181} INFO - Started process (PID=286281) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:40:30,401] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:40:30,401] {logging_mixin.py:103} INFO - [2021-03-01 21:40:30,401] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:40:30,801] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:40:30,802] {logging_mixin.py:103} INFO - [2021-03-01 21:40:30,801] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:40:30,822] {logging_mixin.py:103} INFO - [2021-03-01 21:40:30,822] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:40:30,831] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.434 seconds
+[2021-03-01 21:40:56,696] {scheduler_job.py:181} INFO - Started process (PID=286378) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:40:56,701] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:40:56,702] {logging_mixin.py:103} INFO - [2021-03-01 21:40:56,702] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:40:57,086] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:40:57,086] {logging_mixin.py:103} INFO - [2021-03-01 21:40:57,086] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:40:57,100] {logging_mixin.py:103} INFO - [2021-03-01 21:40:57,100] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:40:57,107] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.415 seconds
+[2021-03-01 21:41:23,987] {scheduler_job.py:181} INFO - Started process (PID=286573) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:41:23,988] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:41:23,988] {logging_mixin.py:103} INFO - [2021-03-01 21:41:23,988] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:41:24,664] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:41:24,666] {logging_mixin.py:103} INFO - [2021-03-01 21:41:24,666] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:41:24,689] {logging_mixin.py:103} INFO - [2021-03-01 21:41:24,689] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:41:24,708] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.725 seconds
+[2021-03-01 21:41:50,650] {scheduler_job.py:181} INFO - Started process (PID=286718) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:41:50,664] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:41:50,665] {logging_mixin.py:103} INFO - [2021-03-01 21:41:50,665] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:41:52,085] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:41:52,093] {logging_mixin.py:103} INFO - [2021-03-01 21:41:52,091] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:41:52,122] {logging_mixin.py:103} INFO - [2021-03-01 21:41:52,122] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:41:52,131] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 1.500 seconds
+[2021-03-01 21:42:18,429] {scheduler_job.py:181} INFO - Started process (PID=286822) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:42:18,430] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:42:18,430] {logging_mixin.py:103} INFO - [2021-03-01 21:42:18,430] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:42:18,838] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:42:18,838] {logging_mixin.py:103} INFO - [2021-03-01 21:42:18,838] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:42:18,855] {logging_mixin.py:103} INFO - [2021-03-01 21:42:18,855] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:42:18,866] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.439 seconds
+[2021-03-01 21:42:44,691] {scheduler_job.py:181} INFO - Started process (PID=287064) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:42:44,693] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:42:44,693] {logging_mixin.py:103} INFO - [2021-03-01 21:42:44,693] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:42:45,166] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:42:45,167] {logging_mixin.py:103} INFO - [2021-03-01 21:42:45,167] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:42:45,186] {logging_mixin.py:103} INFO - [2021-03-01 21:42:45,186] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:42:45,196] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.507 seconds
+[2021-03-01 21:43:10,980] {scheduler_job.py:181} INFO - Started process (PID=287149) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:43:10,982] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:43:10,982] {logging_mixin.py:103} INFO - [2021-03-01 21:43:10,982] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:43:11,375] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:43:11,375] {logging_mixin.py:103} INFO - [2021-03-01 21:43:11,375] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:43:11,387] {logging_mixin.py:103} INFO - [2021-03-01 21:43:11,387] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:43:11,395] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.417 seconds
+[2021-03-01 21:43:37,428] {scheduler_job.py:181} INFO - Started process (PID=287419) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:43:37,430] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:43:37,431] {logging_mixin.py:103} INFO - [2021-03-01 21:43:37,431] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:43:37,816] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:43:37,816] {logging_mixin.py:103} INFO - [2021-03-01 21:43:37,816] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:43:37,836] {logging_mixin.py:103} INFO - [2021-03-01 21:43:37,836] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:43:37,845] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.421 seconds
+[2021-03-01 21:44:05,501] {scheduler_job.py:181} INFO - Started process (PID=287512) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:44:05,503] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:44:05,503] {logging_mixin.py:103} INFO - [2021-03-01 21:44:05,503] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:44:05,881] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:44:05,882] {logging_mixin.py:103} INFO - [2021-03-01 21:44:05,881] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:44:05,896] {logging_mixin.py:103} INFO - [2021-03-01 21:44:05,896] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:44:05,903] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.406 seconds
+[2021-03-01 21:44:33,684] {scheduler_job.py:181} INFO - Started process (PID=287778) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:44:33,685] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:44:33,685] {logging_mixin.py:103} INFO - [2021-03-01 21:44:33,685] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:44:34,091] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:44:34,092] {logging_mixin.py:103} INFO - [2021-03-01 21:44:34,091] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:44:34,110] {logging_mixin.py:103} INFO - [2021-03-01 21:44:34,110] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:44:34,119] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.437 seconds
+[2021-03-01 21:45:00,015] {scheduler_job.py:181} INFO - Started process (PID=287851) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:45:00,018] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:45:00,019] {logging_mixin.py:103} INFO - [2021-03-01 21:45:00,019] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:45:00,415] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:45:00,415] {logging_mixin.py:103} INFO - [2021-03-01 21:45:00,415] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:45:00,429] {logging_mixin.py:103} INFO - [2021-03-01 21:45:00,429] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:45:00,436] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.427 seconds
+[2021-03-01 21:45:26,284] {scheduler_job.py:181} INFO - Started process (PID=287969) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:45:26,285] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:45:26,286] {logging_mixin.py:103} INFO - [2021-03-01 21:45:26,286] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:45:26,670] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:45:26,670] {logging_mixin.py:103} INFO - [2021-03-01 21:45:26,670] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:45:26,686] {logging_mixin.py:103} INFO - [2021-03-01 21:45:26,686] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:45:26,696] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.414 seconds
+[2021-03-01 21:45:52,799] {scheduler_job.py:181} INFO - Started process (PID=288222) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:45:52,801] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:45:52,804] {logging_mixin.py:103} INFO - [2021-03-01 21:45:52,804] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:45:53,195] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:45:53,196] {logging_mixin.py:103} INFO - [2021-03-01 21:45:53,196] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:45:53,210] {logging_mixin.py:103} INFO - [2021-03-01 21:45:53,210] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:45:53,217] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.424 seconds
+[2021-03-01 21:46:19,675] {scheduler_job.py:181} INFO - Started process (PID=288301) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:46:19,676] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:46:19,676] {logging_mixin.py:103} INFO - [2021-03-01 21:46:19,676] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:46:20,137] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:46:20,137] {logging_mixin.py:103} INFO - [2021-03-01 21:46:20,137] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:46:20,158] {logging_mixin.py:103} INFO - [2021-03-01 21:46:20,158] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:46:20,168] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.495 seconds
+[2021-03-01 21:46:45,971] {scheduler_job.py:181} INFO - Started process (PID=288554) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:46:45,973] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:46:45,973] {logging_mixin.py:103} INFO - [2021-03-01 21:46:45,973] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:46:46,426] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:46:46,426] {logging_mixin.py:103} INFO - [2021-03-01 21:46:46,426] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:46:46,445] {logging_mixin.py:103} INFO - [2021-03-01 21:46:46,445] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:46:46,456] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.489 seconds
+[2021-03-01 21:47:13,273] {scheduler_job.py:181} INFO - Started process (PID=288649) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:47:13,274] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:47:13,275] {logging_mixin.py:103} INFO - [2021-03-01 21:47:13,275] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:47:13,662] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:47:13,662] {logging_mixin.py:103} INFO - [2021-03-01 21:47:13,662] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:47:13,675] {logging_mixin.py:103} INFO - [2021-03-01 21:47:13,675] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:47:13,682] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.411 seconds
+[2021-03-01 21:47:40,166] {scheduler_job.py:181} INFO - Started process (PID=288913) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:47:40,168] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:47:40,169] {logging_mixin.py:103} INFO - [2021-03-01 21:47:40,169] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:47:40,608] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:47:40,609] {logging_mixin.py:103} INFO - [2021-03-01 21:47:40,609] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:47:40,625] {logging_mixin.py:103} INFO - [2021-03-01 21:47:40,625] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:47:40,635] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.474 seconds
+[2021-03-01 21:48:06,984] {scheduler_job.py:181} INFO - Started process (PID=288997) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:48:06,994] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:48:06,995] {logging_mixin.py:103} INFO - [2021-03-01 21:48:06,995] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:48:07,393] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:48:07,394] {logging_mixin.py:103} INFO - [2021-03-01 21:48:07,394] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:48:07,409] {logging_mixin.py:103} INFO - [2021-03-01 21:48:07,409] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:48:07,417] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.440 seconds
+[2021-03-01 21:48:33,266] {scheduler_job.py:181} INFO - Started process (PID=289262) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:48:33,267] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:48:33,268] {logging_mixin.py:103} INFO - [2021-03-01 21:48:33,268] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:48:33,698] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:48:33,699] {logging_mixin.py:103} INFO - [2021-03-01 21:48:33,699] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:48:33,717] {logging_mixin.py:103} INFO - [2021-03-01 21:48:33,717] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:48:33,724] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.460 seconds
+[2021-03-01 21:49:01,460] {scheduler_job.py:181} INFO - Started process (PID=289341) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:49:01,462] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:49:01,463] {logging_mixin.py:103} INFO - [2021-03-01 21:49:01,462] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:49:01,831] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:49:01,831] {logging_mixin.py:103} INFO - [2021-03-01 21:49:01,831] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:49:01,845] {logging_mixin.py:103} INFO - [2021-03-01 21:49:01,845] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:49:01,853] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.396 seconds
+[2021-03-01 21:49:27,747] {scheduler_job.py:181} INFO - Started process (PID=289451) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:49:27,750] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:49:27,751] {logging_mixin.py:103} INFO - [2021-03-01 21:49:27,751] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:49:28,145] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:49:28,145] {logging_mixin.py:103} INFO - [2021-03-01 21:49:28,145] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:49:28,161] {logging_mixin.py:103} INFO - [2021-03-01 21:49:28,161] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:49:28,168] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.428 seconds
+[2021-03-01 21:50:53,818] {scheduler_job.py:181} INFO - Started process (PID=289765) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:50:53,824] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:50:53,830] {logging_mixin.py:103} INFO - [2021-03-01 21:50:53,830] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:50:56,249] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:50:56,258] {logging_mixin.py:103} INFO - [2021-03-01 21:50:56,251] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:50:56,341] {logging_mixin.py:103} INFO - [2021-03-01 21:50:56,340] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:50:56,394] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 2.588 seconds
+[2021-03-01 21:51:22,309] {scheduler_job.py:181} INFO - Started process (PID=290001) to work on /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:51:22,309] {scheduler_job.py:629} INFO - Processing file /home/i-sip_iot/airflow/dags/user_processing.py for tasks to queue
+[2021-03-01 21:51:22,310] {logging_mixin.py:103} INFO - [2021-03-01 21:51:22,310] {dagbag.py:440} INFO - Filling up the DagBag from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:51:22,756] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/i-sip_iot/airflow/dags/user_processing.py
+[2021-03-01 21:51:22,757] {logging_mixin.py:103} INFO - [2021-03-01 21:51:22,757] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-01 21:51:22,774] {logging_mixin.py:103} INFO - [2021-03-01 21:51:22,774] {dag.py:2266} INFO - Setting next_dagrun for user_processing to 2021-03-01 00:00:00+00:00
+[2021-03-01 21:51:22,782] {scheduler_job.py:189} INFO - Processing /home/i-sip_iot/airflow/dags/user_processing.py took 0.475 seconds
