@@ -234,3 +234,18 @@ so now we need to change the redis configuration file to be ready to used in air
 ```bash
 sudo nano /etc/redis/redis.conf
 ```
+
+then change the value supervosed form no to systemd:
+```
+supervised systemd
+```
+Then press: ```ctrl+d, y, enter```
+
+Now we are done, restart the systemctl redis with this command:
+```bash
+sudo systemctl restart redis.service
+```
+Now check the status of the redis:
+```bash
+sudo systemctl status redis.service
+```
