@@ -251,3 +251,15 @@ sudo systemctl status redis.service
 ```
 
 Now open the airflow.cfg and then change the executor from "LocalExecutor" to "CeleryExecutor"
+
+We also need to change the broker_url which used by redis to push the task to the redis message broker, so we ned to specify the connection corresponding to the redis instance  
+```bash
+broker_url = redis://localhost:6379/0
+```
+We also should change the "result_backend":
+```bash
+result_backend = postgresql+psycopg2://postgres:postgres@localhost/postgres
+```
+
+a connection same as sqlalchemy.
+
