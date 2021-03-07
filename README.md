@@ -152,3 +152,40 @@ for the executor run this command in the corresponding airflow virtual environme
 airflow config get-value core executor
 ```
 You should receive such an output: SequentialExecutor
+
+
+
+## Configuring Postgresql in Airflow
+First enter the installed postgresql service in your terminal by typing:
+```bash
+sudo -u postgres psql
+```
+
+If you do not have still a postgresql service installed on your system, please find the link below:
+Please consider this important note that you should be able to connect to your postgresql. Use the guidance here: https://github.com/MSBeni/SmartContactTracing_Chained/blob/master/chainedSCT/extraction/README.md
+
+After that use command: 
+```bash
+ALTER USER postgres PASSWORD 'postgres';
+```
+You will receive a message ```ALTER ROLE```, hit ```ctrl+d``` to jump out of the postgres console.
+
+Now install an extra package for the postgres:
+
+```bash
+pip install 'apache-airflow[postgres]'
+```
+Now you should configure the postgres. Open the file ```airflow.cfg``` and change and set these values:
+```
+sql_alchemy_conn = postgresql+psycopg2://postgres:postgres@localhost/postgres
+```
+and 
+```
+executor = LocalExecutor
+```
+
+You can check the new setting by writing this smple command in terminal:
+```bash
+airflow db check
+```
+You should receive "connection successful" message.
