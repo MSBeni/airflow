@@ -258,8 +258,24 @@ broker_url = redis://localhost:6379/0
 ```
 We also should change the "result_backend":
 ```bash
-result_backend = postgresql+psycopg2://postgres:postgres@localhost/postgres
+result_backend = db+postgresql://postgres:postgres@localhost/postgres
 ```
 
 a connection same as sqlalchemy.
 
+Now you can execute as many tasks as you want.
+
+before that install redis package for the airflow:
+```bash
+pip install 'apache-airflow[redis]'
+```
+Note that you can also run Celery Flower, a web UI built on top of Celery, to monitor your workers. You can use the shortcut command to start a Flower web server:
+```bash
+airflow celery flower
+```
+check the "http://localhost:5555/" for the flower.
+
+You should add new machine, new worker. To do so simply open a new terminal and in the Virtual Environment type:
+```bash
+airflow celery worker 
+```
