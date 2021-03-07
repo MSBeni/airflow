@@ -189,3 +189,25 @@ You can check the new setting by writing this smple command in terminal:
 airflow db check
 ```
 You should receive "connection successful" message.
+
+By using the LocalExecutor we can run multiple tasks in parallel.
+
+Now you should initialize the DB again, so simply type the coammand below as stated before:
+```bash
+airflow db init
+```
+Now create an airflow user with this command:
+
+```bash
+airflow users create -u admin -p admin -f admin -l admin -r Admin -e admin@airflow.com
+```
+You will receive the message: "Admin user admin created"
+
+Now we are ready to run airflow:
+```bash
+airflow webserver
+```
+and then:
+```bash
+airflow scheduler
+```
