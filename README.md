@@ -211,3 +211,26 @@ and then:
 ```bash
 airflow scheduler
 ```
+
+
+## Celery Executor
+CeleryExecutor is one of the ways you can scale out the number of workers. For this to work, you need to setup a Celery backend (RabbitMQ, Redis, …) and change your airflow.cfg to point the executor parameter to CeleryExecutor and provide the related Celery settings.
+Please find this link in order to find the complete guidance: "https://airflow.apache.org/docs/apache-airflow/stable/executor/celery.html"
+
+Please note that you must have the flower python library already installed on your system. The recommended way is to install the airflow celery bundle.
+```bash
+pip install 'apache-airflow[celery]'
+```
+
+We also need to have the redis installed on our system:
+```bash
+sudo apt update
+```
+```bash
+sudo apt install redis-server
+```
+
+so now we need to change the redis configuration file to be ready to used in airflow:
+```bash
+sudo nano /etc/redis/redis.conf
+```
