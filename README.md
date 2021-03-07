@@ -249,3 +249,5 @@ Now check the status of the redis:
 ```bash
 sudo systemctl status redis.service
 ```
+
+Now open the airflow.cfg and then change the executor from "LocalExecutor" to "CeleryExecutor"
