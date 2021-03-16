@@ -261,7 +261,7 @@ We also should change the "result_backend":
 result_backend = db+postgresql://postgres:postgres@localhost/postgres
 ```
 
-a connection same as sqlalchemy.
+a connection similar as sqlalchemy.
 
 Now you can execute as many tasks as you want.
 
@@ -279,3 +279,7 @@ You should add new machine, new worker. To do so simply open a new terminal and 
 ```bash
 airflow celery worker 
 ```
+
+now if you check the "http://localhost:5555/", you have a worker there.
+
+run "airflow webserver" and "airflow scheduler" to be ready to use.
