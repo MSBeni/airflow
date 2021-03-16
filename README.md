@@ -283,3 +283,9 @@ airflow celery worker
 now if you check the "http://localhost:5555/", you have a worker there.
 
 run "airflow webserver" and "airflow scheduler" to be ready to use.
+
+
+# Airflow Sample Dags
+Whether to load the DAG examples that ship with Airflow. It's good to get started, but you probably want to set this to ``False`` in a production.
+If you want to remove this example Dags from your airflow dashboard go to the ```airflow.cfg``` file,
+and chnge the ```load_examples``` value to ```False```
