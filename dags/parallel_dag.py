@@ -1,5 +1,6 @@
 from airflow import DAG
 from airflow.operators.bash import BashOperator
+from airflow.operators.subdag import SubDagOperator
 from datetime import datetime
 
 default_args = {
@@ -11,6 +12,11 @@ with DAG(dag_id='parallel_dag', schedule_interval='@daily', default_args=default
     task_1 = BashOperator(
         task_id='task_1',
         bash_command='sleep 3'
+    )
+
+    processing = SubDagOperator(
+        task_id='processing_task',
+        subdag=
     )
 
     task_2 = BashOperator(
