@@ -8,7 +8,7 @@ default_args = {
     'start_date': datetime(2020, 1, 1)
 }
 
-with DAG(dag_id='parallel_dag', schedule_interval='@daily', default_args=default_args, catchup=True) as dag:
+with DAG(dag_id='parallel_dag', schedule_interval='@daily', default_args=default_args, catchup=False) as dag:
     # Extract the user from api
     task_1 = BashOperator(
         task_id='task_1',
@@ -16,8 +16,8 @@ with DAG(dag_id='parallel_dag', schedule_interval='@daily', default_args=default
     )
 
     processing = SubDagOperator(
-        task_id='processing_task',
-        subdag=subdag_parallel_dag('parallel_dag', 'processing_task', default_args)
+        task_id='processing_tasks',
+        subdag=subdag_parallel_dag('parallel_dag', 'processing_tasks', default_args)
     )
 
     task_4 = BashOperator(
