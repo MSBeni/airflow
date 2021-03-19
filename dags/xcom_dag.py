@@ -10,6 +10,7 @@ from datetime import datetime
 def _training_model():
     accuracy = uniform(0.1, 10.0)
     print(f'model\'s accuracy is {accuracy}')
+    return accuracy
 
 
 def _choose_best_model():
@@ -43,7 +44,7 @@ with DAG('xcom_dag', schedule_interval='@daily', default_args=default_args, catc
         )
 
     choose_model = PythonOperator(
-        task_id='task_4',
+        task_id='choose_model',
         python_callable=_choose_best_model
     )
 
