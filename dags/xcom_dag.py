@@ -74,4 +74,4 @@ with DAG('xcom_dag', schedule_interval='@daily', default_args=default_args, catc
     )
 
     downloading_date >> processing_tasks >> choose_model
-
+    choose_model >> is_accurate >> [accurate, inaccurate]
