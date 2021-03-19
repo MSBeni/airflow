@@ -1,5 +1,6 @@
 from airflow import DAG
-from airflow.operators.python import PythonOperator
+from airflow.operators.dummy import DummyOperator
+from airflow.operators.python import PythonOperator, BranchPythonOperator
 from airflow.operators.bash import BashOperator
 from airflow.utils.task_group import TaskGroup
 
@@ -21,6 +22,10 @@ def _choose_best_model(ti):
         'processing_tasks.training_model_c',
     ])
     print(accuracies)
+
+
+def _is_accurate():
+    return 'accurate'
 
 
 default_args = {
@@ -53,6 +58,15 @@ with DAG('xcom_dag', schedule_interval='@daily', default_args=default_args, catc
     choose_model = PythonOperator(
         task_id='choose_model',
         python_callable=_choose_best_model
+    )
+
+    is_accurate = BranchPythonOperator(
+        task_id='is_accurate',
+        python_callable=_is_accurate
+    )
+
+    accurate = DummyOperator(
+        task_id='accurate'
     )
 
     downloading_date >> processing_tasks >> choose_model
