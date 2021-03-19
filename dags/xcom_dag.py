@@ -69,5 +69,9 @@ with DAG('xcom_dag', schedule_interval='@daily', default_args=default_args, catc
         task_id='accurate'
     )
 
+    inaccurate = DummyOperator(
+        task_id='inaccurate'
+    )
+
     downloading_date >> processing_tasks >> choose_model
 
