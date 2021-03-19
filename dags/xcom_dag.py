@@ -55,11 +55,10 @@ with DAG('xcom_dag', schedule_interval='@daily', default_args=default_args, catc
             python_callable=_training_model
         )
 
-    choose_model = PythonOperator(
+    choose_model = BranchPythonOperator(
         task_id='choose_model',
         python_callable=_choose_best_model
     )
-
 
     accurate = DummyOperator(
         task_id='accurate'
