@@ -7,14 +7,20 @@ from random import uniform
 from datetime import datetime
 
 
-def _training_model():
+def _training_model(ti):
     accuracy = uniform(0.1, 10.0)
     print(f'model\'s accuracy is {accuracy}')
-    return accuracy
+    return ti.xcom_push(key='model_accuracy', value=accuracy)
 
 
-def _choose_best_model():
+def _choose_best_model(ti):
     print("Choose Best Model")
+    accuracies = ti.xcom_pull(key='model_accuracy', task_ids=[
+        'processing_tasks.training_model_a',
+        'processing_tasks.training_model_b',
+        'processing_tasks.training_model_c',
+    ])
+    print(accuracies)
 
 
 default_args = {
@@ -24,7 +30,8 @@ default_args = {
 with DAG('xcom_dag', schedule_interval='@daily', default_args=default_args, catchup=False) as dag:
     downloading_date = BashOperator(
         task_id='downloading_date',
-        bash_command='sleep 3'
+        bash_command='sleep 3',
+        do_xcom_push=False
     )
 
     with TaskGroup('processing_tasks') as processing_tasks:
