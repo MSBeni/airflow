@@ -9,7 +9,7 @@ from datetime import datetime
 
 def _training_model():
     accuracy = uniform(0.1, 10.0)
-    return f'model\'s accuracy is {accuracy}'
+    print(f'model\'s accuracy is {accuracy}')
 
 
 def _choose_best_model():
@@ -17,32 +17,35 @@ def _choose_best_model():
 
 
 default_args = {
-    'start_sate': datetime(2020, 1, 1)
+    'start_date': datetime(2020, 1, 1)
 }
-with DAG(dag_id='xcom_dag', schedule_interval='@daily', default_args=default_args, catchup=False) as dag:
+
+with DAG('xcom_dag', schedule_interval='@daily', default_args=default_args, catchup=False) as dag:
     downloading_date = BashOperator(
         task_id='downloading_date',
         bash_command='sleep 3'
     )
 
     with TaskGroup('processing_tasks') as processing_tasks:
-        training_model_1 = PythonOperator(
-            task_id='training_model_1',
-            python_callable=_training_model
-        )
-        training_model_2 = PythonOperator(
-            task_id='training_model_2',
-            python_callable=_training_model
-        )
-        training_model_3 = PythonOperator(
-            task_id='training_model_3',
+        training_model_a = PythonOperator(
+            task_id='training_model_a',
             python_callable=_training_model
         )
 
-    chosen_model = PythonOperator(
-        task_id='chosen_model',
-        bash_command=_choose_best_model
+        training_model_b = PythonOperator(
+            task_id='training_model_b',
+            python_callable=_training_model
+        )
+
+        training_model_c = PythonOperator(
+            task_id='training_model_c',
+            python_callable=_training_model
+        )
+
+    choose_model = PythonOperator(
+        task_id='task_4',
+        python_callable=_choose_best_model
     )
 
-    downloading_date >> processing_tasks >> chosen_model
+    downloading_date >> processing_tasks >> choose_model
 
