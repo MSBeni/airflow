@@ -314,3 +314,26 @@ Next
 ```bash
 sudo apt update && sudo apt install elasticsearch
 ```
+Finally 
+```bash
+pip install elasticsearch==7.10.1
+```
+
+Well done! You've just installed Elasticsearch!
+
+But wait! We still have to start and test it.
+
+Start Elasticsearch with 
+```bash
+sudo systemctl start elasticsearch
+```
+
+This command can take a bit of time before getting it done.
+
+Check if Elasticsearch works with 
+```bash
+curl -X GET 'http://localhost:9200'
+```
+
+You should get the following output
+
