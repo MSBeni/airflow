@@ -337,3 +337,5 @@ curl -X GET 'http://localhost:9200'
 
 You should get the following output
 
+su - export ES_JAVA_OPTS="-Xms1g -Xmx1g" systemctl restart elasticsearch.service
+
