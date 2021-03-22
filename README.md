@@ -293,3 +293,9 @@ and chnge the ```load_examples``` value to ```False```
 
 
 ## Installing Elasticsearch
+Elasticsearch is search engine providing a way of searching in data at scale in a very efficient way. In a nutshell, you have a lot of logs to analyse, Elasticsearch does a very good job at analysing them.
+
+To interact with Elasticsearch from Airflow, we need to install it.
+
+Here are the instructions:
+Connect to the VM from your VS Code as usual. Open a terminal.
