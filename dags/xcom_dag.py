@@ -69,7 +69,8 @@ with DAG('xcom_dag', schedule_interval='@daily', default_args=default_args, catc
     )
 
     storing = DummyOperator(
-        task_id='storing'
+        task_id='storing',
+        trigger_rule='non_failed_or_skipped'
     )
 
     downloading_date >> processing_tasks >> choose_model
