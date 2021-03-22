@@ -18,4 +18,12 @@ class ElasticHook(BaseHook):
         if conn.login:
             conn_config['http_auth'] = (conn.login, conn.password)
 
+        self.es = Elasticsearch(hosts, **conn_config)
+        self.index = conn.schema
+
+    def info(self):
+        return self.es.info()
+
+    def set_index(self, index):
+        self.index = index
 
