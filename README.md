@@ -299,3 +299,18 @@ To interact with Elasticsearch from Airflow, we need to install it.
 
 Here are the instructions:
 Connect to the VM from your VS Code as usual. Open a terminal.
+In the terminal, execute 
+```bash 
+curl -fsSL https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
+```
+The password is airflow
+
+Then execute 
+```bash
+echo "deb https://artifacts.elastic.co/packages/7.x/apt stable main" | sudo tee -a /etc/apt/sources.list.d/elastic-7.x.list
+```
+
+Next 
+```bash
+sudo apt update && sudo apt install elasticsearch
+```
