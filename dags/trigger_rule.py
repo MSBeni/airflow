@@ -15,7 +15,7 @@ with DAG(dag_id='trigger_rule', schedule_interval='@daily', default_args=default
 
     task_2 = BashOperator(
         task_id='task_2',
-        bash_command='exit 0',
+        bash_command='sleep 30',
         do_xcom_push=False
     )
 
@@ -23,7 +23,7 @@ with DAG(dag_id='trigger_rule', schedule_interval='@daily', default_args=default
         task_id='task_3',
         bash_command='exit 0',
         do_xcom_push=False,
-        trigger_rule='all_done'
+        trigger_rule='one_failed'
     )
 
     [task_1, task_2] >> task_3
