@@ -1,6 +1,7 @@
 from airflow.hooks.base import BaseHook
 from elasticsearch import Elasticsearch
 
+
 class ElasticHook(BaseHook):
     def __init__(self, conn_id='elasticsearch_default', *args, **kwargs):
         super().__init__(*args, **kwargs)
