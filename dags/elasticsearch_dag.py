@@ -4,13 +4,13 @@ from plugins.elasticsearch_plugin.hooks.elastic_hook import ElasticHook
 from datetime import datetime
 
 default_args = {
-    'start_date': datetime(2021, 1, 1)
+    'start_date': datetime(2020, 1, 1)
 }
 
 
 def _print_es_info():
     hook = ElasticHook()
-    print(hook.info)
+    print(hook.info())
 
 
 with DAG(dag_id='elasticsearch_dag', schedule_interval='@daily', default_args=default_args, catchup=False) as dag:
